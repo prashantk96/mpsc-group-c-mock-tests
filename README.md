@@ -1,28 +1,18 @@
 # MPSC Group C Mock Test Portal
 
-A responsive static practice-test website built with HTML, CSS and vanilla JavaScript.
+A responsive bilingual (English/Marathi) online practice portal for MPSC Group C prelims.
 
-## Included
-- 100 mock-test slots, each with a 60-minute timer and 100 questions.
-- Bilingual question display (English + Marathi).
-- Answer selection, question palette, mark-for-review, clear response.
-- Automatic submission on timeout.
-- +1 correct, -0.25 incorrect, 0 unattempted.
-- Answer review with explanations.
-- Local browser history and score dashboard.
-- GitHub Pages deployment workflow.
+## Test format
+- 100 questions, 60 minutes, +1 for correct and −0.25 for incorrect.
+- Subject blocks follow recent-paper analysis in this order: History (10), Geography (10), Economy (15), Current Affairs (15), Polity (15), General Science (15), Quantitative Aptitude (12), Reasoning (8).
+- The paper generator draws from each subject pool independently and preserves this section sequence.
+- Each paper is checked to contain 100 unique question IDs. Questions may recur across different papers.
+- The 12 quantitative aptitude and 8 reasoning questions are separate blocks within the final 20 questions.
 
-## Important content note
-This starter release contains a 100-question bilingual practice bank. The 100 paper slots create different deterministic question orders from this bank; they are not 10,000 independently researched questions. Expand `BANK` in `app.js` to add more validated questions. Verify facts and the current official MPSC notification before exam use. Current-affairs questions are intentionally not fabricated or dated beyond verified source material.
+## Question bank limitations
+The original bank has a limited number of questions in several subjects. The new generator will stop and display an error if the bank has fewer questions than the required count for any subject. Expand and fact-check the bank before treating these papers as fully varied exam-ready tests. Current affairs must be refreshed against official sources.
 
-## Run locally
-Open `index.html` in a modern browser, or serve this folder with any static file server.
+## Run and deploy
+Open `index.html` locally or publish through GitHub Pages using `.github/workflows/pages.yml`.
 
-## Publish on GitHub Pages
-1. Create a public GitHub repository, e.g. `mpsc-group-c-mock-tests`.
-2. Upload `index.html`, `app.js`, `style.css`, `README.md`, and `.github/workflows/pages.yml`.
-3. In repository Settings → Pages, choose GitHub Actions as the build/deployment source.
-4. Push to the `main` branch. GitHub Actions will publish the site.
-5. Your URL will be `https://YOUR-USERNAME.github.io/mpsc-group-c-mock-tests/`.
-
-Progress is stored in browser LocalStorage on the device/browser used for the test. It is not synced across devices.
+Progress is stored in browser LocalStorage and is not synced across devices.
