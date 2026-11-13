@@ -112,9 +112,9 @@ async function loadQuestionBank(){
     if(manifest.distinctSourceQuestions!==10000) throw new Error("This question bank contains only "+manifest.distinctSourceQuestions+" distinct source questions. The portal requires 10,000 globally unique questions before the papers can be used.");
     const concepts=new Set(), english=new Set(), marathi=new Set();
     for(const q of BANK){
-      const concept=String(q.conceptKey||"").normalize("NFKC").toLocaleLowerCase().replace(/[^\\p{L}\\p{N}]+/gu," ").trim();
-      const en=String(q.en||"").normalize("NFKC").toLocaleLowerCase().replace(/[^\\p{L}\\p{N}]+/gu," ").trim();
-      const mr=String(q.mr||"").normalize("NFKC").toLocaleLowerCase().replace(/[^\\p{L}\\p{N}]+/gu," ").trim();
+      const concept=String(q.conceptKey||"").normalize("NFKC").toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu," ").trim();
+      const en=String(q.en||"").normalize("NFKC").toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu," ").trim();
+      const mr=String(q.mr||"").normalize("NFKC").toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu," ").trim();
       if(!concept||!en||!mr||concepts.has(concept)||english.has(en)||marathi.has(mr)) throw new Error("Duplicate or missing question/concept detected. All 10,000 questions must be globally unique.");
       if(!Array.isArray(q.optionsMr)||q.optionsMr.length!==4||q.optionsMr.some(x=>!String(x||"").trim())) throw new Error("Every question must include four Marathi answer options. Missing in question ID "+q.id+".");
       concepts.add(concept);english.add(en);marathi.add(mr);
