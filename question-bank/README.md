@@ -27,8 +27,8 @@ Each array item must use this structure (the sample is illustrative, not an exam
 
 ## Non-negotiable quality rules
 
-- IDs are globally unique integers 1–10000.
-- Every question has a unique `conceptKey` across the entire bank. Rewording the same fact, method, formula, or reasoning pattern does not make it a new question.
+- IDs are globally unique integers 1–10000. Each paper has questionNo 1–100.
+- Every question has a `conceptKey`. The same question/concept may appear in different papers, but must not repeat within one paper. Rewording the same fact, method, formula, or reasoning pattern does not make it a new question.
 - English and Marathi prompts must be equivalent, not literal mistranslations.
 - Exactly four plausible options; one unambiguous correct answer.
 - The correct answer index is zero-based and applies to both language option arrays.
@@ -60,4 +60,4 @@ Run:
 node scripts/validate-question-bank.mjs question-bank/questions.json
 ```
 
-The validator checks exact normalized duplicates and globally repeated `conceptKey` values. A script cannot reliably prove semantic uniqueness on its own: each batch must also undergo editorial review before merging. Do not claim the bank is complete until all 10,000 questions pass validation and fact-checking.
+The validator checks exact normalized duplicates and repeated `conceptKey` values within each paper; repetition across papers is allowed. A script cannot reliably prove semantic uniqueness on its own: each batch must also undergo editorial review before merging. Do not claim the bank is complete until all 10,000 records pass validation and fact-checking.
