@@ -1,5 +1,5 @@
 
-let BANK = [];
+let BANK = [], QUESTION_POOL_COUNT = 0;
 const TEST_COUNT = 100, Q_PER_TEST = 100, DURATION = 60*60, NEGATIVE = 0.25;
 // Recent-paper practice blueprint: fixed section order, subject-wise random draws.
 const PAPER_BLUEPRINT = [["History",10],["Geography",8],["Economy",16],["Current Affairs",16],["Polity",15],["General Science",15],["Maths",12],["Reasoning",8]];
@@ -31,13 +31,18 @@ function getPaper(n){
   if(paper.length!==Q_PER_TEST) throw new Error("Mock Test "+n+" must have exactly 100 questions; found "+paper.length+".");
   if(new Set(paper.map(q=>q.id)).size!==100) throw new Error("Duplicate question IDs in Mock Test "+n+".");
   if(new Set(paper.map(q=>q.conceptKey)).size!==100) throw new Error("Duplicate concepts in Mock Test "+n+".");
+  const expectedSubjects=PAPER_BLUEPRINT.flatMap(([subject,count])=>Array(count).fill(subject));
+  paper.forEach((q,index)=>{
+    if(q.questionNo!==index+1) throw new Error("Mock Test "+n+" has an incorrect question sequence at position "+(index+1)+".");
+    if(q.subject!==expectedSubjects[index]) throw new Error("Mock Test "+n+" has an incorrect subject sequence at question "+(index+1)+".");
+  });
   return paper;
 }
 function renderHome(){
   clearInterval(timer); active=null;
   const h=getHistory(), done=new Set(h.map(x=>x.paper));
   $('#app').innerHTML=`<header><div class="brand">MPSC <b>GROUP C</b><small>PRELIMS • MOCK TEST SERIES 2026–27</small></div><span class="badge">मराठी + English</span></header>
-  <section class="hero"><div><p class="eyebrow">PREPARE • PRACTISE • IMPROVE</p><h1>Your MPSC Group C<br><em>Online Test Portal</em></h1><p>Timed mock tests, instant scoring, explanations and performance tracking.</p><button class="primary" id="startFirst">Start a mock test →</button></div><div class="hero-stat"><strong>100</strong><span>Mock test slots</span><strong>${BANK.length}</strong><span>Question bank entries</span></div></section>
+  <section class="hero"><div><p class="eyebrow">PREPARE • PRACTISE • IMPROVE</p><h1>Your MPSC Group C<br><em>Online Test Portal</em></h1><p>Timed mock tests, instant scoring, explanations and performance tracking.</p><button class="primary" id="startFirst">Start a mock test →</button></div><div class="hero-stat"><strong>100</strong><span>Mock test slots</span><strong>${QUESTION_POOL_COUNT}</strong><span>Distinct source questions</span></div></section>
   <section class="stats"><div><b>${done.size}</b><span>Tests completed</span></div><div><b>${h.length?Math.round(h.reduce((a,x)=>a+x.score,0)/h.length*10)/10:0}</b><span>Average score</span></div><div><b>${h.length?Math.max(...h.map(x=>x.score)):0}</b><span>Best score</span></div><div><b>${h.length?Math.round(h.reduce((a,x)=>a+x.accuracy,0)/h.length):0}%</b><span>Average accuracy</span></div></section>
   <div class="section-title"><div><h2>Mock test library</h2><p>Fixed subject blocks · 100 questions · 60-minute timer.</p></div><span class="muted">${done.size}/100 completed</span></div>
   <div class="grid">${Array.from({length:TEST_COUNT},(_,i)=>{let n=i+1,level=n<=20?'Foundation':n<=40?'Moderate':n<=60?'Advanced':n<=80?'PYQ pattern':'Full simulation';return `<article class="test-card"><div class="card-top"><span class="pill">${level}</span><span class="check">${done.has(n)?'✓ Completed':'100 Questions'}</span></div><h3>Mock Test ${String(n).padStart(2,'0')}</h3><p>100 marks · 60 minutes · −0.25 negative marking</p><button class="outline" data-paper="${n}">${done.has(n)?'Retake test':'Start test'} →</button></article>`}).join('')}</div>
@@ -108,16 +113,59 @@ async function loadQuestionBank(){
       return rows;
     }));
     BANK=batches.flat().sort((a,b)=>a.id-b.id);
-    if(BANK.length!==10000||BANK.length!==manifest.totalRecords) throw new Error("Expected 10,000 question records; loaded "+BANK.length+".");
-    if(manifest.distinctSourceQuestions!==10000) throw new Error("This question bank contains only "+manifest.distinctSourceQuestions+" distinct source questions. The portal requires 10,000 globally unique questions before the papers can be used.");
-    const concepts=new Set(), english=new Set(), marathi=new Set();
+    if(BANK.length!==10000||BANK.length!==manifest.totalRecords) throw new Error("Expected 10,000 paper-question records; loaded "+BANK.length+".");
+
+    // Reuse between different papers is permitted. Uniqueness is enforced within each paper only.
+    const normalize=value=>String(value??"").normalize("NFKC").toLocaleLowerCase()
+      .replace(/[^\\p{L}\\p{N}]+/gu," ").trim().replace(/\\s+/g," ");
+    const ids=new Set(), sourcePairs=new Set(), papers=new Map();
     for(const q of BANK){
-      const concept=String(q.conceptKey||"").normalize("NFKC").toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu," ").trim();
-      const en=String(q.en||"").normalize("NFKC").toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu," ").trim();
-      const mr=String(q.mr||"").normalize("NFKC").toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu," ").trim();
-      if(!concept||!en||!mr||concepts.has(concept)||english.has(en)||marathi.has(mr)) throw new Error("Duplicate or missing question/concept detected. All 10,000 questions must be globally unique.");
-      if(!Array.isArray(q.optionsMr)||q.optionsMr.length!==4||q.optionsMr.some(x=>!String(x||"").trim())) throw new Error("Every question must include four Marathi answer options. Missing in question ID "+q.id+".");
-      concepts.add(concept);english.add(en);marathi.add(mr);
+      if(!q||!Number.isInteger(q.id)||ids.has(q.id)) throw new Error("Missing or duplicate global question ID detected.");
+      ids.add(q.id);
+      if(!Number.isInteger(q.paperNo)||q.paperNo<1||q.paperNo>100||!Number.isInteger(q.questionNo)||q.questionNo<1||q.questionNo>100){
+        throw new Error("Invalid paper/question number in question ID "+q.id+".");
+      }
+      if(!q.subject||!q.topic||!q.difficulty||!q.conceptKey||!q.en||!q.mr||!q.explanationEn||!q.explanationMr){
+        throw new Error("Missing question content in question ID "+q.id+".");
+      }
+      if(!Array.isArray(q.options)||q.options.length!==4||q.options.some(x=>!String(x??"").trim())){
+        throw new Error("Question ID "+q.id+" must contain four English options.");
+      }
+      if(!Number.isInteger(q.answer)||q.answer<0||q.answer>3) throw new Error("Invalid correct answer index in question ID "+q.id+".");
+      if(q.optionsMr!==undefined&&(!Array.isArray(q.optionsMr)||q.optionsMr.length!==4||q.optionsMr.some(x=>!String(x??"").trim()))){
+        throw new Error("If Marathi options are supplied, all four must be present in question ID "+q.id+".");
+      }
+      if(q.subject==="Current Affairs"&&(!q.source||!q.asOfDate)){
+        throw new Error("Current Affairs question ID "+q.id+" must include a source and as-of date.");
+      }
+      if(!papers.has(q.paperNo)) papers.set(q.paperNo,[]);
+      papers.get(q.paperNo).push(q);
+      sourcePairs.add(normalize(q.en)+"|"+normalize(q.mr));
+    }
+
+    const expectedSubjects=PAPER_BLUEPRINT.flatMap(([subject,count])=>Array(count).fill(subject));
+    for(let paperNo=1;paperNo<=TEST_COUNT;paperNo++){
+      const rows=(papers.get(paperNo)||[]).sort((a,b)=>a.questionNo-b.questionNo);
+      if(rows.length!==Q_PER_TEST) throw new Error("Mock Test "+paperNo+" must contain 100 questions; found "+rows.length+".");
+      const concepts=new Set(), english=new Set(), marathi=new Set(), questionNumbers=new Set();
+      rows.forEach((q,index)=>{
+        if(questionNumbers.has(q.questionNo)) throw new Error("Duplicate question number in Mock Test "+paperNo+".");
+        questionNumbers.add(q.questionNo);
+        if(q.questionNo!==index+1) throw new Error("Mock Test "+paperNo+" has a missing question number.");
+        if(q.subject!==expectedSubjects[index]) throw new Error("Mock Test "+paperNo+" does not follow the configured subject sequence at question "+(index+1)+".");
+        for(const [label,set,value] of [
+          ["concept",concepts,normalize(q.conceptKey)],
+          ["English question",english,normalize(q.en)],
+          ["Marathi question",marathi,normalize(q.mr)]
+        ]){
+          if(!value||set.has(value)) throw new Error("Duplicate or missing "+label+" within Mock Test "+paperNo+".");
+          set.add(value);
+        }
+      });
+    }
+    QUESTION_POOL_COUNT=sourcePairs.size;
+    if(Number.isInteger(manifest.distinctSourceQuestions)&&manifest.distinctSourceQuestions!==QUESTION_POOL_COUNT){
+      throw new Error("Manifest says "+manifest.distinctSourceQuestions+" distinct source questions, but "+QUESTION_POOL_COUNT+" were found.");
     }
     renderHome();
   }catch(error){
