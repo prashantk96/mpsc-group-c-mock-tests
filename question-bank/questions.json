@@ -1,0 +1,115 @@
+{
+  "format": "mpsc-group-c-question-bank-index",
+  "version": 1,
+  "totalRecords": 10000,
+  "distinctSourceQuestions": 154,
+  "papers": 100,
+  "recordsPerPaper": 100,
+  "asOfDate": "2026-11-13",
+  "distribution": [
+    {
+      "subject": "History",
+      "count": 10
+    },
+    {
+      "subject": "Geography",
+      "count": 8
+    },
+    {
+      "subject": "Economy",
+      "count": 16
+    },
+    {
+      "subject": "Current Affairs",
+      "count": 16
+    },
+    {
+      "subject": "Polity",
+      "count": 15
+    },
+    {
+      "subject": "General Science",
+      "count": 15
+    },
+    {
+      "subject": "Maths",
+      "count": 12
+    },
+    {
+      "subject": "Reasoning",
+      "count": 8
+    }
+  ],
+  "batches": [
+    {
+      "file": "batches/papers-001-010.json",
+      "records": 1000,
+      "bytes": 575363,
+      "paperFrom": 1,
+      "paperTo": 10
+    },
+    {
+      "file": "batches/papers-011-020.json",
+      "records": 1000,
+      "bytes": 575755,
+      "paperFrom": 11,
+      "paperTo": 20
+    },
+    {
+      "file": "batches/papers-021-030.json",
+      "records": 1000,
+      "bytes": 577301,
+      "paperFrom": 21,
+      "paperTo": 30
+    },
+    {
+      "file": "batches/papers-031-040.json",
+      "records": 1000,
+      "bytes": 579354,
+      "paperFrom": 31,
+      "paperTo": 40
+    },
+    {
+      "file": "batches/papers-041-050.json",
+      "records": 1000,
+      "bytes": 578397,
+      "paperFrom": 41,
+      "paperTo": 50
+    },
+    {
+      "file": "batches/papers-051-060.json",
+      "records": 1000,
+      "bytes": 576767,
+      "paperFrom": 51,
+      "paperTo": 60
+    },
+    {
+      "file": "batches/papers-061-070.json",
+      "records": 1000,
+      "bytes": 578327,
+      "paperFrom": 61,
+      "paperTo": 70
+    },
+    {
+      "file": "batches/papers-071-080.json",
+      "records": 1000,
+      "bytes": 577755,
+      "paperFrom": 71,
+      "paperTo": 80
+    },
+    {
+      "file": "batches/papers-081-090.json",
+      "records": 1000,
+      "bytes": 579990,
+      "paperFrom": 81,
+      "paperTo": 90
+    },
+    {
+      "file": "batches/papers-091-100.json",
+      "records": 1000,
+      "bytes": 576913,
+      "paperFrom": 91,
+      "paperTo": 100
+    }
+  ]
+}

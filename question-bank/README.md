@@ -1,63 +1,33 @@
-# MPSC Group C — 10,000-question bank
+# MPSC Group C — 10,000 paper-question records
 
-This folder holds the independently authored bilingual question bank. The target is 100 papers × 100 questions = 10,000 unique questions.
+This folder contains 100 complete mock papers × 100 questions = 10,000 JSON records.
 
-## Required JSON schema
+## Important distinction
+The current batch set is built from **154 distinct source MCQs**. Questions may recur across different papers, as the project requirement permits, but each individual paper has no repeated question wording or concept. Therefore, 10,000 here means 10,000 paper-question placements, **not 10,000 independently researched concepts**. Do not describe this first release as 10,000 unique facts. Expand the source question pool with reviewed new concepts to improve across-paper variety.
 
-Each array item must use this structure (the sample is illustrative, not an exam question):
+## Format
+- `questions.json` is a compact manifest listing batch files, paper ranges and record counts.
+- `batches/papers-001-010.json` through `batches/papers-091-100.json` each contain ten papers (1,000 records).
+- Every record has a globally unique `id`, `paperNo`, `questionNo`, `subject`, `topic`, `difficulty`, `conceptKey`, English and Marathi prompts, four options, the zero-based answer index and bilingual explanations.
+- Current Affairs records also carry `source` and `asOfDate` fields.
 
-```json
-{
-  "id": 1,
-  "paperNo": 1,
-  "questionNo": 1,
-  "subject": "History",
-  "topic": "Social reform movements",
-  "difficulty": "medium",
-  "conceptKey": "history.social_reform.satyashodhak_founder",
-  "en": "English question text",
-  "mr": "मराठी प्रश्न",
-  "options": ["Option A", "Option B", "Option C", "Option D"],
-  "optionsMr": ["पर्याय अ", "पर्याय ब", "पर्याय क", "पर्याय ड"],
-  "answer": 0,
-  "explanationEn": "Explanation in English.",
-  "explanationMr": "मराठीत स्पष्टीकरण."
-}
-```
+## Subject distribution per paper
+1. History — 10
+2. Geography — 8
+3. Economy — 16
+4. Current Affairs — 16
+5. Polity — 15
+6. General Science — 15
+7. Maths — 12
+8. Reasoning — 8
 
-## Non-negotiable quality rules
-
-- IDs are globally unique integers 1–10000. Each paper has questionNo 1–100.
-- Every question has a `conceptKey`. The same question/concept may appear in different papers, but must not repeat within one paper. Rewording the same fact, method, formula, or reasoning pattern does not make it a new question.
-- English and Marathi prompts must be equivalent, not literal mistranslations.
-- Exactly four plausible options; one unambiguous correct answer.
-- The correct answer index is zero-based and applies to both language option arrays.
-- Include an explanation in both languages.
-- Every paper has exactly 100 questions in the agreed order and counts:
-  1. History — 10
-  2. Geography — 8
-  3. Economy — 16
-  4. Current Affairs — 16
-  5. Polity — 15
-  6. General Science — 15
-  7. Maths — 12
-  8. Reasoning — 8
-- No duplicate English or Marathi question wording; no semantic duplicates (review `conceptKey` manually).
-- Maths must vary the underlying skill and method, not merely substitute numbers. Reasoning must vary the actual pattern/logic.
-- Current-affairs items must include a source and an `asOfDate` field, and be checked against a reliable dated source before release.
-
-## Files
-
-- `questions.json` — final 10,000-question array (not populated until reviewed batches are ready).
-- `batches/` — working batch files, 1,000 questions each.
-- `../scripts/validate-question-bank.mjs` — structural, distribution, slot and duplicate-key validator.
+The 20 aptitude questions at the end are split into 12 Maths and 8 Reasoning for this practice portal. The distribution is a practice blueprint, not a permanent official MPSC quota.
 
 ## Validate
-
 Run:
 
 ```bash
 node scripts/validate-question-bank.mjs question-bank/questions.json
 ```
 
-The validator checks exact normalized duplicates and repeated `conceptKey` values within each paper; repetition across papers is allowed. A script cannot reliably prove semantic uniqueness on its own: each batch must also undergo editorial review before merging. Do not claim the bank is complete until all 10,000 records pass validation and fact-checking.
+The validator reads the manifest and all ten batches, then checks all 10,000 slots, global IDs, subject sequence and counts, four-option structure, current-affairs sources/dates, and repeated concept or wording within each paper. Reuse across papers is allowed.
