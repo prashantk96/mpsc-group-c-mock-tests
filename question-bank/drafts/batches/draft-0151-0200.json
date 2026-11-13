@@ -1,0 +1,1365 @@
+{
+  "status": "DRAFT — NOT YET APPROVED",
+  "batch": "151-200",
+  "paperNo": 2,
+  "questionCount": 50,
+  "subjectDistribution": {
+    "Polity": 15,
+    "General Science": 15,
+    "Mathematics": 12,
+    "Reasoning": 8
+  },
+  "reviewNote": "Second half of draft Paper 2. Review and accept/edit/reject before production use.",
+  "questions": [
+    {
+      "id": 151,
+      "paperNo": 2,
+      "questionNo": 51,
+      "sourceQuestionId": 151,
+      "subject": "Polity",
+      "topic": "Citizenship",
+      "difficulty": "medium",
+      "conceptKey": "polity.part2.citizenship",
+      "en": "Which part of the Constitution deals with citizenship?",
+      "mr": "संविधानाचा कोणता भाग नागरिकत्वाशी संबंधित आहे?",
+      "options": [
+        "Part II",
+        "Part I",
+        "Part III",
+        "Part IV"
+      ],
+      "optionsMr": [
+        "भाग II",
+        "भाग I",
+        "भाग III",
+        "भाग IV"
+      ],
+      "answer": 0,
+      "explanationEn": "Part II contains Articles 5 to 11 on citizenship.",
+      "explanationMr": "भाग II मध्ये नागरिकत्वासंबंधी कलम ५ ते ११ आहेत."
+    },
+    {
+      "id": 152,
+      "paperNo": 2,
+      "questionNo": 52,
+      "sourceQuestionId": 152,
+      "subject": "Polity",
+      "topic": "Emergency provisions",
+      "difficulty": "medium",
+      "conceptKey": "polity.article352.national.emergency",
+      "en": "A National Emergency is proclaimed under which article?",
+      "mr": "राष्ट्रीय आणीबाणी कोणत्या कलमान्वये घोषित केली जाते?",
+      "options": [
+        "Article 352",
+        "Article 356",
+        "Article 360",
+        "Article 368"
+      ],
+      "optionsMr": [
+        "कलम ३५२",
+        "कलम ३५६",
+        "कलम ३६०",
+        "कलम ३६८"
+      ],
+      "answer": 0,
+      "explanationEn": "Article 352 provides for proclamation of a National Emergency.",
+      "explanationMr": "कलम ३५२ मध्ये राष्ट्रीय आणीबाणी घोषित करण्याची तरतूद आहे."
+    },
+    {
+      "id": 153,
+      "paperNo": 2,
+      "questionNo": 53,
+      "sourceQuestionId": 153,
+      "subject": "Polity",
+      "topic": "President election",
+      "difficulty": "medium",
+      "conceptKey": "polity.president.electoral.college",
+      "en": "Who forms the electoral college for the election of the President of India?",
+      "mr": "भारताच्या राष्ट्रपतींच्या निवडणुकीचे निवडणूक मंडळ कोणापासून बनते?",
+      "options": [
+        "Elected MPs and specified elected MLAs",
+        "All citizens directly",
+        "Only Lok Sabha members",
+        "All MPs and nominated MLAs"
+      ],
+      "optionsMr": [
+        "निवडून आलेले खासदार व निर्दिष्ट निवडून आलेले आमदार",
+        "सर्व नागरिक थेट मतदानाने",
+        "फक्त लोकसभा सदस्य",
+        "सर्व खासदार व नामनिर्देशित आमदार"
+      ],
+      "answer": 0,
+      "explanationEn": "The electoral college includes elected MPs and elected members of specified Legislative Assemblies.",
+      "explanationMr": "निवडणूक मंडळात निवडून आलेले खासदार आणि निर्दिष्ट विधानसभांचे निवडून आलेले सदस्य असतात."
+    },
+    {
+      "id": 154,
+      "paperNo": 2,
+      "questionNo": 54,
+      "sourceQuestionId": 154,
+      "subject": "Polity",
+      "topic": "Money Bill",
+      "difficulty": "medium",
+      "conceptKey": "polity.article110.money.bill",
+      "en": "Which article defines a Money Bill?",
+      "mr": "धनविधेयकाची व्याख्या कोणत्या कलमात आहे?",
+      "options": [
+        "Article 110",
+        "Article 108",
+        "Article 112",
+        "Article 123"
+      ],
+      "optionsMr": [
+        "कलम ११०",
+        "कलम १०८",
+        "कलम ११२",
+        "कलम १२३"
+      ],
+      "answer": 0,
+      "explanationEn": "Article 110 specifies the matters that qualify a bill as a Money Bill.",
+      "explanationMr": "कलम ११० मध्ये धनविधेयक ठरणाऱ्या बाबी स्पष्ट केल्या आहेत."
+    },
+    {
+      "id": 155,
+      "paperNo": 2,
+      "questionNo": 55,
+      "sourceQuestionId": 155,
+      "subject": "Polity",
+      "topic": "Joint sitting",
+      "difficulty": "medium",
+      "conceptKey": "polity.joint.sitting.constitution.amendment",
+      "en": "A joint sitting cannot be used to resolve disagreement over which bill?",
+      "mr": "कोणत्या विधेयकावरील मतभेद सोडवण्यासाठी संयुक्त अधिवेशन घेता येत नाही?",
+      "options": [
+        "Constitution Amendment Bill",
+        "Ordinary Bill",
+        "Non-money financial bill",
+        "Government bill"
+      ],
+      "optionsMr": [
+        "संविधान दुरुस्ती विधेयक",
+        "सामान्य विधेयक",
+        "धनविधेयक नसलेले वित्तीय विधेयक",
+        "सरकारी विधेयक"
+      ],
+      "answer": 0,
+      "explanationEn": "The Constitution does not provide for a joint sitting on a Constitution Amendment Bill.",
+      "explanationMr": "संविधान दुरुस्ती विधेयकासाठी संयुक्त अधिवेशनाची तरतूद नाही."
+    },
+    {
+      "id": 156,
+      "paperNo": 2,
+      "questionNo": 56,
+      "sourceQuestionId": 156,
+      "subject": "Polity",
+      "topic": "Supreme Court original jurisdiction",
+      "difficulty": "medium",
+      "conceptKey": "polity.article131.federal.disputes",
+      "en": "Disputes between the Union and states fall under which Supreme Court jurisdiction?",
+      "mr": "केंद्र व राज्यांमधील वाद सर्वोच्च न्यायालयाच्या कोणत्या अधिकारक्षेत्रात येतात?",
+      "options": [
+        "Original jurisdiction",
+        "Advisory jurisdiction",
+        "Review jurisdiction",
+        "Only appellate jurisdiction"
+      ],
+      "optionsMr": [
+        "मूळ अधिकारक्षेत्र",
+        "सल्लागार अधिकारक्षेत्र",
+        "पुनर्विलोकन अधिकारक्षेत्र",
+        "फक्त अपीलीय अधिकारक्षेत्र"
+      ],
+      "answer": 0,
+      "explanationEn": "Article 131 gives the Supreme Court original jurisdiction in specified federal disputes.",
+      "explanationMr": "कलम १३१ नुसार विशिष्ट संघराज्यीय वादांत सर्वोच्च न्यायालयाला मूळ अधिकारक्षेत्र आहे."
+    },
+    {
+      "id": 157,
+      "paperNo": 2,
+      "questionNo": 57,
+      "sourceQuestionId": 157,
+      "subject": "Polity",
+      "topic": "Judicial review",
+      "difficulty": "medium",
+      "conceptKey": "polity.judicial.review.constitution",
+      "en": "Judicial review allows courts to test laws against which supreme legal document?",
+      "mr": "न्यायालयीन पुनर्विलोकनाद्वारे कायद्यांची कोणत्या सर्वोच्च कायदेशीर दस्तऐवजाशी सुसंगतता तपासली जाते?",
+      "options": [
+        "The Constitution",
+        "The party manifesto",
+        "The annual budget",
+        "Local council rules"
+      ],
+      "optionsMr": [
+        "संविधान",
+        "पक्षाचा जाहीरनामा",
+        "वार्षिक अर्थसंकल्प",
+        "स्थानिक परिषद नियम"
+      ],
+      "answer": 0,
+      "explanationEn": "Judicial review tests legislative and executive action against constitutional provisions.",
+      "explanationMr": "न्यायालयीन पुनर्विलोकनाद्वारे विधिमंडळ व कार्यपालिकेच्या कृतींची संविधानाशी सुसंगतता तपासली जाते."
+    },
+    {
+      "id": 158,
+      "paperNo": 2,
+      "questionNo": 58,
+      "sourceQuestionId": 158,
+      "subject": "Polity",
+      "topic": "Inter-State Council",
+      "difficulty": "medium",
+      "conceptKey": "polity.article263.interstate.council",
+      "en": "The Inter-State Council is provided for under which article?",
+      "mr": "आंतरराज्य परिषदेची तरतूद कोणत्या कलमात आहे?",
+      "options": [
+        "Article 263",
+        "Article 262",
+        "Article 280",
+        "Article 312"
+      ],
+      "optionsMr": [
+        "कलम २६३",
+        "कलम २६२",
+        "कलम २८०",
+        "कलम ३१२"
+      ],
+      "answer": 0,
+      "explanationEn": "Article 263 empowers the President to establish an Inter-State Council for specified purposes.",
+      "explanationMr": "कलम २६३ नुसार विशिष्ट उद्देशांसाठी राष्ट्रपती आंतरराज्य परिषद स्थापन करू शकतात."
+    },
+    {
+      "id": 159,
+      "paperNo": 2,
+      "questionNo": 59,
+      "sourceQuestionId": 159,
+      "subject": "Polity",
+      "topic": "Zonal Councils",
+      "difficulty": "medium",
+      "conceptKey": "polity.zonal.councils.states.reorganisation",
+      "en": "Zonal Councils were established under which law?",
+      "mr": "विभागीय परिषदा कोणत्या कायद्यांतर्गत स्थापन झाल्या?",
+      "options": [
+        "States Reorganisation Act, 1956",
+        "Government of India Act, 1935",
+        "42nd Amendment",
+        "Representation of the People Act, 1951"
+      ],
+      "optionsMr": [
+        "राज्य पुनर्रचना कायदा, १९५६",
+        "भारत सरकार कायदा, १९३५",
+        "४२ वी घटनादुरुस्ती",
+        "लोकप्रतिनिधित्व कायदा, १९५१"
+      ],
+      "answer": 0,
+      "explanationEn": "The States Reorganisation Act, 1956 provided for Zonal Councils.",
+      "explanationMr": "राज्य पुनर्रचना कायदा १९५६ मध्ये विभागीय परिषदांची तरतूद आहे."
+    },
+    {
+      "id": 160,
+      "paperNo": 2,
+      "questionNo": 60,
+      "sourceQuestionId": 160,
+      "subject": "Polity",
+      "topic": "Anti-defection",
+      "difficulty": "medium",
+      "conceptKey": "polity.tenth.schedule.defection",
+      "en": "Anti-defection provisions are contained in which Schedule?",
+      "mr": "पक्षांतरविरोधी तरतुदी कोणत्या अनुसूचीत आहेत?",
+      "options": [
+        "Tenth Schedule",
+        "Ninth Schedule",
+        "Eighth Schedule",
+        "Twelfth Schedule"
+      ],
+      "optionsMr": [
+        "दहावी अनुसूची",
+        "नववी अनुसूची",
+        "आठवी अनुसूची",
+        "बारावी अनुसूची"
+      ],
+      "answer": 0,
+      "explanationEn": "The Tenth Schedule, added by the 52nd Amendment, contains anti-defection provisions.",
+      "explanationMr": "५२ व्या घटनादुरुस्तीने समाविष्ट दहाव्या अनुसूचीत पक्षांतरविरोधी तरतुदी आहेत."
+    },
+    {
+      "id": 161,
+      "paperNo": 2,
+      "questionNo": 61,
+      "sourceQuestionId": 161,
+      "subject": "Polity",
+      "topic": "Gram Sabha",
+      "difficulty": "medium",
+      "conceptKey": "polity.gram.sabha.electoral.roll",
+      "en": "Who are members of the Gram Sabha?",
+      "mr": "ग्रामसभेचे सदस्य कोण असतात?",
+      "options": [
+        "Persons registered in village-area electoral rolls",
+        "Only elected Panchayat members",
+        "Only government employees",
+        "All residents including minors"
+      ],
+      "optionsMr": [
+        "गावाच्या मतदार यादीत नोंद असलेल्या व्यक्ती",
+        "फक्त निवडून आलेले पंचायत सदस्य",
+        "फक्त सरकारी कर्मचारी",
+        "अल्पवयीनांसह सर्व रहिवासी"
+      ],
+      "answer": 0,
+      "explanationEn": "The Gram Sabha consists of persons registered in the electoral rolls relating to the village within the Panchayat area.",
+      "explanationMr": "पंचायत क्षेत्रातील गावाच्या मतदार यादीत नोंद असलेल्या व्यक्ती ग्रामसभेचे सदस्य असतात."
+    },
+    {
+      "id": 162,
+      "paperNo": 2,
+      "questionNo": 62,
+      "sourceQuestionId": 162,
+      "subject": "Polity",
+      "topic": "Comptroller and Auditor General",
+      "difficulty": "medium",
+      "conceptKey": "polity.article148.cag",
+      "en": "The office of the CAG is provided for under which article?",
+      "mr": "नियंत्रक व महालेखापरीक्षक पदाची तरतूद कोणत्या कलमात आहे?",
+      "options": [
+        "Article 148",
+        "Article 124",
+        "Article 76",
+        "Article 165"
+      ],
+      "optionsMr": [
+        "कलम १४८",
+        "कलम १२४",
+        "कलम ७६",
+        "कलम १६५"
+      ],
+      "answer": 0,
+      "explanationEn": "Article 148 provides for the Comptroller and Auditor General of India.",
+      "explanationMr": "कलम १४८ मध्ये भारताच्या नियंत्रक व महालेखापरीक्षकाची तरतूद आहे."
+    },
+    {
+      "id": 163,
+      "paperNo": 2,
+      "questionNo": 63,
+      "sourceQuestionId": 163,
+      "subject": "Polity",
+      "topic": "Attorney General",
+      "difficulty": "medium",
+      "conceptKey": "polity.article76.attorney.general",
+      "en": "Who is the chief legal adviser to the Union Government?",
+      "mr": "केंद्र सरकारचा प्रमुख कायदेशीर सल्लागार कोण असतो?",
+      "options": [
+        "Attorney General of India",
+        "Solicitor General",
+        "Chief Justice of India",
+        "Union Law Secretary"
+      ],
+      "optionsMr": [
+        "भारताचे महान्यायवादी",
+        "भारताचे महाधिवक्ता",
+        "भारताचे सरन्यायाधीश",
+        "केंद्रीय कायदा सचिव"
+      ],
+      "answer": 0,
+      "explanationEn": "The Attorney General is the Union Government's highest law officer under Article 76.",
+      "explanationMr": "कलम ७६ नुसार महान्यायवादी हे केंद्र सरकारचे सर्वोच्च कायदा अधिकारी आहेत."
+    },
+    {
+      "id": 164,
+      "paperNo": 2,
+      "questionNo": 64,
+      "sourceQuestionId": 164,
+      "subject": "Polity",
+      "topic": "Writs",
+      "difficulty": "medium",
+      "conceptKey": "polity.habeas.corpus.detention",
+      "en": "Which writ is used to challenge unlawful detention?",
+      "mr": "बेकायदेशीर नजरकैदेला आव्हान देण्यासाठी कोणती रिट वापरतात?",
+      "options": [
+        "Habeas Corpus",
+        "Mandamus",
+        "Certiorari",
+        "Quo Warranto"
+      ],
+      "optionsMr": [
+        "बंदी प्रत्यक्षीकरण",
+        "परमादेश",
+        "उत्प्रेषण",
+        "अधिकारपृच्छा"
+      ],
+      "answer": 0,
+      "explanationEn": "Habeas Corpus requires the detaining authority to produce the person and justify detention.",
+      "explanationMr": "बंदी प्रत्यक्षीकरणाद्वारे ताब्यातील व्यक्तीला न्यायालयासमोर हजर करून नजरकैदेचे समर्थन मागितले जाते."
+    },
+    {
+      "id": 165,
+      "paperNo": 2,
+      "questionNo": 65,
+      "sourceQuestionId": 165,
+      "subject": "Polity",
+      "topic": "Constitutional amendment",
+      "difficulty": "medium",
+      "conceptKey": "polity.article368.amendment.procedure",
+      "en": "The main constitutional amendment procedure is laid down in which article?",
+      "mr": "संविधान दुरुस्तीची मुख्य प्रक्रिया कोणत्या कलमात दिली आहे?",
+      "options": [
+        "Article 368",
+        "Article 370",
+        "Article 356",
+        "Article 32"
+      ],
+      "optionsMr": [
+        "कलम ३६८",
+        "कलम ३७०",
+        "कलम ३५६",
+        "कलम ३२"
+      ],
+      "answer": 0,
+      "explanationEn": "Article 368 sets out Parliament's constituent power and amendment procedure.",
+      "explanationMr": "कलम ३६८ संसदेला संविधान दुरुस्तीचा अधिकार व प्रक्रिया देते."
+    },
+    {
+      "id": 166,
+      "paperNo": 2,
+      "questionNo": 66,
+      "sourceQuestionId": 166,
+      "subject": "General Science",
+      "topic": "Optics",
+      "difficulty": "medium",
+      "conceptKey": "science.total.internal.reflection.conditions",
+      "en": "Total internal reflection occurs when light travels from which medium to which medium?",
+      "mr": "पूर्ण अंतर्गत परावर्तनासाठी प्रकाश कोणत्या माध्यमातून कोणत्या माध्यमात जातो?",
+      "options": [
+        "Optically denser to rarer, above critical angle",
+        "Rarer to denser at any angle",
+        "Vacuum to glass at normal incidence",
+        "Air to water only"
+      ],
+      "optionsMr": [
+        "दाट प्रकाशीय माध्यमातून विरळ माध्यमात, क्रांतिक कोनापेक्षा जास्त कोनाने",
+        "विरळातून दाट माध्यमात कोणत्याही कोनाने",
+        "निर्वातातून काचेत लंब आपतनाने",
+        "फक्त हवेतून पाण्यात"
+      ],
+      "answer": 0,
+      "explanationEn": "It requires light to travel from denser to rarer medium with incidence greater than the critical angle.",
+      "explanationMr": "प्रकाश दाट माध्यमातून विरळ माध्यमात जाताना आपतन कोन क्रांतिक कोनापेक्षा मोठा असणे आवश्यक आहे."
+    },
+    {
+      "id": 167,
+      "paperNo": 2,
+      "questionNo": 67,
+      "sourceQuestionId": 167,
+      "subject": "General Science",
+      "topic": "Electricity",
+      "difficulty": "medium",
+      "conceptKey": "science.series.circuit.current",
+      "en": "In a series circuit, which quantity is the same through every component?",
+      "mr": "श्रेणी परिपथात प्रत्येक घटकातून कोणती राशी समान असते?",
+      "options": [
+        "Current",
+        "Voltage",
+        "Resistance",
+        "Power"
+      ],
+      "optionsMr": [
+        "प्रवाह",
+        "विभवांतर",
+        "प्रतिरोध",
+        "शक्ती"
+      ],
+      "answer": 0,
+      "explanationEn": "The same current flows through every component connected in series.",
+      "explanationMr": "श्रेणी परिपथातील प्रत्येक घटकातून समान विद्युत प्रवाह वाहतो."
+    },
+    {
+      "id": 168,
+      "paperNo": 2,
+      "questionNo": 68,
+      "sourceQuestionId": 168,
+      "subject": "General Science",
+      "topic": "Sound",
+      "difficulty": "medium",
+      "conceptKey": "science.sound.frequency.pitch",
+      "en": "The pitch of a sound depends mainly on its what?",
+      "mr": "ध्वनीची तारता मुख्यतः कशावर अवलंबून असते?",
+      "options": [
+        "Frequency",
+        "Amplitude",
+        "Intensity",
+        "Distance"
+      ],
+      "optionsMr": [
+        "वारंवारता",
+        "आयाम",
+        "तीव्रता",
+        "अंतर"
+      ],
+      "answer": 0,
+      "explanationEn": "A higher frequency is perceived as a higher pitch.",
+      "explanationMr": "जास्त वारंवारतेचा ध्वनी अधिक तारतेचा जाणवतो."
+    },
+    {
+      "id": 169,
+      "paperNo": 2,
+      "questionNo": 69,
+      "sourceQuestionId": 169,
+      "subject": "General Science",
+      "topic": "Periodic table",
+      "difficulty": "medium",
+      "conceptKey": "science.modern.periodic.atomic.number",
+      "en": "The modern periodic table is arranged in increasing order of what?",
+      "mr": "आधुनिक आवर्त सारणी कोणत्या राशीच्या वाढत्या क्रमाने मांडली आहे?",
+      "options": [
+        "Atomic number",
+        "Atomic mass",
+        "Neutron count",
+        "Density"
+      ],
+      "optionsMr": [
+        "अणुक्रमांक",
+        "अणुभार",
+        "न्यूट्रॉन संख्या",
+        "घनता"
+      ],
+      "answer": 0,
+      "explanationEn": "The modern periodic law is based on atomic number.",
+      "explanationMr": "आधुनिक आवर्त नियम अणुक्रमांकावर आधारित आहे."
+    },
+    {
+      "id": 170,
+      "paperNo": 2,
+      "questionNo": 70,
+      "sourceQuestionId": 170,
+      "subject": "General Science",
+      "topic": "Chemical bonding",
+      "difficulty": "medium",
+      "conceptKey": "science.ionic.bond.electron.transfer",
+      "en": "An ionic bond is mainly formed by which process?",
+      "mr": "आयनिक बंध मुख्यतः कोणत्या प्रक्रियेमुळे तयार होतो?",
+      "options": [
+        "Transfer of electrons",
+        "Equal sharing of electrons",
+        "Sharing of protons",
+        "Transfer of neutrons"
+      ],
+      "optionsMr": [
+        "इलेक्ट्रॉनचे हस्तांतरण",
+        "इलेक्ट्रॉनचे समान वाटप",
+        "प्रोटॉनचे वाटप",
+        "न्यूट्रॉनचे हस्तांतरण"
+      ],
+      "answer": 0,
+      "explanationEn": "Electron transfer creates oppositely charged ions that attract electrostatically.",
+      "explanationMr": "इलेक्ट्रॉन हस्तांतरणामुळे विरुद्ध विद्युतभारित आयन तयार होतात व त्यांच्यात आकर्षण निर्माण होते."
+    },
+    {
+      "id": 171,
+      "paperNo": 2,
+      "questionNo": 71,
+      "sourceQuestionId": 171,
+      "subject": "General Science",
+      "topic": "Redox reactions",
+      "difficulty": "medium",
+      "conceptKey": "science.oxidation.loss.electrons",
+      "en": "Oxidation, in terms of electrons, means what?",
+      "mr": "इलेक्ट्रॉनच्या दृष्टीने ऑक्सिडीकरण म्हणजे काय?",
+      "options": [
+        "Loss of electrons",
+        "Gain of electrons",
+        "Gain of neutrons",
+        "Loss of protons"
+      ],
+      "optionsMr": [
+        "इलेक्ट्रॉन गमावणे",
+        "इलेक्ट्रॉन मिळवणे",
+        "न्यूट्रॉन मिळवणे",
+        "प्रोटॉन गमावणे"
+      ],
+      "answer": 0,
+      "explanationEn": "Oxidation is loss of electrons, while reduction is gain of electrons.",
+      "explanationMr": "ऑक्सिडीकरण म्हणजे इलेक्ट्रॉन गमावणे; अपचयन म्हणजे इलेक्ट्रॉन मिळवणे."
+    },
+    {
+      "id": 172,
+      "paperNo": 2,
+      "questionNo": 72,
+      "sourceQuestionId": 172,
+      "subject": "General Science",
+      "topic": "Genetics",
+      "difficulty": "medium",
+      "conceptKey": "science.mendel.law.segregation",
+      "en": "According to Mendel's law of segregation, paired alleles separate during formation of what?",
+      "mr": "मेंडेलच्या विभाजन नियमानुसार जोडीतील अ‍ॅलील्स कोणत्या निर्मितीदरम्यान वेगळे होतात?",
+      "options": [
+        "Gametes",
+        "Body tissues",
+        "Organs",
+        "Blood plasma"
+      ],
+      "optionsMr": [
+        "जननपेशी",
+        "देह ऊती",
+        "अवयव",
+        "रक्तद्रव"
+      ],
+      "answer": 0,
+      "explanationEn": "Alleles separate during gamete formation, so each gamete receives one allele.",
+      "explanationMr": "जननपेशी तयार होताना अ‍ॅलील्स वेगळे होतात; प्रत्येक जननपेशीत एक अ‍ॅलील जाते."
+    },
+    {
+      "id": 173,
+      "paperNo": 2,
+      "questionNo": 73,
+      "sourceQuestionId": 173,
+      "subject": "General Science",
+      "topic": "Cell division",
+      "difficulty": "medium",
+      "conceptKey": "science.meiosis.four.haploid.cells",
+      "en": "Meiosis generally produces how many haploid daughter cells from one diploid cell?",
+      "mr": "अर्धसूत्री विभाजनात एका द्विगुणित पेशीपासून सामान्यतः किती अगुणित कन्यापेशी तयार होतात?",
+      "options": [
+        "Four",
+        "Two",
+        "Eight",
+        "One"
+      ],
+      "optionsMr": [
+        "चार",
+        "दोन",
+        "आठ",
+        "एक"
+      ],
+      "answer": 0,
+      "explanationEn": "Two successive divisions generally produce four haploid cells.",
+      "explanationMr": "दोन सलग विभाजनांमुळे सामान्यतः चार अगुणित पेशी तयार होतात."
+    },
+    {
+      "id": 174,
+      "paperNo": 2,
+      "questionNo": 74,
+      "sourceQuestionId": 174,
+      "subject": "General Science",
+      "topic": "Human physiology",
+      "difficulty": "medium",
+      "conceptKey": "science.kidney.nephron.unit",
+      "en": "What is the structural and functional unit of the kidney?",
+      "mr": "मूत्रपिंडाचे संरचनात्मक व कार्यात्मक एकक कोणते?",
+      "options": [
+        "Nephron",
+        "Neuron",
+        "Alveolus",
+        "Villus"
+      ],
+      "optionsMr": [
+        "नेफ्रॉन",
+        "न्यूरॉन",
+        "वायुकोश",
+        "आंत्ररोम"
+      ],
+      "answer": 0,
+      "explanationEn": "Nephrons filter blood and help form urine.",
+      "explanationMr": "नेफ्रॉन रक्त गाळतात व मूत्रनिर्मितीस मदत करतात."
+    },
+    {
+      "id": 175,
+      "paperNo": 2,
+      "questionNo": 75,
+      "sourceQuestionId": 175,
+      "subject": "General Science",
+      "topic": "Respiratory system",
+      "difficulty": "medium",
+      "conceptKey": "science.alveoli.gas.exchange",
+      "en": "Gas exchange in human lungs occurs mainly in which structures?",
+      "mr": "मानवी फुफ्फुसांत वायूंची देवाणघेवाण मुख्यतः कुठे होते?",
+      "options": [
+        "Alveoli",
+        "Bronchi",
+        "Trachea",
+        "Pleura"
+      ],
+      "optionsMr": [
+        "वायुकोश",
+        "श्वसनी",
+        "श्वासनलिका",
+        "फुफ्फुसावरण"
+      ],
+      "answer": 0,
+      "explanationEn": "Thin-walled alveoli provide a large surface for oxygen and carbon dioxide exchange.",
+      "explanationMr": "पातळ भित्तीचे वायुकोश ऑक्सिजन व कार्बन डायऑक्साइडच्या देवाणघेवाणीसाठी मोठे पृष्ठफळ देतात."
+    },
+    {
+      "id": 176,
+      "paperNo": 2,
+      "questionNo": 76,
+      "sourceQuestionId": 176,
+      "subject": "General Science",
+      "topic": "Plant transport",
+      "difficulty": "medium",
+      "conceptKey": "science.xylem.water.minerals",
+      "en": "Which plant tissue transports water and minerals from roots?",
+      "mr": "मुळांमधून पाणी व खनिजे वाहून नेणारे वनस्पती ऊतक कोणते?",
+      "options": [
+        "Xylem",
+        "Phloem",
+        "Epidermis",
+        "Cork"
+      ],
+      "optionsMr": [
+        "झायलम",
+        "फ्लोएम",
+        "अधिचर्म",
+        "कॉर्क"
+      ],
+      "answer": 0,
+      "explanationEn": "Xylem mainly conducts water and mineral salts from roots to aerial parts.",
+      "explanationMr": "झायलम मुळांपासून वनस्पतीच्या वरील भागांकडे पाणी व खनिजे वाहून नेते."
+    },
+    {
+      "id": 177,
+      "paperNo": 2,
+      "questionNo": 77,
+      "sourceQuestionId": 177,
+      "subject": "General Science",
+      "topic": "Ecology",
+      "difficulty": "medium",
+      "conceptKey": "science.ten.percent.energy.law",
+      "en": "Under the simplified ten-percent law, roughly what fraction of energy passes to the next trophic level?",
+      "mr": "साध्या दहा टक्के नियमानुसार पुढील पोषण पातळीवर साधारण किती ऊर्जा जाते?",
+      "options": [
+        "10%",
+        "25%",
+        "50%",
+        "90%"
+      ],
+      "optionsMr": [
+        "१०%",
+        "२५%",
+        "५०%",
+        "९०%"
+      ],
+      "answer": 0,
+      "explanationEn": "The simplified rule states that roughly one-tenth of energy is transferred to the next trophic level.",
+      "explanationMr": "साध्या नियमानुसार साधारण एक-दशांश ऊर्जा पुढील पोषण पातळीवर हस्तांतरित होते."
+    },
+    {
+      "id": 178,
+      "paperNo": 2,
+      "questionNo": 78,
+      "sourceQuestionId": 178,
+      "subject": "General Science",
+      "topic": "Microbiology",
+      "difficulty": "medium",
+      "conceptKey": "science.virus.intracellular.parasite",
+      "en": "Why are viruses called obligate intracellular parasites?",
+      "mr": "विषाणूंना अनिवार्य अंतःपेशीय परजीवी का म्हणतात?",
+      "options": [
+        "They replicate only inside living host cells",
+        "They make ATP independently",
+        "They grow on ordinary agar without cells",
+        "They have complete cellular structure"
+      ],
+      "optionsMr": [
+        "ते फक्त जिवंत यजमान पेशींमध्ये प्रतिकृती तयार करतात",
+        "ते स्वतंत्रपणे ATP तयार करतात",
+        "ते पेशींशिवाय सामान्य अगरवर वाढतात",
+        "त्यांची पूर्ण पेशीय रचना असते"
+      ],
+      "answer": 0,
+      "explanationEn": "Viruses depend on host-cell machinery for replication.",
+      "explanationMr": "विषाणूंच्या प्रतिकृती निर्मितीसाठी यजमान पेशींच्या यंत्रणेवर अवलंबून राहावे लागते."
+    },
+    {
+      "id": 179,
+      "paperNo": 2,
+      "questionNo": 79,
+      "sourceQuestionId": 179,
+      "subject": "General Science",
+      "topic": "Atmosphere",
+      "difficulty": "medium",
+      "conceptKey": "science.ozone.stratosphere",
+      "en": "The ozone layer is concentrated mainly in which atmospheric layer?",
+      "mr": "ओझोन थर मुख्यतः वातावरणाच्या कोणत्या स्तरात आढळतो?",
+      "options": [
+        "Stratosphere",
+        "Troposphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "optionsMr": [
+        "समताप मंडल",
+        "क्षोभमंडल",
+        "मध्यमंडल",
+        "तापमंडल"
+      ],
+      "answer": 0,
+      "explanationEn": "Most atmospheric ozone is concentrated in the stratosphere.",
+      "explanationMr": "वातावरणातील बहुतांश ओझोन समताप मंडलात असतो."
+    },
+    {
+      "id": 180,
+      "paperNo": 2,
+      "questionNo": 80,
+      "sourceQuestionId": 180,
+      "subject": "General Science",
+      "topic": "Heat transfer",
+      "difficulty": "medium",
+      "conceptKey": "science.radiation.vacuum",
+      "en": "Which mode of heat transfer can occur through a vacuum?",
+      "mr": "निर्वातातून उष्णतेचे वहन कोणत्या पद्धतीने होऊ शकते?",
+      "options": [
+        "Radiation",
+        "Conduction",
+        "Convection",
+        "All equally"
+      ],
+      "optionsMr": [
+        "प्रारण",
+        "वहन",
+        "अभिसरण",
+        "सर्व समान"
+      ],
+      "answer": 0,
+      "explanationEn": "Radiation transfers energy through electromagnetic waves and needs no material medium.",
+      "explanationMr": "प्रारणाद्वारे विद्युतचुंबकीय तरंगांतून ऊर्जा हस्तांतरित होते; भौतिक माध्यमाची गरज नसते."
+    },
+    {
+      "id": 181,
+      "paperNo": 2,
+      "questionNo": 81,
+      "sourceQuestionId": 181,
+      "subject": "Mathematics",
+      "topic": "Successive percentages",
+      "difficulty": "medium",
+      "conceptKey": "maths.successive.percent.increase.decrease",
+      "en": "A price rises by 20% and then falls by 20%. What is the net change?",
+      "mr": "किंमत २०% वाढली व नंतर २०% कमी झाली. निव्वळ बदल किती?",
+      "options": [
+        "4% decrease",
+        "No change",
+        "4% increase",
+        "2% decrease"
+      ],
+      "optionsMr": [
+        "४% घट",
+        "बदल नाही",
+        "४% वाढ",
+        "२% घट"
+      ],
+      "answer": 0,
+      "explanationEn": "100 becomes 120 and then 96, a net decrease of 4%.",
+      "explanationMr": "१०० चे १२० होतात व नंतर ९६; म्हणजे निव्वळ ४% घट."
+    },
+    {
+      "id": 182,
+      "paperNo": 2,
+      "questionNo": 82,
+      "sourceQuestionId": 182,
+      "subject": "Mathematics",
+      "topic": "Weighted average",
+      "difficulty": "medium",
+      "conceptKey": "maths.weighted.average.class",
+      "en": "Twenty students average 60 marks and thirty average 70. What is the combined average?",
+      "mr": "२० विद्यार्थ्यांची सरासरी ६० व ३० विद्यार्थ्यांची सरासरी ७० आहे. एकत्रित सरासरी किती?",
+      "options": [
+        "66",
+        "65",
+        "64",
+        "68"
+      ],
+      "optionsMr": [
+        "६६",
+        "६५",
+        "६४",
+        "६८"
+      ],
+      "answer": 0,
+      "explanationEn": "Total marks are 20×60+30×70=3300; divide by 50 to get 66.",
+      "explanationMr": "एकूण गुण २०×६०+३०×७०=३३००; ५० ने भागल्यास ६६."
+    },
+    {
+      "id": 183,
+      "paperNo": 2,
+      "questionNo": 83,
+      "sourceQuestionId": 183,
+      "subject": "Mathematics",
+      "topic": "Simple interest",
+      "difficulty": "medium",
+      "conceptKey": "maths.simple.interest.7500",
+      "en": "At 8% simple interest per year, what interest accrues on ₹7,500 in 2 years?",
+      "mr": "वार्षिक ८% साध्या व्याजाने ₹७,५०० वर २ वर्षांत किती व्याज मिळेल?",
+      "options": [
+        "₹1,200",
+        "₹1,000",
+        "₹1,500",
+        "₹900"
+      ],
+      "optionsMr": [
+        "₹१,२००",
+        "₹१,०००",
+        "₹१,५००",
+        "₹९००"
+      ],
+      "answer": 0,
+      "explanationEn": "SI=7500×8×2/100=₹1,200.",
+      "explanationMr": "साधे व्याज=७५००×८×२/१००=₹१,२००."
+    },
+    {
+      "id": 184,
+      "paperNo": 2,
+      "questionNo": 84,
+      "sourceQuestionId": 184,
+      "subject": "Mathematics",
+      "topic": "Compound interest",
+      "difficulty": "medium",
+      "conceptKey": "maths.compound.interest.annual.2yr",
+      "en": "Find compound interest on ₹5,000 at 10% annually for 2 years.",
+      "mr": "₹५,००० वर वार्षिक १०% दराने २ वर्षांचे चक्रवाढ व्याज किती?",
+      "options": [
+        "₹1,050",
+        "₹1,000",
+        "₹1,100",
+        "₹950"
+      ],
+      "optionsMr": [
+        "₹१,०५०",
+        "₹१,०००",
+        "₹१,१००",
+        "₹९५०"
+      ],
+      "answer": 0,
+      "explanationEn": "Amount=5000×1.1²=6050; interest=₹1,050.",
+      "explanationMr": "रास=५०००×१.१²=६०५०; व्याज=₹१,०५०."
+    },
+    {
+      "id": 185,
+      "paperNo": 2,
+      "questionNo": 85,
+      "sourceQuestionId": 185,
+      "subject": "Mathematics",
+      "topic": "Mixtures",
+      "difficulty": "medium",
+      "conceptKey": "maths.mixture.milk.water.addition",
+      "en": "A 40 L mixture has milk and water in ratio 3:1. How much water must be added to make it 3:2?",
+      "mr": "४० लिटर मिश्रणात दूध-पाणी प्रमाण ३:१ आहे. ते ३:२ करण्यासाठी किती पाणी घालावे?",
+      "options": [
+        "10 L",
+        "5 L",
+        "8 L",
+        "12 L"
+      ],
+      "optionsMr": [
+        "१० लिटर",
+        "५ लिटर",
+        "८ लिटर",
+        "१२ लिटर"
+      ],
+      "answer": 0,
+      "explanationEn": "Milk=30 L and water=10 L; water must become 20 L, so add 10 L.",
+      "explanationMr": "दूध ३० लिटर व पाणी १० लिटर; पाणी २० लिटर करण्यासाठी १० लिटर घालावे."
+    },
+    {
+      "id": 186,
+      "paperNo": 2,
+      "questionNo": 86,
+      "sourceQuestionId": 186,
+      "subject": "Mathematics",
+      "topic": "Mensuration: cylinder",
+      "difficulty": "medium",
+      "conceptKey": "maths.cylinder.volume.radius.height",
+      "en": "Find the volume of a cylinder of radius 3 cm and height 10 cm.",
+      "mr": "त्रिज्या ३ सेमी व उंची १० सेमी असलेल्या दंडगोलाचे घनफळ किती?",
+      "options": [
+        "90π cm³",
+        "30π cm³",
+        "60π cm³",
+        "100π cm³"
+      ],
+      "optionsMr": [
+        "९०π घन सेमी",
+        "३०π घन सेमी",
+        "६०π घन सेमी",
+        "१००π घन सेमी"
+      ],
+      "answer": 0,
+      "explanationEn": "Volume=πr²h=π×9×10=90π cm³.",
+      "explanationMr": "घनफळ=πr²h=π×९×१०=९०π घन सेमी."
+    },
+    {
+      "id": 187,
+      "paperNo": 2,
+      "questionNo": 87,
+      "sourceQuestionId": 187,
+      "subject": "Mathematics",
+      "topic": "Mensuration: rectangle",
+      "difficulty": "medium",
+      "conceptKey": "maths.rectangle.perimeter.area",
+      "en": "A rectangle has perimeter 54 m and length 16 m. Find its area.",
+      "mr": "आयताचा परिमिती ५४ मीटर व लांबी १६ मीटर आहे. क्षेत्रफळ किती?",
+      "options": [
+        "176 m²",
+        "160 m²",
+        "184 m²",
+        "192 m²"
+      ],
+      "optionsMr": [
+        "१७६ चौ.मी.",
+        "१६० चौ.मी.",
+        "१८४ चौ.मी.",
+        "१९२ चौ.मी."
+      ],
+      "answer": 0,
+      "explanationEn": "2(L+B)=54 gives B=11; area=16×11=176 m².",
+      "explanationMr": "२(लांबी+रुंदी)=५४ म्हणून रुंदी ११; क्षेत्रफळ=१६×११=१७६ चौ.मी."
+    },
+    {
+      "id": 188,
+      "paperNo": 2,
+      "questionNo": 88,
+      "sourceQuestionId": 188,
+      "subject": "Mathematics",
+      "topic": "Remainders",
+      "difficulty": "medium",
+      "conceptKey": "maths.division.remainder.7438.11",
+      "en": "What is the remainder when 7,438 is divided by 11?",
+      "mr": "७,४३८ ला ११ ने भागल्यास बाकी किती?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "optionsMr": [
+        "२",
+        "१",
+        "३",
+        "४"
+      ],
+      "answer": 0,
+      "explanationEn": "11×676=7436, leaving remainder 2.",
+      "explanationMr": "११×६७६=७४३६; बाकी २."
+    },
+    {
+      "id": 189,
+      "paperNo": 2,
+      "questionNo": 89,
+      "sourceQuestionId": 189,
+      "subject": "Mathematics",
+      "topic": "Quadratic equations",
+      "difficulty": "medium",
+      "conceptKey": "maths.quadratic.larger.root",
+      "en": "What is the larger root of x²−7x+12=0?",
+      "mr": "x²−७x+१२=० या समीकरणाचे मोठे मूळ कोणते?",
+      "options": [
+        "4",
+        "3",
+        "5",
+        "6"
+      ],
+      "optionsMr": [
+        "४",
+        "३",
+        "५",
+        "६"
+      ],
+      "answer": 0,
+      "explanationEn": "(x−3)(x−4)=0, so the larger root is 4.",
+      "explanationMr": "(x−३)(x−४)=०; त्यामुळे मोठे मूळ ४."
+    },
+    {
+      "id": 190,
+      "paperNo": 2,
+      "questionNo": 90,
+      "sourceQuestionId": 190,
+      "subject": "Mathematics",
+      "topic": "Time and work",
+      "difficulty": "medium",
+      "conceptKey": "maths.work.combined.daily.rate",
+      "en": "A completes a job in 12 days and B in 18 days. What fraction do they complete together per day?",
+      "mr": "A काम १२ दिवसांत व B १८ दिवसांत पूर्ण करतो. दोघे मिळून दररोज किती काम करतात?",
+      "options": [
+        "5/36",
+        "1/15",
+        "1/6",
+        "2/9"
+      ],
+      "optionsMr": [
+        "५/३६",
+        "१/१५",
+        "१/६",
+        "२/९"
+      ],
+      "answer": 0,
+      "explanationEn": "1/12+1/18=3/36+2/36=5/36 per day.",
+      "explanationMr": "१/१२+१/१८=३/३६+२/३६=दररोज ५/३६ काम."
+    },
+    {
+      "id": 191,
+      "paperNo": 2,
+      "questionNo": 91,
+      "sourceQuestionId": 191,
+      "subject": "Mathematics",
+      "topic": "Probability",
+      "difficulty": "medium",
+      "conceptKey": "maths.cards.heart.probability",
+      "en": "A card is drawn from a standard 52-card deck. What is the probability of a heart?",
+      "mr": "५२ पत्त्यांच्या संचातून एक पत्ता काढल्यास बदाम येण्याची संभाव्यता किती?",
+      "options": [
+        "1/4",
+        "1/13",
+        "1/2",
+        "1/3"
+      ],
+      "optionsMr": [
+        "१/४",
+        "१/१३",
+        "१/२",
+        "१/३"
+      ],
+      "answer": 0,
+      "explanationEn": "There are 13 hearts among 52 cards; 13/52=1/4.",
+      "explanationMr": "५२ पत्त्यांपैकी १३ बदाम; १३/५२=१/४."
+    },
+    {
+      "id": 192,
+      "paperNo": 2,
+      "questionNo": 92,
+      "sourceQuestionId": 192,
+      "subject": "Mathematics",
+      "topic": "Geometry",
+      "difficulty": "medium",
+      "conceptKey": "maths.triangle.exterior.angle.sum",
+      "en": "Two opposite interior angles of a triangle are 48° and 67°. Find the exterior angle at the third vertex.",
+      "mr": "त्रिकोणाचे दोन विरुद्ध अंतर्गत कोन ४८° व ६७° आहेत. तिसऱ्या शिरोबिंदूवरील बाह्य कोन किती?",
+      "options": [
+        "115°",
+        "105°",
+        "125°",
+        "95°"
+      ],
+      "optionsMr": [
+        "११५°",
+        "१०५°",
+        "१२५°",
+        "९५°"
+      ],
+      "answer": 0,
+      "explanationEn": "An exterior angle equals the sum of the two opposite interior angles: 48°+67°=115°.",
+      "explanationMr": "बाह्य कोन दोन विरुद्ध अंतर्गत कोनांच्या बेरजेइतका: ४८°+६७°=११५°."
+    },
+    {
+      "id": 193,
+      "paperNo": 2,
+      "questionNo": 93,
+      "sourceQuestionId": 193,
+      "subject": "Reasoning",
+      "topic": "Letter pattern",
+      "difficulty": "medium",
+      "conceptKey": "reasoning.az.by.cx.sequence",
+      "en": "Find the next term: AZ, BY, CX, DW, __.",
+      "mr": "पुढील पद शोधा: AZ, BY, CX, DW, __.",
+      "options": [
+        "EV",
+        "EU",
+        "FV",
+        "EX"
+      ],
+      "optionsMr": [
+        "EV",
+        "EU",
+        "FV",
+        "EX"
+      ],
+      "answer": 0,
+      "explanationEn": "The first letters advance and the second letters move backward: E and V.",
+      "explanationMr": "पहिली अक्षरे पुढे आणि दुसरी अक्षरे मागे जातात; पुढील जोडी E व V."
+    },
+    {
+      "id": 194,
+      "paperNo": 2,
+      "questionNo": 94,
+      "sourceQuestionId": 194,
+      "subject": "Reasoning",
+      "topic": "Syllogism",
+      "difficulty": "medium",
+      "conceptKey": "reasoning.syllogism.roses.flowers",
+      "en": "Statements: All roses are flowers. Some flowers fade quickly. Which conclusion definitely follows?",
+      "mr": "विधाने: सर्व गुलाब फुले आहेत. काही फुले लवकर कोमेजतात. निश्चित निष्कर्ष कोणता?",
+      "options": [
+        "All roses are flowers",
+        "All flowers are roses",
+        "Some roses fade quickly",
+        "No rose is a flower"
+      ],
+      "optionsMr": [
+        "सर्व गुलाब फुले आहेत",
+        "सर्व फुले गुलाब आहेत",
+        "काही गुलाब लवकर कोमेजतात",
+        "एकही गुलाब फूल नाही"
+      ],
+      "answer": 0,
+      "explanationEn": "The first statement directly establishes that all roses are flowers; the other claims are not guaranteed.",
+      "explanationMr": "पहिल्या विधानातून सर्व गुलाब फुले आहेत हे थेट सिद्ध होते; इतर दावे निश्चित नाहीत."
+    },
+    {
+      "id": 195,
+      "paperNo": 2,
+      "questionNo": 95,
+      "sourceQuestionId": 195,
+      "subject": "Reasoning",
+      "topic": "Direction sense",
+      "difficulty": "medium",
+      "conceptKey": "reasoning.direction.north.east.south",
+      "en": "A person walks 6 km north, 8 km east and 6 km south. Where are they relative to the start?",
+      "mr": "व्यक्ती ६ किमी उत्तर, ८ किमी पूर्व व ६ किमी दक्षिण चालते. सुरुवातीच्या ठिकाणाच्या तुलनेत ती कुठे आहे?",
+      "options": [
+        "8 km east",
+        "6 km east",
+        "8 km west",
+        "20 km east"
+      ],
+      "optionsMr": [
+        "८ किमी पूर्व",
+        "६ किमी पूर्व",
+        "८ किमी पश्चिम",
+        "२० किमी पूर्व"
+      ],
+      "answer": 0,
+      "explanationEn": "The north and south movements cancel; 8 km east remains.",
+      "explanationMr": "उत्तर व दक्षिण हालचाली रद्द होतात; ८ किमी पूर्वेकडे अंतर उरते."
+    },
+    {
+      "id": 196,
+      "paperNo": 2,
+      "questionNo": 96,
+      "sourceQuestionId": 196,
+      "subject": "Reasoning",
+      "topic": "Coding-decoding",
+      "difficulty": "medium",
+      "conceptKey": "reasoning.coding.alphabet.sum.dog",
+      "en": "If a word's code is the sum of its letter positions, CAT=24. What is DOG?",
+      "mr": "शब्दाचे कूट म्हणजे अक्षरांच्या स्थानमूल्यांची बेरीज असल्यास CAT=२४. DOG चे कूट किती?",
+      "options": [
+        "26",
+        "24",
+        "25",
+        "27"
+      ],
+      "optionsMr": [
+        "२६",
+        "२४",
+        "२५",
+        "२७"
+      ],
+      "answer": 0,
+      "explanationEn": "D=4, O=15 and G=7; total=26.",
+      "explanationMr": "D=४, O=१५ व G=७; बेरीज २६."
+    },
+    {
+      "id": 197,
+      "paperNo": 2,
+      "questionNo": 97,
+      "sourceQuestionId": 197,
+      "subject": "Reasoning",
+      "topic": "Seating arrangement",
+      "difficulty": "medium",
+      "conceptKey": "reasoning.seating.middle.neighbour.underdetermined",
+      "en": "Five people P, Q, R, S and T sit in a row. R is in the middle, P immediately left of R, and T at the far right. Who is immediately right of R?",
+      "mr": "P, Q, R, S, T एका रांगेत आहेत. R मध्यभागी, P लगेच डावीकडे आणि T अगदी उजवीकडे आहे. R च्या लगेच उजवीकडे कोण?",
+      "options": [
+        "Cannot be uniquely determined",
+        "P",
+        "T",
+        "R"
+      ],
+      "optionsMr": [
+        "निश्चित सांगता येत नाही",
+        "P",
+        "T",
+        "R"
+      ],
+      "answer": 0,
+      "explanationEn": "Q and S can occupy the remaining seats in either order, so R's right neighbour is not fixed.",
+      "explanationMr": "उरलेल्या जागांवर Q व S कोणत्याही क्रमाने बसू शकतात; त्यामुळे R च्या उजवीकडील व्यक्ती निश्चित होत नाही."
+    },
+    {
+      "id": 198,
+      "paperNo": 2,
+      "questionNo": 98,
+      "sourceQuestionId": 198,
+      "subject": "Reasoning",
+      "topic": "Analogy",
+      "difficulty": "medium",
+      "conceptKey": "reasoning.analogy.instrument.measurement",
+      "en": "Choose the pair with the same relation as Thermometer : Temperature.",
+      "mr": "थर्मामीटर : तापमान या संबंधासारखी जोडी निवडा.",
+      "options": [
+        "Barometer : Pressure",
+        "Compass : Distance",
+        "Clock : Weight",
+        "Scale : Speed"
+      ],
+      "optionsMr": [
+        "वायुभारमापक : दाब",
+        "होकायंत्र : अंतर",
+        "घड्याळ : वजन",
+        "तराजू : वेग"
+      ],
+      "answer": 0,
+      "explanationEn": "A thermometer measures temperature; a barometer measures pressure.",
+      "explanationMr": "थर्मामीटर तापमान मोजतो; वायुभारमापक दाब मोजतो."
+    },
+    {
+      "id": 199,
+      "paperNo": 2,
+      "questionNo": 99,
+      "sourceQuestionId": 199,
+      "subject": "Reasoning",
+      "topic": "Operator substitution",
+      "difficulty": "medium",
+      "conceptKey": "reasoning.operator.substitution.maths",
+      "en": "If + means ×, × means −, and − means +, evaluate 8 + 3 × 5 − 2 using normal precedence.",
+      "mr": "+ म्हणजे ×, × म्हणजे − व − म्हणजे + असल्यास सामान्य प्राधान्यक्रमाने ८ + ३ × ५ − २ सोडवा.",
+      "options": [
+        "21",
+        "19",
+        "25",
+        "27"
+      ],
+      "optionsMr": [
+        "२१",
+        "१९",
+        "२५",
+        "२७"
+      ],
+      "answer": 0,
+      "explanationEn": "Substitute to get 8×3−5+2=21.",
+      "explanationMr": "चिन्हे बदलल्यावर ८×३−५+२=२१."
+    },
+    {
+      "id": 200,
+      "paperNo": 2,
+      "questionNo": 100,
+      "sourceQuestionId": 200,
+      "subject": "Reasoning",
+      "topic": "Calendar",
+      "difficulty": "medium",
+      "conceptKey": "reasoning.odd.days.100.common.years",
+      "en": "How many odd days are there in 100 ordinary years, excluding leap years?",
+      "mr": "अधिवर्षे वगळून १०० सामान्य वर्षांत किती विषम दिवस असतात?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "5"
+      ],
+      "optionsMr": [
+        "२",
+        "१",
+        "३",
+        "५"
+      ],
+      "answer": 0,
+      "explanationEn": "100×365=36,500; dividing by 7 leaves remainder 2.",
+      "explanationMr": "१००×३६५=३६,५००; ७ ने भागल्यावर बाकी २ राहते."
+    }
+  ]
+}
