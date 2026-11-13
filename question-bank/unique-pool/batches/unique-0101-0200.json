@@ -1,0 +1,2634 @@
+[
+  {
+    "id": 101,
+    "paperNo": 2,
+    "questionNo": 1,
+    "sourceQuestionId": 101,
+    "subject": "History",
+    "topic": "Ancient India",
+    "conceptKey": "history.ashoka.kalinga.war",
+    "en": "Which edict records Ashoka's remorse after the Kalinga War?",
+    "mr": "कलिंग युद्धानंतर अशोकाचा पश्चात्ताप कोणत्या शिलालेखात नोंदवला आहे?",
+    "options": [
+      "Major Rock Edict XIII",
+      "Major Rock Edict II",
+      "Pillar Edict VII",
+      "Bhabru Edict"
+    ],
+    "optionsMr": [
+      "प्रमुख शिलालेख तेरावा",
+      "प्रमुख शिलालेख दुसरा",
+      "स्तंभलेख सातवा",
+      "भाब्रू शिलालेख"
+    ],
+    "answer": 0,
+    "explanationEn": "Major Rock Edict XIII describes Ashoka's remorse and the human cost of the Kalinga War.",
+    "explanationMr": "प्रमुख शिलालेख तेराव्यात अशोकाचा पश्चात्ताप आणि कलिंग युद्धातील मानवी हानी वर्णिली आहे."
+  },
+  {
+    "id": 102,
+    "paperNo": 2,
+    "questionNo": 2,
+    "sourceQuestionId": 102,
+    "subject": "History",
+    "topic": "Ancient India",
+    "conceptKey": "history.harappan.dholavira.water",
+    "en": "Dholavira is especially noted for which Harappan feature?",
+    "mr": "धोलावीरा हडप्पा संस्कृतीतील कोणत्या वैशिष्ट्यासाठी विशेष प्रसिद्ध आहे?",
+    "options": [
+      "Water conservation system",
+      "Iron pillar",
+      "Rock-cut caves",
+      "Ashokan stupas"
+    ],
+    "optionsMr": [
+      "जलसंधारण व्यवस्था",
+      "लोखंडी स्तंभ",
+      "कातळात कोरलेल्या लेण्या",
+      "अशोककालीन स्तूप"
+    ],
+    "answer": 0,
+    "explanationEn": "Dholavira had an elaborate system of reservoirs and channels for water management.",
+    "explanationMr": "धोलावीरा येथे पाणी साठवण्यासाठी जलाशय व वाहिन्यांची विकसित व्यवस्था होती."
+  },
+  {
+    "id": 103,
+    "paperNo": 2,
+    "questionNo": 3,
+    "sourceQuestionId": 103,
+    "subject": "History",
+    "topic": "Medieval India",
+    "conceptKey": "history.bhakti.namdev",
+    "en": "Sant Namdev is associated primarily with which devotional tradition?",
+    "mr": "संत नामदेव मुख्यतः कोणत्या भक्ती परंपरेशी संबंधित आहेत?",
+    "options": [
+      "Varkari tradition",
+      "Lingayat tradition",
+      "Sufi Chishti order",
+      "Nathpanth only"
+    ],
+    "optionsMr": [
+      "वारकरी परंपरा",
+      "लिंगायत परंपरा",
+      "चिश्ती सूफी संप्रदाय",
+      "केवळ नाथपंथ"
+    ],
+    "answer": 0,
+    "explanationEn": "Sant Namdev is an important saint-poet of the Varkari bhakti tradition.",
+    "explanationMr": "संत नामदेव हे वारकरी भक्ती परंपरेतील महत्त्वाचे संतकवी आहेत."
+  },
+  {
+    "id": 104,
+    "paperNo": 2,
+    "questionNo": 4,
+    "sourceQuestionId": 104,
+    "subject": "History",
+    "topic": "Medieval India",
+    "conceptKey": "history.shivaji.ashtapradhan",
+    "en": "Which office in Shivaji's Ashtapradhan handled foreign affairs?",
+    "mr": "शिवाजी महाराजांच्या अष्टप्रधान मंडळात परराष्ट्र व्यवहार कोणत्या पदाकडे होते?",
+    "options": [
+      "Sumant or Dabir",
+      "Amatya",
+      "Sachiv",
+      "Nyayadhish"
+    ],
+    "optionsMr": [
+      "सुमंत किंवा डबीर",
+      "अमात्य",
+      "सचिव",
+      "न्यायाधीश"
+    ],
+    "answer": 0,
+    "explanationEn": "The Sumant, also called Dabir, dealt with external relations and diplomacy.",
+    "explanationMr": "सुमंत किंवा डबीर हे परराष्ट्र संबंध व मुत्सद्देगिरीची कामे पाहत."
+  },
+  {
+    "id": 105,
+    "paperNo": 2,
+    "questionNo": 5,
+    "sourceQuestionId": 105,
+    "subject": "History",
+    "topic": "Maratha history",
+    "conceptKey": "history.maratha.peshwa.bajirao",
+    "en": "Who succeeded Balaji Vishwanath as Peshwa in 1720?",
+    "mr": "१७२० मध्ये बाळाजी विश्वनाथ यांच्यानंतर पेशवेपदी कोण आले?",
+    "options": [
+      "Baji Rao I",
+      "Balaji Baji Rao",
+      "Madhavrao I",
+      "Raghunathrao"
+    ],
+    "optionsMr": [
+      "पहिले बाजीराव",
+      "बाळाजी बाजीराव",
+      "पहिले माधवराव",
+      "रघुनाथराव"
+    ],
+    "answer": 0,
+    "explanationEn": "Baji Rao I became Peshwa in 1720 and expanded Maratha influence.",
+    "explanationMr": "पहिले बाजीराव १७२० मध्ये पेशवे झाले आणि त्यांनी मराठा सत्तेचा विस्तार केला."
+  },
+  {
+    "id": 106,
+    "paperNo": 2,
+    "questionNo": 6,
+    "sourceQuestionId": 106,
+    "subject": "History",
+    "topic": "Modern India",
+    "conceptKey": "history.revolt.1857.barrackpore",
+    "en": "Which sepoy's action at Barrackpore preceded the 1857 uprising?",
+    "mr": "बॅरकपूर येथे कोणत्या शिपायाच्या कृतीनंतर १८५७ च्या उठावाची पार्श्वभूमी तयार झाली?",
+    "options": [
+      "Mangal Pandey",
+      "Bakht Khan",
+      "Kunwar Singh",
+      "Tatya Tope"
+    ],
+    "optionsMr": [
+      "मंगल पांडे",
+      "बख्त खान",
+      "कुंवरसिंग",
+      "तात्या टोपे"
+    ],
+    "answer": 0,
+    "explanationEn": "Mangal Pandey's action at Barrackpore in March 1857 preceded the wider uprising.",
+    "explanationMr": "मार्च १८५७ मध्ये बॅरकपूर येथे मंगल पांडे यांच्या कृतीनंतर व्यापक उठावाची पार्श्वभूमी तयार झाली."
+  },
+  {
+    "id": 107,
+    "paperNo": 2,
+    "questionNo": 7,
+    "sourceQuestionId": 107,
+    "subject": "History",
+    "topic": "Modern India",
+    "conceptKey": "history.swadeshi.partition.bengal",
+    "en": "The Swadeshi Movement was launched in response to which event?",
+    "mr": "स्वदेशी चळवळ कोणत्या घटनेच्या निषेधार्थ सुरू झाली?",
+    "options": [
+      "Partition of Bengal in 1905",
+      "Jallianwala Bagh massacre",
+      "Simon Commission",
+      "Rowlatt Act"
+    ],
+    "optionsMr": [
+      "१९०५ मधील बंगालची फाळणी",
+      "जालियनवाला बाग हत्याकांड",
+      "सायमन कमिशन",
+      "रॉलेट कायदा"
+    ],
+    "answer": 0,
+    "explanationEn": "The 1905 partition of Bengal triggered the Swadeshi and boycott movements.",
+    "explanationMr": "१९०५ च्या बंगाल फाळणीमुळे स्वदेशी व बहिष्कार चळवळी सुरू झाल्या."
+  },
+  {
+    "id": 108,
+    "paperNo": 2,
+    "questionNo": 8,
+    "sourceQuestionId": 108,
+    "subject": "History",
+    "topic": "Modern India",
+    "conceptKey": "history.gandhi.champaran",
+    "en": "In which year did Gandhi lead the Champaran Satyagraha?",
+    "mr": "गांधीजींनी चंपारण सत्याग्रह कोणत्या वर्षी केला?",
+    "options": [
+      "1917",
+      "1915",
+      "1919",
+      "1922"
+    ],
+    "optionsMr": [
+      "१९१७",
+      "१९१५",
+      "१९१९",
+      "१९२२"
+    ],
+    "answer": 0,
+    "explanationEn": "The Champaran Satyagraha of 1917 addressed indigo cultivators' grievances.",
+    "explanationMr": "१९१७ च्या चंपारण सत्याग्रहातून नील उत्पादक शेतकऱ्यांच्या तक्रारी मांडण्यात आल्या."
+  },
+  {
+    "id": 109,
+    "paperNo": 2,
+    "questionNo": 9,
+    "sourceQuestionId": 109,
+    "subject": "History",
+    "topic": "Modern India",
+    "conceptKey": "history.cripps.mission.year",
+    "en": "In which year did the Cripps Mission visit India?",
+    "mr": "क्रिप्स मिशन भारतात कोणत्या वर्षी आले?",
+    "options": [
+      "1942",
+      "1935",
+      "1940",
+      "1946"
+    ],
+    "optionsMr": [
+      "१९४२",
+      "१९३५",
+      "१९४०",
+      "१९४६"
+    ],
+    "answer": 0,
+    "explanationEn": "The British government sent the Cripps Mission to India in March 1942.",
+    "explanationMr": "ब्रिटिश सरकारने मार्च १९४२ मध्ये क्रिप्स मिशन भारतात पाठवले."
+  },
+  {
+    "id": 110,
+    "paperNo": 2,
+    "questionNo": 10,
+    "sourceQuestionId": 110,
+    "subject": "History",
+    "topic": "Maharashtra history",
+    "conceptKey": "history.satyashodhak.deenbandhu",
+    "en": "Which newspaper became an important voice of the Satyashodhak movement?",
+    "mr": "सत्यशोधक चळवळीचा महत्त्वाचा आवाज कोणते वृत्तपत्र बनले?",
+    "options": [
+      "Deenbandhu",
+      "Kesari",
+      "Mahratta",
+      "Sudharak"
+    ],
+    "optionsMr": [
+      "दीनबंधू",
+      "केसरी",
+      "मराठा",
+      "सुधारक"
+    ],
+    "answer": 0,
+    "explanationEn": "Deenbandhu, associated with Krishnarao Bhalekar, voiced non-Brahmin and social reform concerns.",
+    "explanationMr": "कृष्णराव भालेकरांशी संबंधित दीनबंधूने बहुजन व सामाजिक सुधारणांचे प्रश्न मांडले."
+  },
+  {
+    "id": 111,
+    "paperNo": 2,
+    "questionNo": 11,
+    "sourceQuestionId": 111,
+    "subject": "Geography",
+    "topic": "Indian physiography",
+    "conceptKey": "geography.himalaya.shivalik",
+    "en": "Which is the southernmost range of the Himalayas?",
+    "mr": "हिमालयाची सर्वांत दक्षिणेकडील पर्वतरांग कोणती?",
+    "options": [
+      "Shiwalik",
+      "Himadri",
+      "Himachal",
+      "Karakoram"
+    ],
+    "optionsMr": [
+      "शिवालिक",
+      "हिमाद्री",
+      "हिमाचल",
+      "काराकोरम"
+    ],
+    "answer": 0,
+    "explanationEn": "The Shiwalik range forms the outermost and southernmost Himalayan belt.",
+    "explanationMr": "शिवालिक पर्वतरांग हिमालयाचा बाह्य व दक्षिणेकडील भाग आहे."
+  },
+  {
+    "id": 112,
+    "paperNo": 2,
+    "questionNo": 12,
+    "sourceQuestionId": 112,
+    "subject": "Geography",
+    "topic": "Indian rivers",
+    "conceptKey": "geography.brahmaputra.tibet.tsangpo",
+    "en": "What is the name of the Brahmaputra in Tibet?",
+    "mr": "तिबेटमध्ये ब्रह्मपुत्रा नदीला कोणत्या नावाने ओळखतात?",
+    "options": [
+      "Yarlung Tsangpo",
+      "Mekong",
+      "Salween",
+      "Irrawaddy"
+    ],
+    "optionsMr": [
+      "यारलुंग त्सांगपो",
+      "मेकाँग",
+      "सालवीन",
+      "इरावती"
+    ],
+    "answer": 0,
+    "explanationEn": "The Brahmaputra is known as the Yarlung Tsangpo in Tibet.",
+    "explanationMr": "तिबेटमध्ये ब्रह्मपुत्रा नदी यारलुंग त्सांगपो या नावाने ओळखली जाते."
+  },
+  {
+    "id": 113,
+    "paperNo": 2,
+    "questionNo": 13,
+    "sourceQuestionId": 113,
+    "subject": "Geography",
+    "topic": "Indian climate",
+    "conceptKey": "geography.western.disturbances.rabi",
+    "en": "Western disturbances are most important for which season's rainfall in north-west India?",
+    "mr": "वायव्य भारतातील कोणत्या हंगामातील पावसासाठी पश्चिमी विक्षोभ महत्त्वाचे असतात?",
+    "options": [
+      "Winter",
+      "Southwest monsoon",
+      "Retreating monsoon",
+      "Pre-monsoon summer only"
+    ],
+    "optionsMr": [
+      "हिवाळा",
+      "नैऋत्य मोसमी",
+      "परतीचा मोसमी",
+      "फक्त उन्हाळ्यापूर्वीचा"
+    ],
+    "answer": 0,
+    "explanationEn": "Western disturbances bring winter precipitation, important for rabi crops in north-west India.",
+    "explanationMr": "पश्चिमी विक्षोभ हिवाळ्यात पाऊस/हिमवृष्टी आणतात; वायव्य भारतातील रब्बी पिकांसाठी ते महत्त्वाचे असतात."
+  },
+  {
+    "id": 114,
+    "paperNo": 2,
+    "questionNo": 14,
+    "sourceQuestionId": 114,
+    "subject": "Geography",
+    "topic": "Maharashtra geography",
+    "conceptKey": "geography.maharashtra.wardha.wain ganga",
+    "en": "Which two rivers join to form the Pranhita?",
+    "mr": "प्राणहिता नदी कोणत्या दोन नद्यांच्या संगमातून तयार होते?",
+    "options": [
+      "Wardha and Wainganga",
+      "Godavari and Manjira",
+      "Krishna and Koyna",
+      "Tapi and Purna"
+    ],
+    "optionsMr": [
+      "वर्धा व वैनगंगा",
+      "गोदावरी व मांजरा",
+      "कृष्णा व कोयना",
+      "तापी व पूर्णा"
+    ],
+    "answer": 0,
+    "explanationEn": "The Wardha and Wainganga meet to form the Pranhita, a tributary of the Godavari.",
+    "explanationMr": "वर्धा व वैनगंगा यांच्या संगमातून गोदावरीची उपनदी प्राणहिता तयार होते."
+  },
+  {
+    "id": 115,
+    "paperNo": 2,
+    "questionNo": 15,
+    "sourceQuestionId": 115,
+    "subject": "Geography",
+    "topic": "Soils",
+    "conceptKey": "geography.alluvial.new.khadar",
+    "en": "Which alluvial soil is renewed more frequently by floods?",
+    "mr": "पुरामुळे वारंवार नव्याने साचणारी जलोढ माती कोणती?",
+    "options": [
+      "Khadar",
+      "Bhangar",
+      "Regur",
+      "Laterite"
+    ],
+    "optionsMr": [
+      "खादर",
+      "बांगर",
+      "रेगूर",
+      "जांभी"
+    ],
+    "answer": 0,
+    "explanationEn": "Khadar is the newer alluvium deposited by rivers during floods.",
+    "explanationMr": "खादर ही नद्यांच्या पुरातून साचणारी नवीन जलोढ माती आहे."
+  },
+  {
+    "id": 116,
+    "paperNo": 2,
+    "questionNo": 16,
+    "sourceQuestionId": 116,
+    "subject": "Geography",
+    "topic": "Agriculture",
+    "conceptKey": "geography.crop.photoperiod.rice",
+    "en": "Rice is generally classified as which type of crop in India?",
+    "mr": "भारतात भात हे सर्वसाधारणपणे कोणत्या हंगामातील पीक आहे?",
+    "options": [
+      "Kharif",
+      "Rabi",
+      "Zaid",
+      "Perennial plantation"
+    ],
+    "optionsMr": [
+      "खरीप",
+      "रब्बी",
+      "उन्हाळी/जायद",
+      "बारमाही लागवड"
+    ],
+    "answer": 0,
+    "explanationEn": "Rice is mainly a kharif crop, sown with the onset of monsoon in most regions.",
+    "explanationMr": "बहुतेक भागांत मोसमी पावसाच्या सुरुवातीला पेरला जाणारा भात हा मुख्यतः खरीप पीक आहे."
+  },
+  {
+    "id": 117,
+    "paperNo": 2,
+    "questionNo": 17,
+    "sourceQuestionId": 117,
+    "subject": "Geography",
+    "topic": "World geography",
+    "conceptKey": "geography.strait.malacca",
+    "en": "The Strait of Malacca lies between the Malay Peninsula and which island?",
+    "mr": "मलाक्का सामुद्रधुनी मलय द्वीपकल्प आणि कोणत्या बेटादरम्यान आहे?",
+    "options": [
+      "Sumatra",
+      "Borneo",
+      "Java",
+      "Sri Lanka"
+    ],
+    "optionsMr": [
+      "सुमात्रा",
+      "बोर्निओ",
+      "जावा",
+      "श्रीलंका"
+    ],
+    "answer": 0,
+    "explanationEn": "The Strait of Malacca separates the Malay Peninsula from the Indonesian island of Sumatra.",
+    "explanationMr": "मलाक्का सामुद्रधुनी मलय द्वीपकल्प व इंडोनेशियाचे सुमात्रा बेट यांना वेगळे करते."
+  },
+  {
+    "id": 118,
+    "paperNo": 2,
+    "questionNo": 18,
+    "sourceQuestionId": 118,
+    "subject": "Geography",
+    "topic": "Maharashtra resources",
+    "conceptKey": "geography.maharashtra.chandrapur.coal",
+    "en": "Which Maharashtra district is a major centre of coal mining?",
+    "mr": "महाराष्ट्रातील कोणता जिल्हा कोळसा खाणींसाठी प्रमुख केंद्र आहे?",
+    "options": [
+      "Chandrapur",
+      "Ratnagiri",
+      "Sindhudurg",
+      "Nandurbar"
+    ],
+    "optionsMr": [
+      "चंद्रपूर",
+      "रत्नागिरी",
+      "सिंधुदुर्ग",
+      "नंदुरबार"
+    ],
+    "answer": 0,
+    "explanationEn": "Chandrapur district has important coalfields and thermal power infrastructure.",
+    "explanationMr": "चंद्रपूर जिल्ह्यात महत्त्वाची कोळसा क्षेत्रे व औष्णिक वीज प्रकल्प आहेत."
+  },
+  {
+    "id": 119,
+    "paperNo": 2,
+    "questionNo": 19,
+    "sourceQuestionId": 119,
+    "subject": "Economy",
+    "topic": "Public finance",
+    "conceptKey": "economy.consolidated.fund.india",
+    "en": "All revenues received by the Union government, loans raised and loan recoveries are credited to which fund?",
+    "mr": "केंद्र सरकारचे सर्व महसूल, घेतलेली कर्जे आणि कर्जवसुली कोणत्या निधीत जमा होतात?",
+    "options": [
+      "Consolidated Fund of India",
+      "Contingency Fund of India",
+      "Public Account of India",
+      "Finance Commission Fund"
+    ],
+    "optionsMr": [
+      "भारताचा संचित निधी",
+      "भारताचा आकस्मिकता निधी",
+      "भारताचे सार्वजनिक खाते",
+      "वित्त आयोग निधी"
+    ],
+    "answer": 0,
+    "explanationEn": "Article 266 provides for the Consolidated Fund of India, into which government revenues and borrowings are credited.",
+    "explanationMr": "कलम २६६ नुसार सरकारी महसूल व कर्जे भारताच्या संचित निधीत जमा होतात."
+  },
+  {
+    "id": 120,
+    "paperNo": 2,
+    "questionNo": 20,
+    "sourceQuestionId": 120,
+    "subject": "Economy",
+    "topic": "Banking",
+    "conceptKey": "economy.rbi.crr.cash.reserve",
+    "en": "Cash Reserve Ratio requires banks to keep a portion of deposits with which institution?",
+    "mr": "रोख राखीव प्रमाणानुसार बँकांनी ठेवींचा काही भाग कोणत्या संस्थेकडे ठेवावा लागतो?",
+    "options": [
+      "Reserve Bank of India",
+      "SEBI",
+      "NABARD",
+      "Ministry of Finance"
+    ],
+    "optionsMr": [
+      "भारतीय रिझर्व्ह बँक",
+      "सेबी",
+      "नाबार्ड",
+      "अर्थ मंत्रालय"
+    ],
+    "answer": 0,
+    "explanationEn": "Banks maintain CRR balances with the RBI as a monetary policy requirement.",
+    "explanationMr": "बँकांना मौद्रिक धोरणानुसार CRR ची रक्कम रिझर्व्ह बँकेकडे ठेवावी लागते."
+  },
+  {
+    "id": 121,
+    "paperNo": 2,
+    "questionNo": 21,
+    "sourceQuestionId": 121,
+    "subject": "Economy",
+    "topic": "Banking",
+    "conceptKey": "economy.slr.liquid.assets",
+    "en": "Statutory Liquidity Ratio is maintained by banks in the form of which assets?",
+    "mr": "वैधानिक तरलता प्रमाण बँका कोणत्या स्वरूपातील मालमत्तेत राखतात?",
+    "options": [
+      "Liquid assets such as cash, gold and approved securities",
+      "Only foreign currency",
+      "Only corporate shares",
+      "Only real estate"
+    ],
+    "optionsMr": [
+      "रोख, सोने व मान्यताप्राप्त रोखे यांसारख्या तरल मालमत्ता",
+      "फक्त परकीय चलन",
+      "फक्त कंपन्यांचे समभाग",
+      "फक्त स्थावर मालमत्ता"
+    ],
+    "answer": 0,
+    "explanationEn": "SLR is maintained in specified liquid assets, including cash, gold and approved securities.",
+    "explanationMr": "SLR रोख, सोने आणि मान्यताप्राप्त रोखे अशा निर्दिष्ट तरल मालमत्तेत राखला जातो."
+  },
+  {
+    "id": 122,
+    "paperNo": 2,
+    "questionNo": 22,
+    "sourceQuestionId": 122,
+    "subject": "Economy",
+    "topic": "National income",
+    "conceptKey": "economy.gdp.deflator",
+    "en": "The GDP deflator measures what?",
+    "mr": "GDP डिफ्लेटर कोणते मापन करतो?",
+    "options": [
+      "Price change in all domestically produced final goods and services",
+      "Only consumer food prices",
+      "Only imported goods prices",
+      "Unemployment rate"
+    ],
+    "optionsMr": [
+      "देशांतर्गत उत्पादित अंतिम वस्तू व सेवांमधील किंमतबदल",
+      "फक्त ग्राहक अन्नकिंमती",
+      "फक्त आयात वस्तूंच्या किंमती",
+      "बेरोजगारीचा दर"
+    ],
+    "answer": 0,
+    "explanationEn": "The GDP deflator compares nominal GDP with real GDP and reflects prices of domestically produced final output.",
+    "explanationMr": "GDP डिफ्लेटर नाममात्र व वास्तविक GDP ची तुलना करून देशांतर्गत अंतिम उत्पादनांच्या किंमतीतील बदल दर्शवतो."
+  },
+  {
+    "id": 123,
+    "paperNo": 2,
+    "questionNo": 23,
+    "sourceQuestionId": 123,
+    "subject": "Economy",
+    "topic": "Taxation",
+    "conceptKey": "economy.gst.destination.based",
+    "en": "GST in India is primarily described as which type of tax?",
+    "mr": "भारतातील GST चे प्रमुख स्वरूप कोणते आहे?",
+    "options": [
+      "Destination-based indirect tax",
+      "Origin-based direct tax",
+      "Wealth tax",
+      "Agricultural income tax"
+    ],
+    "optionsMr": [
+      "उपभोगाच्या ठिकाणावर आधारित अप्रत्यक्ष कर",
+      "उत्पादनाच्या ठिकाणावर आधारित प्रत्यक्ष कर",
+      "संपत्ती कर",
+      "कृषी उत्पन्न कर"
+    ],
+    "answer": 0,
+    "explanationEn": "GST is a destination-based indirect tax, accruing to the jurisdiction where consumption occurs.",
+    "explanationMr": "GST हा उपभोगाच्या ठिकाणावर आधारित अप्रत्यक्ष कर आहे."
+  },
+  {
+    "id": 124,
+    "paperNo": 2,
+    "questionNo": 24,
+    "sourceQuestionId": 124,
+    "subject": "Economy",
+    "topic": "Agriculture",
+    "conceptKey": "economy.msp.cacp.recommendation",
+    "en": "Which body recommends Minimum Support Prices to the government?",
+    "mr": "किमान आधारभूत किंमतींची शिफारस सरकारला कोणती संस्था करते?",
+    "options": [
+      "Commission for Agricultural Costs and Prices",
+      "NITI Aayog",
+      "Food Corporation of India",
+      "NABARD"
+    ],
+    "optionsMr": [
+      "कृषी खर्च व किंमत आयोग",
+      "नीती आयोग",
+      "भारतीय अन्न महामंडळ",
+      "नाबार्ड"
+    ],
+    "answer": 0,
+    "explanationEn": "The CACP recommends MSPs after considering costs and other relevant factors.",
+    "explanationMr": "खर्च व इतर घटकांचा विचार करून CACP किमान आधारभूत किंमतींची शिफारस करतो."
+  },
+  {
+    "id": 125,
+    "paperNo": 2,
+    "questionNo": 25,
+    "sourceQuestionId": 125,
+    "subject": "Economy",
+    "topic": "Rural development",
+    "conceptKey": "economy.mgnrega.legal.guarantee",
+    "en": "MGNREGA provides a legal guarantee of up to how many days of wage employment per rural household per year?",
+    "mr": "मनरेगा ग्रामीण कुटुंबाला वर्षाला जास्तीत जास्त किती दिवसांच्या मजुरीच्या रोजगाराची कायदेशीर हमी देते?",
+    "options": [
+      "100 days",
+      "75 days",
+      "150 days",
+      "200 days"
+    ],
+    "optionsMr": [
+      "१०० दिवस",
+      "७५ दिवस",
+      "१५० दिवस",
+      "२०० दिवस"
+    ],
+    "answer": 0,
+    "explanationEn": "The Act guarantees up to 100 days of unskilled manual wage employment to a rural household each financial year, subject to its provisions.",
+    "explanationMr": "कायद्यानुसार तरतुदींच्या अधीन राहून ग्रामीण कुटुंबाला प्रत्येक आर्थिक वर्षात १०० दिवसांपर्यंत अकुशल मजुरीच्या कामाची हमी आहे."
+  },
+  {
+    "id": 126,
+    "paperNo": 2,
+    "questionNo": 26,
+    "sourceQuestionId": 126,
+    "subject": "Economy",
+    "topic": "External sector",
+    "conceptKey": "economy.balance.payments.current.account",
+    "en": "Which item is recorded in the current account of the balance of payments?",
+    "mr": "देयक शिल्लकच्या चालू खात्यात कोणत्या घटकाची नोंद होते?",
+    "options": [
+      "Exports and imports of goods and services",
+      "Purchase of domestic government bonds by residents",
+      "Foreign direct investment inflow",
+      "External commercial borrowing principal only"
+    ],
+    "optionsMr": [
+      "वस्तू व सेवांची निर्यात व आयात",
+      "रहिवाशांनी देशांतर्गत सरकारी रोखे खरेदी करणे",
+      "परकीय थेट गुंतवणुकीचा ओघ",
+      "फक्त बाह्य व्यावसायिक कर्जाची मुद्दल रक्कम"
+    ],
+    "answer": 0,
+    "explanationEn": "The current account records trade in goods and services, income and current transfers.",
+    "explanationMr": "चालू खात्यात वस्तू-सेवा व्यापार, उत्पन्न आणि चालू हस्तांतरणांची नोंद होते."
+  },
+  {
+    "id": 127,
+    "paperNo": 2,
+    "questionNo": 27,
+    "sourceQuestionId": 127,
+    "subject": "Economy",
+    "topic": "Planning",
+    "conceptKey": "economy.niti.ayog.governing.council",
+    "en": "The Governing Council of NITI Aayog includes Chief Ministers of states and whom from Union Territories?",
+    "mr": "नीती आयोगाच्या प्रशासकीय परिषदेत राज्यांच्या मुख्यमंत्र्यांसह केंद्रशासित प्रदेशांतील कोणाचा समावेश असतो?",
+    "options": [
+      "Lieutenant Governors/Administrators as applicable",
+      "All district collectors",
+      "Mayors of every city",
+      "Chief Justices of High Courts"
+    ],
+    "optionsMr": [
+      "लागू असेल त्यानुसार नायब राज्यपाल/प्रशासक",
+      "सर्व जिल्हाधिकारी",
+      "प्रत्येक शहराचे महापौर",
+      "उच्च न्यायालयांचे मुख्य न्यायमूर्ती"
+    ],
+    "answer": 0,
+    "explanationEn": "The Governing Council brings together Chief Ministers and the relevant UT leadership for cooperative federalism.",
+    "explanationMr": "सहकारी संघराज्यवादासाठी प्रशासकीय परिषदेत मुख्यमंत्री आणि संबंधित केंद्रशासित प्रदेशांचे नेतृत्व सहभागी होते."
+  },
+  {
+    "id": 128,
+    "paperNo": 2,
+    "questionNo": 28,
+    "sourceQuestionId": 128,
+    "subject": "Economy",
+    "topic": "Poverty measurement",
+    "conceptKey": "economy.multidimensional.poverty.indicators",
+    "en": "India's National Multidimensional Poverty Index uses how many broad dimensions?",
+    "mr": "भारताचा राष्ट्रीय बहुआयामी दारिद्र्य निर्देशांक किती व्यापक परिमाणांवर आधारित आहे?",
+    "options": [
+      "Three",
+      "Two",
+      "Four",
+      "Five"
+    ],
+    "optionsMr": [
+      "तीन",
+      "दोन",
+      "चार",
+      "पाच"
+    ],
+    "answer": 0,
+    "explanationEn": "The index covers health, education and standard of living.",
+    "explanationMr": "या निर्देशांकात आरोग्य, शिक्षण आणि जीवनमान ही तीन परिमाणे आहेत."
+  },
+  {
+    "id": 129,
+    "paperNo": 2,
+    "questionNo": 29,
+    "sourceQuestionId": 129,
+    "subject": "Economy",
+    "topic": "Financial inclusion",
+    "conceptKey": "economy.pmjdy.basic.accounts",
+    "en": "Pradhan Mantri Jan-Dhan Yojana primarily aims to expand what?",
+    "mr": "प्रधानमंत्री जनधन योजना मुख्यतः कशाचा विस्तार करण्यासाठी आहे?",
+    "options": [
+      "Access to basic banking and financial services",
+      "Industrial exports",
+      "Urban highways",
+      "Crop insurance alone"
+    ],
+    "optionsMr": [
+      "मूलभूत बँकिंग व वित्तीय सेवांपर्यंत प्रवेश",
+      "औद्योगिक निर्यात",
+      "शहरी महामार्ग",
+      "फक्त पीक विमा"
+    ],
+    "answer": 0,
+    "explanationEn": "PMJDY is a national financial inclusion mission focused on access to basic banking services.",
+    "explanationMr": "जनधन योजना ही मूलभूत बँकिंग सेवांचा प्रवेश वाढवणारी राष्ट्रीय वित्तीय समावेशन मोहीम आहे."
+  },
+  {
+    "id": 130,
+    "paperNo": 2,
+    "questionNo": 30,
+    "sourceQuestionId": 130,
+    "subject": "Economy",
+    "topic": "Insurance",
+    "conceptKey": "economy.irda.insurance.regulator",
+    "en": "Which institution regulates the insurance sector in India?",
+    "mr": "भारतातील विमा क्षेत्राचे नियमन कोणती संस्था करते?",
+    "options": [
+      "IRDAI",
+      "RBI",
+      "SEBI",
+      "PFRDA"
+    ],
+    "optionsMr": [
+      "IRDAI",
+      "RBI",
+      "SEBI",
+      "PFRDA"
+    ],
+    "answer": 0,
+    "explanationEn": "The Insurance Regulatory and Development Authority of India regulates and develops the insurance sector.",
+    "explanationMr": "भारतीय विमा नियामक व विकास प्राधिकरण विमा क्षेत्राचे नियमन व विकास करते."
+  },
+  {
+    "id": 131,
+    "paperNo": 2,
+    "questionNo": 31,
+    "sourceQuestionId": 131,
+    "subject": "Economy",
+    "topic": "Labour economics",
+    "conceptKey": "economy.labour.force.participation",
+    "en": "Labour Force Participation Rate measures the proportion of people who are what?",
+    "mr": "कामगार सहभाग दर कोणत्या लोकांचे प्रमाण दर्शवतो?",
+    "options": [
+      "Working or seeking/available for work in the population of the specified age group",
+      "Only salaried employees",
+      "Only unemployed graduates",
+      "Only factory workers"
+    ],
+    "optionsMr": [
+      "निर्दिष्ट वयोगटातील काम करणारे किंवा काम शोधणारे/कामासाठी उपलब्ध असलेले लोक",
+      "फक्त पगारदार कर्मचारी",
+      "फक्त बेरोजगार पदवीधर",
+      "फक्त कारखाना कामगार"
+    ],
+    "answer": 0,
+    "explanationEn": "LFPR includes employed persons and those unemployed who are seeking or available for work, under the survey definition.",
+    "explanationMr": "सर्वेक्षणाच्या व्याख्येनुसार LFPR मध्ये रोजगारित तसेच काम शोधणारे किंवा कामासाठी उपलब्ध बेरोजगार व्यक्ती येतात."
+  },
+  {
+    "id": 132,
+    "paperNo": 2,
+    "questionNo": 32,
+    "sourceQuestionId": 132,
+    "subject": "Economy",
+    "topic": "Public expenditure",
+    "conceptKey": "economy.capital.expenditure.asset",
+    "en": "Government capital expenditure generally creates or acquires what?",
+    "mr": "सरकारी भांडवली खर्चातून सर्वसाधारणपणे काय निर्माण किंवा संपादित केले जाते?",
+    "options": [
+      "Assets or reduces liabilities",
+      "Only routine office consumables",
+      "Only pension payments",
+      "Only interest payments"
+    ],
+    "optionsMr": [
+      "मालमत्ता निर्माण होते किंवा दायित्वे कमी होतात",
+      "फक्त नियमित कार्यालयीन उपभोग्य वस्तू",
+      "फक्त निवृत्तीवेतन देयके",
+      "फक्त व्याज देयके"
+    ],
+    "answer": 0,
+    "explanationEn": "Capital expenditure creates assets or reduces liabilities, unlike routine revenue expenditure.",
+    "explanationMr": "भांडवली खर्चामुळे मालमत्ता निर्माण होते किंवा दायित्वे कमी होतात; तो नियमित महसुली खर्चापेक्षा वेगळा असतो."
+  },
+  {
+    "id": 133,
+    "paperNo": 2,
+    "questionNo": 33,
+    "sourceQuestionId": 133,
+    "subject": "Economy",
+    "topic": "International trade",
+    "conceptKey": "economy.wto.mfn.principle",
+    "en": "The WTO most-favoured-nation principle generally requires a member to do what?",
+    "mr": "WTO मधील सर्वाधिक पसंतीच्या राष्ट्राच्या तत्त्वानुसार सदस्याने सर्वसाधारणपणे काय करणे अपेक्षित आहे?",
+    "options": [
+      "Extend a trade advantage to all WTO members, subject to permitted exceptions",
+      "Give each country a different tariff secretly",
+      "Ban all imports",
+      "Fix exchange rates"
+    ],
+    "optionsMr": [
+      "परवानगी असलेल्या अपवादांच्या अधीन राहून व्यापारातील लाभ सर्व WTO सदस्यांना देणे",
+      "प्रत्येक देशासाठी गुप्तपणे वेगळे शुल्क ठेवणे",
+      "सर्व आयातींवर बंदी घालणे",
+      "विनिमय दर निश्चित करणे"
+    ],
+    "answer": 0,
+    "explanationEn": "MFN treatment promotes non-discrimination among trading partners, subject to recognised exceptions.",
+    "explanationMr": "MFN तत्त्व मान्य अपवादांच्या अधीन राहून व्यापार भागीदारांमध्ये भेदभाव न करण्यास प्रोत्साहन देते."
+  },
+  {
+    "id": 134,
+    "paperNo": 2,
+    "questionNo": 34,
+    "sourceQuestionId": 134,
+    "subject": "Economy",
+    "topic": "Monetary policy",
+    "conceptKey": "economy.repo.rate.policy.signal",
+    "en": "A reduction in the repo rate, other things equal, tends to make bank borrowing from RBI what?",
+    "mr": "इतर घटक स्थिर असताना रेपो दर कमी केल्यास RBI कडून बँकांचे कर्ज घेणे कसे होते?",
+    "options": [
+      "Cheaper",
+      "Costlier",
+      "Legally prohibited",
+      "Unrelated to interest cost"
+    ],
+    "optionsMr": [
+      "स्वस्त",
+      "महाग",
+      "कायद्याने प्रतिबंधित",
+      "व्याजखर्चाशी असंबंधित"
+    ],
+    "answer": 0,
+    "explanationEn": "A lower repo rate reduces the policy borrowing cost for banks and may transmit to market lending rates.",
+    "explanationMr": "रेपो दर कमी झाल्यास बँकांसाठी धोरणात्मक कर्जखर्च कमी होतो आणि त्याचा परिणाम कर्जदरांवर होऊ शकतो."
+  },
+  {
+    "id": 135,
+    "paperNo": 2,
+    "questionNo": 35,
+    "sourceQuestionId": 135,
+    "subject": "Current Affairs",
+    "topic": "Social security policy",
+    "conceptKey": "ca.nsap.pmsahayata.restructuring.2026",
+    "en": "According to the PIB note of 6 November 2026, what new name was announced for the restructured National Social Assistance Programme?",
+    "mr": "६ नोव्हेंबर २०२६ च्या PIB माहितीनुसार पुनर्रचित राष्ट्रीय सामाजिक सहाय्य कार्यक्रमाला कोणते नवे नाव जाहीर करण्यात आले?",
+    "options": [
+      "Pradhan Mantri Samajik Sahayata Yojana",
+      "Pradhan Mantri Jan Dhan Yojana",
+      "Atal Pension Yojana",
+      "PM-KISAN"
+    ],
+    "optionsMr": [
+      "प्रधानमंत्री सामाजिक सहाय्य योजना",
+      "प्रधानमंत्री जनधन योजना",
+      "अटल पेन्शन योजना",
+      "पीएम-किसान"
+    ],
+    "answer": 0,
+    "explanationEn": "The PIB note dated 6 November 2026 says NSAP was renamed Pradhan Mantri Samajik Sahayata Yojana.",
+    "explanationMr": "६ नोव्हेंबर २०२६ च्या PIB माहितीनुसार NSAP चे नाव प्रधानमंत्री सामाजिक सहाय्य योजना असे करण्यात आले.",
+    "source": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/nov/doc_10400_20261106_19520601.pdf",
+    "asOfDate": "2026-11-06"
+  },
+  {
+    "id": 136,
+    "paperNo": 2,
+    "questionNo": 36,
+    "sourceQuestionId": 136,
+    "subject": "Current Affairs",
+    "topic": "Social security policy",
+    "conceptKey": "ca.nsap.pmsahayata.outlay.2026",
+    "en": "What outlay was stated for Pradhan Mantri Samajik Sahayata Yojana for 2026–27 to 2030–31?",
+    "mr": "प्रधानमंत्री सामाजिक सहाय्य योजनेसाठी २०२६–२७ ते २०३०–३१ या कालावधीसाठी किती खर्चाची तरतूद नमूद केली आहे?",
+    "options": [
+      "₹53,428 crore",
+      "₹25,000 crore",
+      "₹75,000 crore",
+      "₹1 lakh crore"
+    ],
+    "optionsMr": [
+      "₹५३,४२८ कोटी",
+      "₹२५,००० कोटी",
+      "₹७५,००० कोटी",
+      "₹१ लाख कोटी"
+    ],
+    "answer": 0,
+    "explanationEn": "The PIB document states a total outlay of ₹53,428 crore for the five-year period.",
+    "explanationMr": "PIB दस्तऐवजात पाच वर्षांसाठी ₹५३,४२८ कोटींची एकूण तरतूद नमूद आहे.",
+    "source": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/nov/doc_10400_20261106_19520601.pdf",
+    "asOfDate": "2026-11-06"
+  },
+  {
+    "id": 137,
+    "paperNo": 2,
+    "questionNo": 37,
+    "sourceQuestionId": 137,
+    "subject": "Current Affairs",
+    "topic": "Social security policy",
+    "conceptKey": "ca.nsap.pension.central.assistance.2026",
+    "en": "What monthly central assistance amount was stated for eligible beneficiaries aged 80 years and above under the 2026 NSAP restructuring note?",
+    "mr": "२०२६ च्या NSAP पुनर्रचना माहितीनुसार ८० वर्षे व त्यावरील पात्र लाभार्थ्यांसाठी केंद्राची मासिक मदत किती नमूद केली आहे?",
+    "options": [
+      "₹625",
+      "₹375",
+      "₹500",
+      "₹1,000"
+    ],
+    "optionsMr": [
+      "₹६२५",
+      "₹३७५",
+      "₹५००",
+      "₹१,०००"
+    ],
+    "answer": 0,
+    "explanationEn": "The PIB note states ₹625 per month for beneficiaries aged 80 and above.",
+    "explanationMr": "PIB माहितीनुसार ८० वर्षे व त्यावरील लाभार्थ्यांना दरमहा ₹६२५ केंद्र सहाय्य नमूद आहे.",
+    "source": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/nov/doc_10400_20261106_19520601.pdf",
+    "asOfDate": "2026-11-06"
+  },
+  {
+    "id": 138,
+    "paperNo": 2,
+    "questionNo": 38,
+    "sourceQuestionId": 138,
+    "subject": "Current Affairs",
+    "topic": "Digital public infrastructure",
+    "conceptKey": "ca.digiyatra.international.trials.airports.2026",
+    "en": "At how many airports were international passenger trials of Digi Yatra reported in the PIB release of 1 November 2026?",
+    "mr": "१ नोव्हेंबर २०२६ च्या PIB प्रसिद्धिपत्रकानुसार डिजियात्राच्या आंतरराष्ट्रीय प्रवासी चाचण्या किती विमानतळांवर झाल्या?",
+    "options": [
+      "Seven",
+      "Three",
+      "Five",
+      "Ten"
+    ],
+    "optionsMr": [
+      "सात",
+      "तीन",
+      "पाच",
+      "दहा"
+    ],
+    "answer": 0,
+    "explanationEn": "The PIB release dated 1 November 2026 reported trials at seven airports.",
+    "explanationMr": "१ नोव्हेंबर २०२६ च्या PIB प्रसिद्धिपत्रकात सात विमानतळांवरील चाचण्यांची माहिती दिली आहे.",
+    "source": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=20",
+    "asOfDate": "2026-11-01"
+  },
+  {
+    "id": 139,
+    "paperNo": 2,
+    "questionNo": 39,
+    "sourceQuestionId": 139,
+    "subject": "Current Affairs",
+    "topic": "Semiconductor ecosystem",
+    "conceptKey": "ca.semicon2.portal.2026",
+    "en": "Which initiative's web application portal was reported as launched in the PIB release of 6 November 2026?",
+    "mr": "६ नोव्हेंबर २०२६ च्या PIB प्रसिद्धिपत्रकात कोणत्या उपक्रमाचे वेब अॅप्लिकेशन पोर्टल सुरू झाल्याचे नमूद आहे?",
+    "options": [
+      "Semicon 2.0",
+      "IndiaAI Mission",
+      "Digital India 1.0",
+      "National Quantum Mission"
+    ],
+    "optionsMr": [
+      "सेमिकॉन २.०",
+      "इंडियाएआय मिशन",
+      "डिजिटल इंडिया १.०",
+      "राष्ट्रीय क्वांटम मिशन"
+    ],
+    "answer": 0,
+    "explanationEn": "The PIB release reported the Semicon 2.0 Web Application Portal.",
+    "explanationMr": "PIB प्रसिद्धिपत्रकात सेमिकॉन २.० वेब अॅप्लिकेशन पोर्टल सुरू झाल्याचे नमूद आहे.",
+    "source": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=20",
+    "asOfDate": "2026-11-06"
+  },
+  {
+    "id": 140,
+    "paperNo": 2,
+    "questionNo": 40,
+    "sourceQuestionId": 140,
+    "subject": "Current Affairs",
+    "topic": "Identity infrastructure",
+    "conceptKey": "ca.uidai.ovse.onboarding.2026",
+    "en": "How many Online Verification Seeking Entities (OVSEs) did UIDAI report onboarding in the PIB release dated 5 November 2026?",
+    "mr": "५ नोव्हेंबर २०२६ च्या PIB प्रसिद्धिपत्रकानुसार UIDAI ने किती ऑनलाइन व्हेरिफिकेशन सीकिंग एन्टिटीज (OVSEs) जोडल्याचे सांगितले?",
+    "options": [
+      "300",
+      "100",
+      "150",
+      "500"
+    ],
+    "optionsMr": [
+      "३००",
+      "१००",
+      "१५०",
+      "५००"
+    ],
+    "answer": 0,
+    "explanationEn": "The PIB release dated 5 November 2026 reported onboarding 300 OVSEs.",
+    "explanationMr": "५ नोव्हेंबर २०२६ च्या PIB प्रसिद्धिपत्रकात ३०० OVSEs जोडल्याचे नमूद आहे.",
+    "source": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=20",
+    "asOfDate": "2026-11-05"
+  },
+  {
+    "id": 141,
+    "paperNo": 2,
+    "questionNo": 41,
+    "sourceQuestionId": 141,
+    "subject": "Current Affairs",
+    "topic": "Space policy",
+    "conceptKey": "ca.space.debris.free.vision.2030",
+    "en": "What is the target year in India's stated vision for becoming debris-free in space?",
+    "mr": "अवकाशातील अवशेषमुक्त होण्याच्या भारताच्या जाहीर दृष्टिकोनात कोणते लक्ष्य वर्ष नमूद आहे?",
+    "options": [
+      "2030",
+      "2028",
+      "2035",
+      "2040"
+    ],
+    "optionsMr": [
+      "२०३०",
+      "२०२८",
+      "२०३५",
+      "२०४०"
+    ],
+    "answer": 0,
+    "explanationEn": "The PIB communication dated 5 November 2026 referred to a debris-free space vision for 2030.",
+    "explanationMr": "५ नोव्हेंबर २०२६ च्या PIB माहितीत २०३० पर्यंत अवकाश अवशेषमुक्त करण्याचा दृष्टिकोन नमूद आहे.",
+    "source": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=1",
+    "asOfDate": "2026-11-05"
+  },
+  {
+    "id": 142,
+    "paperNo": 2,
+    "questionNo": 42,
+    "sourceQuestionId": 142,
+    "subject": "Current Affairs",
+    "topic": "Climate diplomacy",
+    "conceptKey": "ca.cop31.antalya.india.position.2026",
+    "en": "Which city was identified as the host city for COP31 in the PIB communication dated 10 November 2026?",
+    "mr": "१० नोव्हेंबर २०२६ च्या PIB माहितीनुसार COP31 साठी यजमान शहर कोणते नमूद आहे?",
+    "options": [
+      "Antalya",
+      "Baku",
+      "Belém",
+      "Dubai"
+    ],
+    "optionsMr": [
+      "अंताल्या",
+      "बाकू",
+      "बेलेम",
+      "दुबई"
+    ],
+    "answer": 0,
+    "explanationEn": "The PIB communication dated 10 November 2026 discussed India's position for COP31 in Antalya.",
+    "explanationMr": "१० नोव्हेंबर २०२६ च्या PIB माहितीत अंताल्या येथे होणाऱ्या COP31 संदर्भातील भारताची भूमिका नमूद आहे.",
+    "source": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=20",
+    "asOfDate": "2026-11-10"
+  },
+  {
+    "id": 143,
+    "paperNo": 2,
+    "questionNo": 43,
+    "sourceQuestionId": 143,
+    "subject": "Current Affairs",
+    "topic": "Agriculture events",
+    "conceptKey": "ca.international.maize.conference.2026",
+    "en": "Which crop was the focus of the First International Conference reported by PIB on 2 November 2026?",
+    "mr": "२ नोव्हेंबर २०२६ रोजी PIB ने नोंदवलेल्या पहिल्या आंतरराष्ट्रीय परिषदेत कोणत्या पिकावर भर होता?",
+    "options": [
+      "Maize",
+      "Cotton",
+      "Millets",
+      "Sugarcane"
+    ],
+    "optionsMr": [
+      "मका",
+      "कापूस",
+      "भरडधान्ये",
+      "ऊस"
+    ],
+    "answer": 0,
+    "explanationEn": "The PIB release identified the event as the First International Maize Conference 2026.",
+    "explanationMr": "PIB प्रसिद्धिपत्रकात या कार्यक्रमाचा उल्लेख पहिली आंतरराष्ट्रीय मका परिषद २०२६ असा आहे.",
+    "source": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=20",
+    "asOfDate": "2026-11-02"
+  },
+  {
+    "id": 144,
+    "paperNo": 2,
+    "questionNo": 44,
+    "sourceQuestionId": 144,
+    "subject": "Current Affairs",
+    "topic": "Agricultural policy",
+    "conceptKey": "ca.nbs.rabi.2026.27",
+    "en": "For which crop season were Nutrient Based Subsidy rates reported by PIB on 11 November 2026?",
+    "mr": "११ नोव्हेंबर २०२६ रोजी PIB ने पोषक तत्त्वाधारित अनुदानाचे दर कोणत्या पीक हंगामासाठी जाहीर झाल्याचे नमूद केले?",
+    "options": [
+      "Rabi 2026–27",
+      "Kharif 2026",
+      "Rabi 2025–26",
+      "Kharif 2027"
+    ],
+    "optionsMr": [
+      "रब्बी २०२६–२७",
+      "खरीप २०२६",
+      "रब्बी २०२५–२६",
+      "खरीप २०२७"
+    ],
+    "answer": 0,
+    "explanationEn": "The PIB release of 11 November 2026 referred to NBS rates for the Rabi 2026–27 season.",
+    "explanationMr": "११ नोव्हेंबर २०२६ च्या PIB प्रसिद्धिपत्रकात रब्बी २०२६–२७ हंगामासाठी NBS दर नमूद आहेत.",
+    "source": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=20",
+    "asOfDate": "2026-11-11"
+  },
+  {
+    "id": 145,
+    "paperNo": 2,
+    "questionNo": 45,
+    "sourceQuestionId": 145,
+    "subject": "Current Affairs",
+    "topic": "Urban infrastructure",
+    "conceptKey": "ca.noida.aqua.metro.extension.2026",
+    "en": "What is the reported length of the Aqua Line metro extension from Noida Sector-51 to Greater Noida Sector-04?",
+    "mr": "नोएडा सेक्टर-५१ ते ग्रेटर नोएडा सेक्टर-०४ या एक्वा लाईन मेट्रो विस्ताराची नमूद लांबी किती आहे?",
+    "options": [
+      "8.449 km",
+      "5.2 km",
+      "12.6 km",
+      "15 km"
+    ],
+    "optionsMr": [
+      "८.४४९ किमी",
+      "५.२ किमी",
+      "१२.६ किमी",
+      "१५ किमी"
+    ],
+    "answer": 0,
+    "explanationEn": "The PIB release dated 11 November 2026 stated the extension length as 8.449 km.",
+    "explanationMr": "११ नोव्हेंबर २०२६ च्या PIB प्रसिद्धिपत्रकात विस्ताराची लांबी ८.४४९ किमी नमूद आहे.",
+    "source": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=20",
+    "asOfDate": "2026-11-11"
+  },
+  {
+    "id": 146,
+    "paperNo": 2,
+    "questionNo": 46,
+    "sourceQuestionId": 146,
+    "subject": "Current Affairs",
+    "topic": "Statistics",
+    "conceptKey": "ca.plfs.q2.2026.bulletin",
+    "en": "Which survey's quarterly bulletin for July–September 2026 was reported by MoSPI on 10 November 2026?",
+    "mr": "१० नोव्हेंबर २०२६ रोजी MoSPI ने जुलै–सप्टेंबर २०२६ साठी कोणत्या सर्वेक्षणाचे तिमाही बुलेटिन प्रसिद्ध केले?",
+    "options": [
+      "Periodic Labour Force Survey",
+      "National Family Health Survey",
+      "Annual Survey of Industries",
+      "Household Consumption Expenditure Survey"
+    ],
+    "optionsMr": [
+      "नियतकालिक श्रमबल सर्वेक्षण",
+      "राष्ट्रीय कुटुंब आरोग्य सर्वेक्षण",
+      "उद्योगांचे वार्षिक सर्वेक्षण",
+      "घरगुती उपभोग खर्च सर्वेक्षण"
+    ],
+    "answer": 0,
+    "explanationEn": "The MoSPI release concerned the Periodic Labour Force Survey quarterly bulletin for July–September 2026.",
+    "explanationMr": "MoSPI चे प्रसिद्धिपत्रक जुलै–सप्टेंबर २०२६ च्या नियतकालिक श्रमबल सर्वेक्षणाच्या तिमाही बुलेटिनविषयी होते.",
+    "source": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=3",
+    "asOfDate": "2026-11-10"
+  },
+  {
+    "id": 147,
+    "paperNo": 2,
+    "questionNo": 47,
+    "sourceQuestionId": 147,
+    "subject": "Current Affairs",
+    "topic": "Consumer price statistics",
+    "conceptKey": "ca.cpi.base.year.2024.2026",
+    "en": "Which base year was stated for the revised Consumer Price Index series reported by MoSPI in November 2026?",
+    "mr": "नोव्हेंबर २०२६ मध्ये MoSPI ने नमूद केलेल्या सुधारित ग्राहक किंमत निर्देशांक मालिकेसाठी कोणते आधार वर्ष आहे?",
+    "options": [
+      "2024",
+      "2012",
+      "2018",
+      "2020"
+    ],
+    "optionsMr": [
+      "२०२४",
+      "२०१२",
+      "२०१८",
+      "२०२०"
+    ],
+    "answer": 0,
+    "explanationEn": "The MoSPI release of 12 November 2026 referred to the CPI series with base 2024=100.",
+    "explanationMr": "१२ नोव्हेंबर २०२६ च्या MoSPI प्रसिद्धिपत्रकात CPI मालिकेचे आधार वर्ष २०२४=१०० नमूद आहे.",
+    "source": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=3",
+    "asOfDate": "2026-11-12"
+  },
+  {
+    "id": 148,
+    "paperNo": 2,
+    "questionNo": 48,
+    "sourceQuestionId": 148,
+    "subject": "Current Affairs",
+    "topic": "School education",
+    "conceptKey": "ca.kvs.digital.initiatives.2026",
+    "en": "How many digital initiatives were reported by Kendriya Vidyalaya Sangathan in the PIB release of 12 November 2026?",
+    "mr": "१२ नोव्हेंबर २०२६ च्या PIB प्रसिद्धिपत्रकानुसार केंद्रीय विद्यालय संघटनेने किती डिजिटल उपक्रमांची माहिती दिली?",
+    "options": [
+      "Three",
+      "Two",
+      "Four",
+      "Six"
+    ],
+    "optionsMr": [
+      "तीन",
+      "दोन",
+      "चार",
+      "सहा"
+    ],
+    "answer": 0,
+    "explanationEn": "The PIB release dated 12 November 2026 reported three digital initiatives by KVS.",
+    "explanationMr": "१२ नोव्हेंबर २०२६ च्या PIB प्रसिद्धिपत्रकात KVS च्या तीन डिजिटल उपक्रमांची माहिती आहे.",
+    "source": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=20",
+    "asOfDate": "2026-11-12"
+  },
+  {
+    "id": 149,
+    "paperNo": 2,
+    "questionNo": 49,
+    "sourceQuestionId": 149,
+    "subject": "Current Affairs",
+    "topic": "Local governance",
+    "conceptKey": "ca.gpdp.people.plan.campaign.2026",
+    "en": "The campaign 'Sabki Yojana, Sabka Vikas' discussed in the PIB release of 1 October 2026 is associated with preparation of which plan?",
+    "mr": "१ ऑक्टोबर २०२६ च्या PIB प्रसिद्धिपत्रकातील 'सबकी योजना, सबका विकास' मोहीम कोणता आराखडा तयार करण्याशी संबंधित आहे?",
+    "options": [
+      "Gram Panchayat Development Plan",
+      "District Mineral Plan",
+      "Smart City Plan",
+      "State Export Plan"
+    ],
+    "optionsMr": [
+      "ग्रामपंचायत विकास आराखडा",
+      "जिल्हा खनिज आराखडा",
+      "स्मार्ट सिटी आराखडा",
+      "राज्य निर्यात आराखडा"
+    ],
+    "answer": 0,
+    "explanationEn": "The campaign supports preparation of Gram Panchayat Development Plans for the next financial year.",
+    "explanationMr": "ही मोहीम पुढील आर्थिक वर्षासाठी ग्रामपंचायत विकास आराखडे तयार करण्यास सहाय्य करते.",
+    "source": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2317494&lang=1&reg=3",
+    "asOfDate": "2026-10-01"
+  },
+  {
+    "id": 150,
+    "paperNo": 2,
+    "questionNo": 50,
+    "sourceQuestionId": 150,
+    "subject": "Current Affairs",
+    "topic": "Renewable energy",
+    "conceptKey": "ca.gobardhan.compressed.biogas.2026",
+    "en": "The GOBARdhan initiative reported by PIB in October 2026 is linked to which product?",
+    "mr": "ऑक्टोबर २०२६ मध्ये PIB ने नोंदवलेला गोबरधन उपक्रम कोणत्या उत्पादनाशी संबंधित आहे?",
+    "options": [
+      "Compressed biogas",
+      "Green hydrogen only",
+      "Ethanol from sugarcane",
+      "Solar modules"
+    ],
+    "optionsMr": [
+      "संपीडित जैववायू",
+      "फक्त हरित हायड्रोजन",
+      "उसापासून इथेनॉल",
+      "सौर मॉड्यूल"
+    ],
+    "answer": 0,
+    "explanationEn": "The PIB communication described GOBARdhan in connection with compressed biogas.",
+    "explanationMr": "PIB माहितीत गोबरधन उपक्रमाचा संबंध संपीडित जैववायूशी जोडला आहे.",
+    "source": "https://www.pib.gov.in/newsite/pmreleases.aspx?lang=2&mincode=20&reg=3",
+    "asOfDate": "2026-10-01"
+  },
+  {
+    "id": 151,
+    "paperNo": 2,
+    "questionNo": 51,
+    "sourceQuestionId": 151,
+    "subject": "Polity",
+    "topic": "Constitution",
+    "conceptKey": "polity.constitution.preamble.source",
+    "en": "The words 'We, the people of India' in the Preamble indicate which principle?",
+    "mr": "प्रस्तावनेतील 'आम्ही भारताचे लोक' हे शब्द कोणते तत्त्व दर्शवतात?",
+    "options": [
+      "Popular sovereignty",
+      "Judicial supremacy",
+      "Monarchical authority",
+      "Federal veto"
+    ],
+    "optionsMr": [
+      "लोकसार्वभौमत्व",
+      "न्यायिक सर्वोच्चता",
+      "राजेशाही अधिकार",
+      "संघराज्यीय नकाराधिकार"
+    ],
+    "answer": 0,
+    "explanationEn": "The Preamble declares that constitutional authority derives from the people of India.",
+    "explanationMr": "प्रस्तावना संविधानाचा अधिकार भारताच्या जनतेकडून प्राप्त होतो हे घोषित करते."
+  },
+  {
+    "id": 152,
+    "paperNo": 2,
+    "questionNo": 52,
+    "sourceQuestionId": 152,
+    "subject": "Polity",
+    "topic": "Fundamental rights",
+    "conceptKey": "polity.article.19.six.freedom",
+    "en": "Article 19(1) currently guarantees how many freedoms to citizens?",
+    "mr": "कलम १९(१) अंतर्गत नागरिकांना सध्या किती स्वातंत्र्यांची हमी आहे?",
+    "options": [
+      "Six",
+      "Five",
+      "Seven",
+      "Eight"
+    ],
+    "optionsMr": [
+      "सहा",
+      "पाच",
+      "सात",
+      "आठ"
+    ],
+    "answer": 0,
+    "explanationEn": "Article 19(1) lists six freedoms, including speech, assembly, association, movement, residence and profession.",
+    "explanationMr": "कलम १९(१) मध्ये भाषण, सभा, संघटना, हालचाल, निवास व व्यवसाय यांसह सहा स्वातंत्र्ये आहेत."
+  },
+  {
+    "id": 153,
+    "paperNo": 2,
+    "questionNo": 53,
+    "sourceQuestionId": 153,
+    "subject": "Polity",
+    "topic": "Directive principles",
+    "conceptKey": "polity.article.40.panchayats",
+    "en": "Which Directive Principle asks the state to organise village panchayats?",
+    "mr": "ग्रामपंचायतींचे संघटन करण्याचे निर्देश राज्याला कोणते मार्गदर्शक तत्त्व देते?",
+    "options": [
+      "Article 40",
+      "Article 44",
+      "Article 48A",
+      "Article 51"
+    ],
+    "optionsMr": [
+      "कलम ४०",
+      "कलम ४४",
+      "कलम ४८अ",
+      "कलम ५१"
+    ],
+    "answer": 0,
+    "explanationEn": "Article 40 directs the state to organise village panchayats and endow them with powers.",
+    "explanationMr": "कलम ४० राज्याला ग्रामपंचायती संघटित करून त्यांना अधिकार देण्याचे निर्देश देते."
+  },
+  {
+    "id": 154,
+    "paperNo": 2,
+    "questionNo": 54,
+    "sourceQuestionId": 154,
+    "subject": "Polity",
+    "topic": "Parliament",
+    "conceptKey": "polity.money.bill.lok sabha",
+    "en": "A Money Bill can be introduced in which House of Parliament?",
+    "mr": "धनविधेयक संसदेच्या कोणत्या सभागृहात मांडता येते?",
+    "options": [
+      "Lok Sabha only",
+      "Rajya Sabha only",
+      "Either House",
+      "Joint sitting only"
+    ],
+    "optionsMr": [
+      "फक्त लोकसभा",
+      "फक्त राज्यसभा",
+      "कोणतेही सभागृह",
+      "फक्त संयुक्त बैठक"
+    ],
+    "answer": 0,
+    "explanationEn": "A Money Bill can be introduced only in the Lok Sabha, with the President's recommendation.",
+    "explanationMr": "धनविधेयक राष्ट्रपतींच्या शिफारशीने फक्त लोकसभेत मांडता येते."
+  },
+  {
+    "id": 155,
+    "paperNo": 2,
+    "questionNo": 55,
+    "sourceQuestionId": 155,
+    "subject": "Polity",
+    "topic": "Parliament",
+    "conceptKey": "polity.money.bill.speaker.certification",
+    "en": "Who certifies whether a bill is a Money Bill?",
+    "mr": "एखादे विधेयक धनविधेयक आहे की नाही हे कोण प्रमाणित करतात?",
+    "options": [
+      "Speaker of Lok Sabha",
+      "President",
+      "Chairman of Rajya Sabha",
+      "Finance Minister"
+    ],
+    "optionsMr": [
+      "लोकसभा अध्यक्ष",
+      "राष्ट्रपती",
+      "राज्यसभा सभापती",
+      "अर्थमंत्री"
+    ],
+    "answer": 0,
+    "explanationEn": "The Speaker of the Lok Sabha certifies a bill as a Money Bill under Article 110.",
+    "explanationMr": "कलम ११० नुसार लोकसभा अध्यक्ष विधेयक धनविधेयक असल्याचे प्रमाणित करतात."
+  },
+  {
+    "id": 156,
+    "paperNo": 2,
+    "questionNo": 56,
+    "sourceQuestionId": 156,
+    "subject": "Polity",
+    "topic": "President",
+    "conceptKey": "polity.president.impeachment.process",
+    "en": "The President of India can be impeached for which ground?",
+    "mr": "भारताच्या राष्ट्रपतींवर कोणत्या कारणासाठी महाभियोग चालवता येतो?",
+    "options": [
+      "Violation of the Constitution",
+      "Loss of majority in Lok Sabha",
+      "Disagreement with a Governor",
+      "Failure to pass a budget"
+    ],
+    "optionsMr": [
+      "संविधानाचे उल्लंघन",
+      "लोकसभेतील बहुमत गमावणे",
+      "राज्यपालांशी मतभेद",
+      "अर्थसंकल्प मंजूर न होणे"
+    ],
+    "answer": 0,
+    "explanationEn": "Article 61 provides for impeachment of the President for violation of the Constitution.",
+    "explanationMr": "कलम ६१ नुसार संविधानाचे उल्लंघन केल्यास राष्ट्रपतींवर महाभियोगाची प्रक्रिया करता येते."
+  },
+  {
+    "id": 157,
+    "paperNo": 2,
+    "questionNo": 57,
+    "sourceQuestionId": 157,
+    "subject": "Polity",
+    "topic": "Governor",
+    "conceptKey": "polity.governor.ordinance.article213",
+    "en": "Under which Article can a Governor promulgate an ordinance when the state legislature is not in session?",
+    "mr": "राज्य विधिमंडळाचे अधिवेशन सुरू नसताना राज्यपाल कोणत्या कलमानुसार अध्यादेश काढू शकतात?",
+    "options": [
+      "Article 213",
+      "Article 123",
+      "Article 200",
+      "Article 356"
+    ],
+    "optionsMr": [
+      "कलम २१३",
+      "कलम १२३",
+      "कलम २००",
+      "कलम ३५६"
+    ],
+    "answer": 0,
+    "explanationEn": "Article 213 empowers the Governor to promulgate ordinances when the legislature is not in session, subject to constitutional conditions.",
+    "explanationMr": "विधिमंडळाचे अधिवेशन नसताना घटनात्मक अटींच्या अधीन राहून कलम २१३ राज्यपालांना अध्यादेश काढण्याचा अधिकार देते."
+  },
+  {
+    "id": 158,
+    "paperNo": 2,
+    "questionNo": 58,
+    "sourceQuestionId": 158,
+    "subject": "Polity",
+    "topic": "Judiciary",
+    "conceptKey": "polity.supreme.court.original.jurisdiction",
+    "en": "Disputes between the Union and one or more states fall under the Supreme Court's which jurisdiction?",
+    "mr": "केंद्र आणि एक किंवा अधिक राज्यांमधील वाद सर्वोच्च न्यायालयाच्या कोणत्या अधिकारक्षेत्रात येतात?",
+    "options": [
+      "Original jurisdiction",
+      "Advisory jurisdiction",
+      "Appellate criminal jurisdiction only",
+      "Review jurisdiction only"
+    ],
+    "optionsMr": [
+      "मूळ अधिकारक्षेत्र",
+      "सल्लागार अधिकारक्षेत्र",
+      "फक्त फौजदारी अपीलीय अधिकारक्षेत्र",
+      "फक्त पुनर्विलोकन अधिकारक्षेत्र"
+    ],
+    "answer": 0,
+    "explanationEn": "Article 131 gives the Supreme Court original jurisdiction in specified federal disputes.",
+    "explanationMr": "कलम १३१ नुसार विशिष्ट संघराज्यीय वादांवर सर्वोच्च न्यायालयाला मूळ अधिकारक्षेत्र आहे."
+  },
+  {
+    "id": 159,
+    "paperNo": 2,
+    "questionNo": 59,
+    "sourceQuestionId": 159,
+    "subject": "Polity",
+    "topic": "Constitutional bodies",
+    "conceptKey": "polity.cag.article148",
+    "en": "The Comptroller and Auditor General of India is provided for under which Article?",
+    "mr": "भारताच्या नियंत्रक व महालेखापरीक्षकांची तरतूद कोणत्या कलमात आहे?",
+    "options": [
+      "Article 148",
+      "Article 280",
+      "Article 324",
+      "Article 315"
+    ],
+    "optionsMr": [
+      "कलम १४८",
+      "कलम २८०",
+      "कलम ३२४",
+      "कलम ३१५"
+    ],
+    "answer": 0,
+    "explanationEn": "Article 148 provides for the office of the CAG of India.",
+    "explanationMr": "कलम १४८ मध्ये भारताच्या नियंत्रक व महालेखापरीक्षक पदाची तरतूद आहे."
+  },
+  {
+    "id": 160,
+    "paperNo": 2,
+    "questionNo": 60,
+    "sourceQuestionId": 160,
+    "subject": "Polity",
+    "topic": "Federalism",
+    "conceptKey": "polity.interstate.council.article263",
+    "en": "Which Article provides for the establishment of an Inter-State Council?",
+    "mr": "आंतरराज्य परिषद स्थापन करण्याची तरतूद कोणत्या कलमात आहे?",
+    "options": [
+      "Article 263",
+      "Article 262",
+      "Article 280",
+      "Article 312"
+    ],
+    "optionsMr": [
+      "कलम २६३",
+      "कलम २६२",
+      "कलम २८०",
+      "कलम ३१२"
+    ],
+    "answer": 0,
+    "explanationEn": "Article 263 empowers the President to establish an Inter-State Council for coordination and inquiry.",
+    "explanationMr": "समन्वय व चौकशीसाठी आंतरराज्य परिषद स्थापन करण्याचा अधिकार कलम २६३ राष्ट्रपतींना देते."
+  },
+  {
+    "id": 161,
+    "paperNo": 2,
+    "questionNo": 61,
+    "sourceQuestionId": 161,
+    "subject": "Polity",
+    "topic": "Local government",
+    "conceptKey": "polity.73rd.amendment.schedule11",
+    "en": "The Eleventh Schedule of the Constitution is associated with which institutions?",
+    "mr": "संविधानाची अकरावी अनुसूची कोणत्या संस्थांशी संबंधित आहे?",
+    "options": [
+      "Panchayats",
+      "Municipalities",
+      "Scheduled areas",
+      "Languages"
+    ],
+    "optionsMr": [
+      "पंचायती",
+      "नगरपालिका",
+      "अनुसूचित क्षेत्रे",
+      "भाषा"
+    ],
+    "answer": 0,
+    "explanationEn": "The Eleventh Schedule lists subjects that may be devolved to Panchayats.",
+    "explanationMr": "अकराव्या अनुसूचीत पंचायतींकडे सोपवता येणारे विषय नमूद आहेत."
+  },
+  {
+    "id": 162,
+    "paperNo": 2,
+    "questionNo": 62,
+    "sourceQuestionId": 162,
+    "subject": "Polity",
+    "topic": "Local government",
+    "conceptKey": "polity.74th.amendment.schedule12",
+    "en": "The Twelfth Schedule lists functions related to which bodies?",
+    "mr": "बाराव्या अनुसूचीत कोणत्या संस्थांशी संबंधित कार्ये नमूद आहेत?",
+    "options": [
+      "Municipalities",
+      "Panchayats",
+      "Co-operative societies",
+      "Union Territories"
+    ],
+    "optionsMr": [
+      "नगरपालिका",
+      "पंचायती",
+      "सहकारी संस्था",
+      "केंद्रशासित प्रदेश"
+    ],
+    "answer": 0,
+    "explanationEn": "The Twelfth Schedule lists 18 functional subjects for municipalities.",
+    "explanationMr": "बाराव्या अनुसूचीत नगरपालिकांसाठी १८ कार्यविषय नमूद आहेत."
+  },
+  {
+    "id": 163,
+    "paperNo": 2,
+    "questionNo": 63,
+    "sourceQuestionId": 163,
+    "subject": "Polity",
+    "topic": "Emergency",
+    "conceptKey": "polity.article352.national.emergency",
+    "en": "A National Emergency under Article 352 may be proclaimed on which grounds?",
+    "mr": "कलम ३५२ अंतर्गत राष्ट्रीय आणीबाणी कोणत्या कारणांवर जाहीर करता येते?",
+    "options": [
+      "War, external aggression or armed rebellion",
+      "Financial instability only",
+      "Failure of constitutional machinery in a state",
+      "Natural disaster only"
+    ],
+    "optionsMr": [
+      "युद्ध, बाह्य आक्रमण किंवा सशस्त्र बंड",
+      "फक्त आर्थिक अस्थिरता",
+      "राज्यात घटनात्मक यंत्रणेचे अपयश",
+      "फक्त नैसर्गिक आपत्ती"
+    ],
+    "answer": 0,
+    "explanationEn": "Article 352 specifies war, external aggression and armed rebellion as grounds.",
+    "explanationMr": "कलम ३५२ मध्ये युद्ध, बाह्य आक्रमण आणि सशस्त्र बंड ही कारणे दिली आहेत."
+  },
+  {
+    "id": 164,
+    "paperNo": 2,
+    "questionNo": 64,
+    "sourceQuestionId": 164,
+    "subject": "Polity",
+    "topic": "Constitutional amendment",
+    "conceptKey": "polity.article368.special.majority",
+    "en": "A constitutional amendment under Article 368 generally requires what in each House?",
+    "mr": "कलम ३६८ अंतर्गत घटनादुरुस्तीसाठी सर्वसाधारणपणे प्रत्येक सभागृहात कोणते बहुमत आवश्यक असते?",
+    "options": [
+      "Majority of total membership and two-thirds of members present and voting",
+      "Simple majority only",
+      "Unanimous vote",
+      "Two-thirds of total membership only"
+    ],
+    "optionsMr": [
+      "एकूण सदस्यसंख्येचे बहुमत आणि उपस्थित व मतदान करणाऱ्यांचे दोन-तृतीयांश",
+      "फक्त साधे बहुमत",
+      "एकमताने मतदान",
+      "फक्त एकूण सदस्यसंख्येचे दोन-तृतीयांश"
+    ],
+    "answer": 0,
+    "explanationEn": "Article 368 prescribes a special majority; certain federal provisions also require ratification by at least half the states.",
+    "explanationMr": "कलम ३६८ विशेष बहुमताची अट घालते; काही संघराज्यीय तरतुदींसाठी किमान निम्म्या राज्यांची मान्यता देखील आवश्यक असते."
+  },
+  {
+    "id": 165,
+    "paperNo": 2,
+    "questionNo": 65,
+    "sourceQuestionId": 165,
+    "subject": "Polity",
+    "topic": "Elections",
+    "conceptKey": "polity.election.disqualification.anti.defection",
+    "en": "The anti-defection provisions are contained in which Schedule?",
+    "mr": "पक्षांतरविरोधी तरतुदी कोणत्या अनुसूचीत आहेत?",
+    "options": [
+      "Tenth Schedule",
+      "Ninth Schedule",
+      "Eighth Schedule",
+      "Eleventh Schedule"
+    ],
+    "optionsMr": [
+      "दहावी अनुसूची",
+      "नववी अनुसूची",
+      "आठवी अनुसूची",
+      "अकरावी अनुसूची"
+    ],
+    "answer": 0,
+    "explanationEn": "The Tenth Schedule, added by the 52nd Amendment, deals with disqualification on grounds of defection.",
+    "explanationMr": "५२ व्या घटनादुरुस्तीने समाविष्ट केलेली दहावी अनुसूची पक्षांतरामुळे अपात्रतेशी संबंधित आहे."
+  },
+  {
+    "id": 166,
+    "paperNo": 2,
+    "questionNo": 66,
+    "sourceQuestionId": 166,
+    "subject": "General Science",
+    "topic": "Physics",
+    "conceptKey": "science.refraction.snell.law",
+    "en": "When light enters glass from air at an angle, it generally bends towards which direction?",
+    "mr": "प्रकाश किरण हवेतून काचेत कोनात प्रवेश करताना सर्वसाधारणपणे कोणत्या दिशेने वाकतो?",
+    "options": [
+      "Towards the normal",
+      "Away from the normal",
+      "Along the surface",
+      "It always reflects completely"
+    ],
+    "optionsMr": [
+      "अभिलंबाकडे",
+      "अभिलंबापासून दूर",
+      "पृष्ठभागाच्या समांतर",
+      "नेहमी पूर्ण परावर्तित होतो"
+    ],
+    "answer": 0,
+    "explanationEn": "Light slows on entering a denser optical medium and bends towards the normal.",
+    "explanationMr": "प्रकाश घन प्रकाशीय माध्यमात प्रवेशल्यावर त्याचा वेग कमी होतो व किरण अभिलंबाकडे वाकतो."
+  },
+  {
+    "id": 167,
+    "paperNo": 2,
+    "questionNo": 67,
+    "sourceQuestionId": 167,
+    "subject": "General Science",
+    "topic": "Physics",
+    "conceptKey": "science.electricity.series.current",
+    "en": "In a series circuit, which quantity is the same through every component?",
+    "mr": "मालिका परिपथात प्रत्येक घटकातून कोणती राशी समान असते?",
+    "options": [
+      "Current",
+      "Potential difference",
+      "Resistance",
+      "Power"
+    ],
+    "optionsMr": [
+      "विद्युतप्रवाह",
+      "विभवांतर",
+      "प्रतिरोध",
+      "शक्ती"
+    ],
+    "answer": 0,
+    "explanationEn": "In a series circuit, the same current flows through each component.",
+    "explanationMr": "मालिका परिपथात प्रत्येक घटकातून समान विद्युतप्रवाह वाहतो."
+  },
+  {
+    "id": 168,
+    "paperNo": 2,
+    "questionNo": 68,
+    "sourceQuestionId": 168,
+    "subject": "General Science",
+    "topic": "Physics",
+    "conceptKey": "science.magnetism.electromagnet.core",
+    "en": "Which material is commonly used as the core of an electromagnet?",
+    "mr": "विद्युतचुंबकाचा गाभा म्हणून सामान्यतः कोणते पदार्थ वापरतात?",
+    "options": [
+      "Soft iron",
+      "Hard steel",
+      "Copper",
+      "Aluminium"
+    ],
+    "optionsMr": [
+      "मऊ लोखंड",
+      "कठीण पोलाद",
+      "तांबे",
+      "अॅल्युमिनियम"
+    ],
+    "answer": 0,
+    "explanationEn": "Soft iron is easily magnetised and demagnetised, making it suitable for electromagnet cores.",
+    "explanationMr": "मऊ लोखंडाचे चुंबकीकरण व विचुंबकीकरण सहज होते, म्हणून ते विद्युतचुंबकासाठी योग्य असते."
+  },
+  {
+    "id": 169,
+    "paperNo": 2,
+    "questionNo": 69,
+    "sourceQuestionId": 169,
+    "subject": "General Science",
+    "topic": "Chemistry",
+    "conceptKey": "science.atomic.number.protons",
+    "en": "The atomic number of an element equals the number of what in its nucleus?",
+    "mr": "मूलद्रव्याचा अणुक्रमांक केंद्रकातील कशाच्या संख्येइतका असतो?",
+    "options": [
+      "Protons",
+      "Neutrons",
+      "Nucleons plus electrons",
+      "Electron shells"
+    ],
+    "optionsMr": [
+      "प्रोटॉन्स",
+      "न्यूट्रॉन्स",
+      "न्यूक्लिऑन्स व इलेक्ट्रॉन्सची बेरीज",
+      "इलेक्ट्रॉन कवचे"
+    ],
+    "answer": 0,
+    "explanationEn": "Atomic number is defined by the number of protons in the nucleus.",
+    "explanationMr": "केंद्रकातील प्रोटॉन्सच्या संख्येवरून अणुक्रमांक निश्चित होतो."
+  },
+  {
+    "id": 170,
+    "paperNo": 2,
+    "questionNo": 70,
+    "sourceQuestionId": 170,
+    "subject": "General Science",
+    "topic": "Chemistry",
+    "conceptKey": "science.covalent.bond.electron.sharing",
+    "en": "A covalent bond is formed mainly by what process?",
+    "mr": "सहसंयुज बंध मुख्यतः कोणत्या प्रक्रियेमुळे तयार होतो?",
+    "options": [
+      "Sharing of electron pairs",
+      "Transfer of protons",
+      "Transfer of neutrons",
+      "Sharing of atomic nuclei"
+    ],
+    "optionsMr": [
+      "इलेक्ट्रॉन जोड्यांची भागीदारी",
+      "प्रोटॉन्सचे हस्तांतरण",
+      "न्यूट्रॉन्सचे हस्तांतरण",
+      "अणुकेंद्रकांची भागीदारी"
+    ],
+    "answer": 0,
+    "explanationEn": "Covalent bonding involves sharing one or more pairs of electrons between atoms.",
+    "explanationMr": "सहसंयुज बंधात अणूंमध्ये एक किंवा अधिक इलेक्ट्रॉन जोड्यांची भागीदारी होते."
+  },
+  {
+    "id": 171,
+    "paperNo": 2,
+    "questionNo": 71,
+    "sourceQuestionId": 171,
+    "subject": "General Science",
+    "topic": "Chemistry",
+    "conceptKey": "science.oxidation.loss.electrons",
+    "en": "In the electron-transfer definition, oxidation is the process of what?",
+    "mr": "इलेक्ट्रॉन हस्तांतरणाच्या व्याख्येनुसार ऑक्सिडीकरण म्हणजे काय?",
+    "options": [
+      "Loss of electrons",
+      "Gain of electrons",
+      "Gain of neutrons",
+      "Loss of protons"
+    ],
+    "optionsMr": [
+      "इलेक्ट्रॉन्स गमावणे",
+      "इलेक्ट्रॉन्स मिळवणे",
+      "न्यूट्रॉन्स मिळवणे",
+      "प्रोटॉन्स गमावणे"
+    ],
+    "answer": 0,
+    "explanationEn": "Oxidation is loss of electrons; reduction is gain of electrons.",
+    "explanationMr": "ऑक्सिडीकरण म्हणजे इलेक्ट्रॉन्स गमावणे; क्षपण म्हणजे इलेक्ट्रॉन्स मिळवणे."
+  },
+  {
+    "id": 172,
+    "paperNo": 2,
+    "questionNo": 72,
+    "sourceQuestionId": 172,
+    "subject": "General Science",
+    "topic": "Biology",
+    "conceptKey": "science.dna.base.pairing",
+    "en": "In DNA, adenine pairs with which nitrogenous base?",
+    "mr": "DNA मध्ये अॅडेनिन कोणत्या नायट्रोजनयुक्त क्षाराशी जोडले जाते?",
+    "options": [
+      "Thymine",
+      "Cytosine",
+      "Guanine",
+      "Uracil"
+    ],
+    "optionsMr": [
+      "थायमिन",
+      "सायटोसीन",
+      "ग्वानिन",
+      "युरॅसिल"
+    ],
+    "answer": 0,
+    "explanationEn": "In DNA, adenine pairs with thymine, while guanine pairs with cytosine.",
+    "explanationMr": "DNA मध्ये अॅडेनिन थायमिनशी आणि ग्वानिन सायटोसीनशी जोडले जाते."
+  },
+  {
+    "id": 173,
+    "paperNo": 2,
+    "questionNo": 73,
+    "sourceQuestionId": 173,
+    "subject": "General Science",
+    "topic": "Biology",
+    "conceptKey": "science.mitosis.chromosome.daughter",
+    "en": "Mitosis normally produces how many daughter cells from one parent cell?",
+    "mr": "समसूत्री विभाजनात एका मातृपेशीपासून सामान्यतः किती कन्या पेशी तयार होतात?",
+    "options": [
+      "Two",
+      "Four",
+      "Eight",
+      "One"
+    ],
+    "optionsMr": [
+      "दोन",
+      "चार",
+      "आठ",
+      "एक"
+    ],
+    "answer": 0,
+    "explanationEn": "Mitosis produces two daughter cells that generally retain the chromosome number of the parent cell.",
+    "explanationMr": "समसूत्री विभाजनातून सामान्यतः मातृपेशीइतकी गुणसूत्रसंख्या असलेल्या दोन कन्या पेशी तयार होतात."
+  },
+  {
+    "id": 174,
+    "paperNo": 2,
+    "questionNo": 74,
+    "sourceQuestionId": 174,
+    "subject": "General Science",
+    "topic": "Human physiology",
+    "conceptKey": "science.nephron.kidney.unit",
+    "en": "What is the functional unit of the human kidney?",
+    "mr": "मानवी मूत्रपिंडाचे कार्यात्मक एकक कोणते?",
+    "options": [
+      "Nephron",
+      "Neuron",
+      "Alveolus",
+      "Villus"
+    ],
+    "optionsMr": [
+      "नेफ्रॉन",
+      "न्यूरॉन",
+      "वायुकोश",
+      "आतड्याचा अंकुर"
+    ],
+    "answer": 0,
+    "explanationEn": "The nephron filters blood and forms urine; it is the kidney's functional unit.",
+    "explanationMr": "नेफ्रॉन रक्त गाळून मूत्रनिर्मिती करतो; तो मूत्रपिंडाचे कार्यात्मक एकक आहे."
+  },
+  {
+    "id": 175,
+    "paperNo": 2,
+    "questionNo": 75,
+    "sourceQuestionId": 175,
+    "subject": "General Science",
+    "topic": "Human physiology",
+    "conceptKey": "science.insulin.pancreas.beta",
+    "en": "Which pancreatic cells secrete insulin?",
+    "mr": "स्वादुपिंडातील कोणत्या पेशी इन्सुलिन स्रवतात?",
+    "options": [
+      "Beta cells of islets of Langerhans",
+      "Alpha cells",
+      "Acinar cells",
+      "Red blood cells"
+    ],
+    "optionsMr": [
+      "लॅन्गरहॅन्स बेटांतील बीटा पेशी",
+      "अल्फा पेशी",
+      "अॅसिनर पेशी",
+      "लाल रक्तपेशी"
+    ],
+    "answer": 0,
+    "explanationEn": "Beta cells in the pancreatic islets secrete insulin, which helps regulate blood glucose.",
+    "explanationMr": "स्वादुपिंडातील लॅन्गरहॅन्स बेटांतील बीटा पेशी रक्तातील ग्लुकोज नियंत्रित करणारे इन्सुलिन स्रवतात."
+  },
+  {
+    "id": 176,
+    "paperNo": 2,
+    "questionNo": 76,
+    "sourceQuestionId": 176,
+    "subject": "General Science",
+    "topic": "Plant biology",
+    "conceptKey": "science.xylem.water.transport",
+    "en": "Which plant tissue mainly transports water and mineral salts from roots?",
+    "mr": "मुळांपासून पाणी व खनिज क्षारांचे वहन मुख्यतः कोणते वनस्पती ऊतक करते?",
+    "options": [
+      "Xylem",
+      "Phloem",
+      "Cambium",
+      "Epidermis"
+    ],
+    "optionsMr": [
+      "जाइलम",
+      "फ्लोएम",
+      "कॅम्बियम",
+      "अधिचर्म"
+    ],
+    "answer": 0,
+    "explanationEn": "Xylem conducts water and dissolved minerals from roots to the rest of the plant.",
+    "explanationMr": "जाइलम मुळांपासून पाणी व विरघळलेली खनिजे वनस्पतीच्या इतर भागांपर्यंत पोहोचवते."
+  },
+  {
+    "id": 177,
+    "paperNo": 2,
+    "questionNo": 77,
+    "sourceQuestionId": 177,
+    "subject": "General Science",
+    "topic": "Ecology",
+    "conceptKey": "science.food.chain.energy.ten.percent",
+    "en": "The approximate ten per cent law in ecology describes transfer of what between trophic levels?",
+    "mr": "परिस्थितिशास्त्रातील साधारण दहा टक्के नियम पोषण पातळ्यांमधील कशाच्या हस्तांतरणाचे वर्णन करतो?",
+    "options": [
+      "Energy",
+      "Water volume",
+      "Number of species",
+      "Mineral mass"
+    ],
+    "optionsMr": [
+      "ऊर्जा",
+      "पाण्याचे प्रमाण",
+      "प्रजातींची संख्या",
+      "खनिजांचे वस्तुमान"
+    ],
+    "answer": 0,
+    "explanationEn": "Only about ten per cent of energy is transferred to the next trophic level on average.",
+    "explanationMr": "सरासरीने एका पोषण पातळीवरील सुमारे दहा टक्के ऊर्जा पुढील पातळीवर जाते."
+  },
+  {
+    "id": 178,
+    "paperNo": 2,
+    "questionNo": 78,
+    "sourceQuestionId": 178,
+    "subject": "General Science",
+    "topic": "Microbiology",
+    "conceptKey": "science.vaccine.memory.cells",
+    "en": "Vaccination primarily prepares the immune system to do what?",
+    "mr": "लसीकरणामुळे रोगप्रतिकारक यंत्रणा मुख्यतः कशासाठी तयार होते?",
+    "options": [
+      "Recognise and respond to a specific pathogen",
+      "Stop all inflammation permanently",
+      "Destroy all bacteria in the body",
+      "Replace red blood cells"
+    ],
+    "optionsMr": [
+      "विशिष्ट रोगजंतू ओळखून प्रतिसाद देणे",
+      "सर्व दाह कायमचा थांबवणे",
+      "शरीरातील सर्व जीवाणू नष्ट करणे",
+      "लाल रक्तपेशींची जागा घेणे"
+    ],
+    "answer": 0,
+    "explanationEn": "Vaccines stimulate immune memory so the body can respond more effectively to a later exposure.",
+    "explanationMr": "लसी रोगप्रतिकारक स्मृती निर्माण करतात, त्यामुळे पुढील संपर्कात शरीर अधिक प्रभावी प्रतिसाद देऊ शकते."
+  },
+  {
+    "id": 179,
+    "paperNo": 2,
+    "questionNo": 79,
+    "sourceQuestionId": 179,
+    "subject": "General Science",
+    "topic": "Physics",
+    "conceptKey": "science.sound.vacuum.propagation",
+    "en": "Why can sound not travel through a perfect vacuum?",
+    "mr": "निर्वातातून ध्वनी प्रवास करू शकत नाही, याचे कारण काय?",
+    "options": [
+      "It requires a material medium",
+      "Its frequency becomes zero",
+      "It travels only in liquids",
+      "Gravity blocks it"
+    ],
+    "optionsMr": [
+      "ध्वनीला भौतिक माध्यमाची गरज असते",
+      "त्याची वारंवारता शून्य होते",
+      "तो फक्त द्रवातून प्रवास करतो",
+      "गुरुत्वाकर्षण त्याला अडवते"
+    ],
+    "answer": 0,
+    "explanationEn": "Sound is a mechanical wave and requires particles of a medium to transmit vibrations.",
+    "explanationMr": "ध्वनी ही यांत्रिक तरंग आहे; कंपन पोहोचवण्यासाठी माध्यमातील कण आवश्यक असतात."
+  },
+  {
+    "id": 180,
+    "paperNo": 2,
+    "questionNo": 80,
+    "sourceQuestionId": 180,
+    "subject": "General Science",
+    "topic": "Chemistry",
+    "conceptKey": "science.periodic.table.group.18",
+    "en": "Elements in Group 18 of the modern periodic table are commonly called what?",
+    "mr": "आधुनिक आवर्त सारणीतील गट १८ मधील मूलद्रव्यांना सामान्यतः काय म्हणतात?",
+    "options": [
+      "Noble gases",
+      "Halogens",
+      "Alkali metals",
+      "Transition metals"
+    ],
+    "optionsMr": [
+      "अक्रिय वायू",
+      "हॅलोजन्स",
+      "अल्कली धातू",
+      "संक्रमण धातू"
+    ],
+    "answer": 0,
+    "explanationEn": "Group 18 contains noble gases such as helium, neon and argon.",
+    "explanationMr": "गट १८ मध्ये हीलियम, निऑन व आर्गॉन यांसारखे अक्रिय वायू असतात."
+  },
+  {
+    "id": 181,
+    "paperNo": 2,
+    "questionNo": 81,
+    "sourceQuestionId": 181,
+    "subject": "Maths",
+    "topic": "Percentages",
+    "conceptKey": "maths.successive.discount.marked.price",
+    "en": "A shop gives successive discounts of 10% and 20%. What is the equivalent single discount?",
+    "mr": "एका दुकानात अनुक्रमे १०% आणि २०% सूट दिली जाते. त्याऐवजी एकच समतुल्य सूट किती?",
+    "options": [
+      "28%",
+      "30%",
+      "25%",
+      "32%"
+    ],
+    "optionsMr": [
+      "२८%",
+      "३०%",
+      "२५%",
+      "३२%"
+    ],
+    "answer": 0,
+    "explanationEn": "After 10% off, 90% remains; 20% off that leaves 72%, so the total discount is 28%.",
+    "explanationMr": "१०% सूटीनंतर ९०% किंमत उरते; त्यावर २०% सूटीनंतर ७२% उरते. एकूण सूट २८%."
+  },
+  {
+    "id": 182,
+    "paperNo": 2,
+    "questionNo": 82,
+    "sourceQuestionId": 182,
+    "subject": "Maths",
+    "topic": "Average",
+    "conceptKey": "maths.average.remove.replace",
+    "en": "The average of 8 numbers is 24. If 18 is replaced by 34, what is the new average?",
+    "mr": "८ संख्यांची सरासरी २४ आहे. त्यातील १८ ऐवजी ३४ घेतल्यास नवीन सरासरी किती?",
+    "options": [
+      "26",
+      "25",
+      "27",
+      "28"
+    ],
+    "optionsMr": [
+      "२६",
+      "२५",
+      "२७",
+      "२८"
+    ],
+    "answer": 0,
+    "explanationEn": "The total rises by 16; the average rises by 16/8 = 2, becoming 26.",
+    "explanationMr": "एकूण बेरीज १६ ने वाढते; सरासरी १६/८ = २ ने वाढून २६ होते."
+  },
+  {
+    "id": 183,
+    "paperNo": 2,
+    "questionNo": 83,
+    "sourceQuestionId": 183,
+    "subject": "Maths",
+    "topic": "Mixtures",
+    "conceptKey": "maths.mixture.milk.water.ratio",
+    "en": "A 30-litre mixture contains milk and water in the ratio 4:1. How much water must be added to make the ratio 2:1?",
+    "mr": "३० लिटर मिश्रणात दूध व पाणी यांचे प्रमाण ४:१ आहे. प्रमाण २:१ करण्यासाठी किती पाणी घालावे?",
+    "options": [
+      "6 litres",
+      "4 litres",
+      "8 litres",
+      "10 litres"
+    ],
+    "optionsMr": [
+      "६ लिटर",
+      "४ लिटर",
+      "८ लिटर",
+      "१० लिटर"
+    ],
+    "answer": 0,
+    "explanationEn": "Milk is 24 L and water is 6 L. For a 2:1 ratio, water must be 12 L, so add 6 L.",
+    "explanationMr": "दूध २४ लिटर व पाणी ६ लिटर आहे. २:१ प्रमाणासाठी पाणी १२ लिटर हवे; म्हणून ६ लिटर वाढवावे."
+  },
+  {
+    "id": 184,
+    "paperNo": 2,
+    "questionNo": 84,
+    "sourceQuestionId": 184,
+    "subject": "Maths",
+    "topic": "Simple interest",
+    "conceptKey": "maths.simple.interest.principal.rate",
+    "en": "At 8% simple interest per annum, how much interest accrues on ₹7,500 in 2 years?",
+    "mr": "वार्षिक ८% साध्या व्याजाने ₹७,५०० वर २ वर्षांत किती व्याज मिळेल?",
+    "options": [
+      "₹1,200",
+      "₹1,000",
+      "₹1,500",
+      "₹900"
+    ],
+    "optionsMr": [
+      "₹१,२००",
+      "₹१,०००",
+      "₹१,५००",
+      "₹९००"
+    ],
+    "answer": 0,
+    "explanationEn": "Simple interest = PRT/100 = 7,500 × 8 × 2 / 100 = ₹1,200.",
+    "explanationMr": "साधे व्याज = PRT/100 = ७,५०० × ८ × २ / १०० = ₹१,२००."
+  },
+  {
+    "id": 185,
+    "paperNo": 2,
+    "questionNo": 85,
+    "sourceQuestionId": 185,
+    "subject": "Maths",
+    "topic": "Compound interest",
+    "conceptKey": "maths.compound.interest.annual",
+    "en": "What is the compound interest on ₹10,000 at 10% per annum for 2 years, compounded annually?",
+    "mr": "वार्षिक १०% दराने ₹१०,००० वर २ वर्षांचे वार्षिक चक्रवाढ व्याज किती?",
+    "options": [
+      "₹2,100",
+      "₹2,000",
+      "₹2,200",
+      "₹1,900"
+    ],
+    "optionsMr": [
+      "₹२,१००",
+      "₹२,०००",
+      "₹२,२००",
+      "₹१,९००"
+    ],
+    "answer": 0,
+    "explanationEn": "Amount = 10,000 × 1.1² = ₹12,100; compound interest = ₹2,100.",
+    "explanationMr": "रक्कम = १०,००० × १.१² = ₹१२,१००; चक्रवाढ व्याज ₹२,१००."
+  },
+  {
+    "id": 186,
+    "paperNo": 2,
+    "questionNo": 86,
+    "sourceQuestionId": 186,
+    "subject": "Maths",
+    "topic": "Geometry",
+    "conceptKey": "maths.rectangle.diagonal.pythagoras",
+    "en": "A rectangle is 9 cm long and 12 cm wide. What is the length of its diagonal?",
+    "mr": "एका आयताची लांबी ९ सेमी व रुंदी १२ सेमी आहे. त्याचा कर्ण किती?",
+    "options": [
+      "15 cm",
+      "14 cm",
+      "16 cm",
+      "18 cm"
+    ],
+    "optionsMr": [
+      "१५ सेमी",
+      "१४ सेमी",
+      "१६ सेमी",
+      "१८ सेमी"
+    ],
+    "answer": 0,
+    "explanationEn": "By Pythagoras, diagonal = √(9² + 12²) = √225 = 15 cm.",
+    "explanationMr": "पायथागोरस नियमानुसार कर्ण = √(९² + १२²) = √२२५ = १५ सेमी."
+  },
+  {
+    "id": 187,
+    "paperNo": 2,
+    "questionNo": 87,
+    "sourceQuestionId": 187,
+    "subject": "Maths",
+    "topic": "Mensuration",
+    "conceptKey": "maths.cylinder.volume",
+    "en": "Find the volume of a cylinder with radius 3 cm and height 7 cm. Use π = 22/7.",
+    "mr": "त्रिज्या ३ सेमी व उंची ७ सेमी असलेल्या दंडगोलाचे घनफळ काढा. π = २२/७ घ्या.",
+    "options": [
+      "198 cm³",
+      "176 cm³",
+      "154 cm³",
+      "220 cm³"
+    ],
+    "optionsMr": [
+      "१९८ घन सेमी",
+      "१७६ घन सेमी",
+      "१५४ घन सेमी",
+      "२२० घन सेमी"
+    ],
+    "answer": 0,
+    "explanationEn": "Volume = πr²h = (22/7) × 9 × 7 = 198 cm³.",
+    "explanationMr": "घनफळ = πr²h = (२२/७) × ९ × ७ = १९८ घन सेमी."
+  },
+  {
+    "id": 188,
+    "paperNo": 2,
+    "questionNo": 88,
+    "sourceQuestionId": 188,
+    "subject": "Maths",
+    "topic": "Probability",
+    "conceptKey": "maths.probability.two.coins.exactly.one.head",
+    "en": "Two fair coins are tossed. What is the probability of getting exactly one head?",
+    "mr": "दोन नाणी एकाच वेळी उडवली. नेमके एक छाप येण्याची संभाव्यता किती?",
+    "options": [
+      "1/2",
+      "1/4",
+      "3/4",
+      "1/3"
+    ],
+    "optionsMr": [
+      "१/२",
+      "१/४",
+      "३/४",
+      "१/३"
+    ],
+    "answer": 0,
+    "explanationEn": "The outcomes are HH, HT, TH and TT; HT and TH are favourable, so probability is 2/4 = 1/2.",
+    "explanationMr": "संभाव्य निष्पत्ती HH, HT, TH, TT आहेत. HT व TH अनुकूल; संभाव्यता २/४ = १/२."
+  },
+  {
+    "id": 189,
+    "paperNo": 2,
+    "questionNo": 89,
+    "sourceQuestionId": 189,
+    "subject": "Maths",
+    "topic": "Algebra",
+    "conceptKey": "maths.quadratic.roots.sum.product",
+    "en": "For x² − 7x + 12 = 0, what is the sum of the roots?",
+    "mr": "x² − ७x + १२ = ० या समीकरणाच्या मूळांची बेरीज किती?",
+    "options": [
+      "7",
+      "12",
+      "−7",
+      "−12"
+    ],
+    "optionsMr": [
+      "७",
+      "१२",
+      "−७",
+      "−१२"
+    ],
+    "answer": 0,
+    "explanationEn": "For ax²+bx+c=0, sum of roots is −b/a; here it is 7.",
+    "explanationMr": "ax²+bx+c=० साठी मूळांची बेरीज −b/a असते; येथे ती ७ आहे."
+  },
+  {
+    "id": 190,
+    "paperNo": 2,
+    "questionNo": 90,
+    "sourceQuestionId": 190,
+    "subject": "Maths",
+    "topic": "Time and work",
+    "conceptKey": "maths.work.alternate.days",
+    "en": "A can finish a job in 12 days and B in 18 days. Working together, how much of the job do they complete per day?",
+    "mr": "A एक काम १२ दिवसांत व B १८ दिवसांत करतो. दोघे मिळून दररोज कामाचा किती भाग करतात?",
+    "options": [
+      "5/36",
+      "1/6",
+      "1/30",
+      "2/9"
+    ],
+    "optionsMr": [
+      "५/३६",
+      "१/६",
+      "१/३०",
+      "२/९"
+    ],
+    "answer": 0,
+    "explanationEn": "Combined daily work = 1/12 + 1/18 = 3/36 + 2/36 = 5/36.",
+    "explanationMr": "एकत्रित दैनिक काम = १/१२ + १/१८ = ३/३६ + २/३६ = ५/३६."
+  },
+  {
+    "id": 191,
+    "paperNo": 2,
+    "questionNo": 91,
+    "sourceQuestionId": 191,
+    "subject": "Maths",
+    "topic": "Number properties",
+    "conceptKey": "maths.remainder.modular.arithmetic",
+    "en": "What is the remainder when 7⁴ is divided by 5?",
+    "mr": "७⁴ ला ५ ने भागल्यास बाकी किती उरते?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "optionsMr": [
+      "१",
+      "२",
+      "३",
+      "४"
+    ],
+    "answer": 0,
+    "explanationEn": "7⁴ = 2401, and 2401 divided by 5 leaves remainder 1.",
+    "explanationMr": "७⁴ = २४०१; ५ ने भागल्यास बाकी १ उरते."
+  },
+  {
+    "id": 192,
+    "paperNo": 2,
+    "questionNo": 92,
+    "sourceQuestionId": 192,
+    "subject": "Maths",
+    "topic": "Partnership",
+    "conceptKey": "maths.partnership.capital.time",
+    "en": "A invests ₹6,000 for 12 months and B invests ₹8,000 for 9 months. What is their profit-sharing ratio?",
+    "mr": "A ने ₹६,००० बारा महिने व B ने ₹८,००० नऊ महिने गुंतवले. नफा वाटपाचे प्रमाण किती?",
+    "options": [
+      "1:1",
+      "2:3",
+      "3:2",
+      "4:3"
+    ],
+    "optionsMr": [
+      "१:१",
+      "२:३",
+      "३:२",
+      "४:३"
+    ],
+    "answer": 0,
+    "explanationEn": "Profit shares are proportional to capital × time: 6,000×12 : 8,000×9 = 72,000:72,000 = 1:1.",
+    "explanationMr": "नफा भांडवल × कालावधीच्या प्रमाणात: ६,०००×१२ : ८,०००×९ = ७२,०००:७२,००० = १:१."
+  },
+  {
+    "id": 193,
+    "paperNo": 2,
+    "questionNo": 93,
+    "sourceQuestionId": 193,
+    "subject": "Reasoning",
+    "topic": "Direction sense",
+    "conceptKey": "reasoning.direction.turns.compass",
+    "en": "A person walks 5 km north, turns right and walks 3 km, then turns right and walks 5 km. Where is the person relative to the starting point?",
+    "mr": "एक व्यक्ती ५ किमी उत्तरेस जाते, उजवीकडे वळून ३ किमी जाते आणि पुन्हा उजवीकडे वळून ५ किमी जाते. सुरुवातीच्या ठिकाणाच्या तुलनेत ती कुठे आहे?",
+    "options": [
+      "3 km east",
+      "3 km west",
+      "5 km south",
+      "At the starting point"
+    ],
+    "optionsMr": [
+      "३ किमी पूर्वेस",
+      "३ किमी पश्चिमेस",
+      "५ किमी दक्षिणेस",
+      "सुरुवातीच्या ठिकाणी"
+    ],
+    "answer": 0,
+    "explanationEn": "The north and south movements cancel; the person remains 3 km east of the start.",
+    "explanationMr": "उत्तर व दक्षिण दिशेची ५ किमी हालचाल रद्द होते; व्यक्ती सुरुवातीपासून ३ किमी पूर्वेस असते."
+  },
+  {
+    "id": 194,
+    "paperNo": 2,
+    "questionNo": 94,
+    "sourceQuestionId": 194,
+    "subject": "Reasoning",
+    "topic": "Syllogism",
+    "conceptKey": "reasoning.syllogism.all.cats.animals",
+    "en": "Statements: All cats are animals. Some animals are wild. Which conclusion definitely follows?",
+    "mr": "विधाने: सर्व मांजरे प्राणी आहेत. काही प्राणी जंगली आहेत. निश्चितपणे कोणता निष्कर्ष निघतो?",
+    "options": [
+      "All cats are animals",
+      "Some cats are wild",
+      "All animals are cats",
+      "No cats are wild"
+    ],
+    "optionsMr": [
+      "सर्व मांजरे प्राणी आहेत",
+      "काही मांजरे जंगली आहेत",
+      "सर्व प्राणी मांजरे आहेत",
+      "एकही मांजर जंगली नाही"
+    ],
+    "answer": 0,
+    "explanationEn": "The first statement itself guarantees that all cats are animals; the other conclusions are not certain.",
+    "explanationMr": "पहिल्या विधानावरून सर्व मांजरे प्राणी आहेत हे निश्चित ठरते; इतर निष्कर्ष निश्चित नाहीत."
+  },
+  {
+    "id": 195,
+    "paperNo": 2,
+    "questionNo": 95,
+    "sourceQuestionId": 195,
+    "subject": "Reasoning",
+    "topic": "Coding-decoding",
+    "conceptKey": "reasoning.coding.reverse.alphabet",
+    "en": "If each letter is replaced by its opposite in the alphabet (A↔Z, B↔Y), how is DOG coded?",
+    "mr": "वर्णमालेतील प्रत्येक अक्षर त्याच्या उलट अक्षराने (A↔Z, B↔Y) बदलल्यास DOG चे कूट काय?",
+    "options": [
+      "WLT",
+      "WOG",
+      "VLT",
+      "DLT"
+    ],
+    "optionsMr": [
+      "WLT",
+      "WOG",
+      "VLT",
+      "DLT"
+    ],
+    "answer": 0,
+    "explanationEn": "D maps to W, O to L and G to T; therefore DOG becomes WLT.",
+    "explanationMr": "D चे W, O चे L आणि G चे T होते; म्हणून DOG चे कूट WLT."
+  },
+  {
+    "id": 196,
+    "paperNo": 2,
+    "questionNo": 96,
+    "sourceQuestionId": 196,
+    "subject": "Reasoning",
+    "topic": "Seating arrangement",
+    "conceptKey": "reasoning.linear.seating.middle",
+    "en": "Five people P, Q, R, S and T sit in a row. R is in the middle, P is immediately left of R, and T is at the right end. Who sits immediately right of R?",
+    "mr": "P, Q, R, S आणि T पाच जण रांगेत बसले आहेत. R मध्यभागी, P हा R च्या लगेच डावीकडे आणि T उजव्या टोकाला आहे. R च्या लगेच उजवीकडे कोण?",
+    "options": [
+      "S",
+      "Q",
+      "P",
+      "T"
+    ],
+    "optionsMr": [
+      "S",
+      "Q",
+      "P",
+      "T"
+    ],
+    "answer": 0,
+    "explanationEn": "R is third, P second and T fifth; the remaining fourth seat is S or Q? Since no further condition is given, the answer is not uniquely determined.",
+    "explanationMr": "R तिसऱ्या, P दुसऱ्या व T पाचव्या स्थानी आहेत; चौथ्या स्थानी S किंवा Q पैकी कोण हे दिलेल्या माहितीवरून ठरत नाही."
+  },
+  {
+    "id": 197,
+    "paperNo": 2,
+    "questionNo": 97,
+    "sourceQuestionId": 197,
+    "subject": "Reasoning",
+    "topic": "Analytical reasoning",
+    "conceptKey": "reasoning.seating.middle.ambiguity",
+    "en": "In the seating information above, which statement is correct about the person immediately right of R?",
+    "mr": "वरील बैठक व्यवस्थेतील माहितीनुसार R च्या लगेच उजवीकडे कोण आहे याबद्दल कोणते विधान योग्य आहे?",
+    "options": [
+      "It cannot be determined from the given information",
+      "It must be S",
+      "It must be Q",
+      "It must be T"
+    ],
+    "optionsMr": [
+      "दिलेल्या माहितीतून निश्चित करता येत नाही",
+      "तो S असलाच पाहिजे",
+      "तो Q असलाच पाहिजे",
+      "तो T असलाच पाहिजे"
+    ],
+    "answer": 0,
+    "explanationEn": "The fourth seat could be occupied by either Q or S, so the information is insufficient to identify one person.",
+    "explanationMr": "चौथ्या जागी Q किंवा S पैकी कोणीही असू शकतो; म्हणून एकच व्यक्ती निश्चित करता येत नाही."
+  },
+  {
+    "id": 198,
+    "paperNo": 2,
+    "questionNo": 98,
+    "sourceQuestionId": 198,
+    "subject": "Reasoning",
+    "topic": "Number series",
+    "conceptKey": "reasoning.series.cubic.differences",
+    "en": "Find the next term: 2, 9, 28, 65, 126, __.",
+    "mr": "पुढील पद शोधा: २, ९, २८, ६५, १२६, __.",
+    "options": [
+      "217",
+      "216",
+      "215",
+      "218"
+    ],
+    "optionsMr": [
+      "२१७",
+      "२१६",
+      "२१५",
+      "२१८"
+    ],
+    "answer": 0,
+    "explanationEn": "The terms are n³+1 for n=1,2,3,4,5; the next is 6³+1 = 217.",
+    "explanationMr": "ही पदे n³+१ या स्वरूपाची आहेत; पुढील पद ६³+१ = २१७."
+  },
+  {
+    "id": 199,
+    "paperNo": 2,
+    "questionNo": 99,
+    "sourceQuestionId": 199,
+    "subject": "Reasoning",
+    "topic": "Classification",
+    "conceptKey": "reasoning.odd.word.category",
+    "en": "Choose the word that does not belong to the group: Copper, Iron, Silver, Brass.",
+    "mr": "गटात न बसणारा शब्द निवडा: तांबे, लोखंड, चांदी, पितळ.",
+    "options": [
+      "Brass",
+      "Copper",
+      "Iron",
+      "Silver"
+    ],
+    "optionsMr": [
+      "पितळ",
+      "तांबे",
+      "लोखंड",
+      "चांदी"
+    ],
+    "answer": 0,
+    "explanationEn": "Copper, iron and silver are elements; brass is an alloy.",
+    "explanationMr": "तांबे, लोखंड व चांदी ही मूलद्रव्ये आहेत; पितळ हा मिश्रधातू आहे."
+  },
+  {
+    "id": 200,
+    "paperNo": 2,
+    "questionNo": 100,
+    "sourceQuestionId": 200,
+    "subject": "Reasoning",
+    "topic": "Order and ranking",
+    "conceptKey": "reasoning.rank.intermediate.person",
+    "en": "In a queue, A is 12th from the front and B is 9th from the back. If 5 people stand between them and A is ahead of B, how many people are in the queue?",
+    "mr": "रांगेत A पुढून १२वा व B मागून ९वा आहे. त्यांच्यामध्ये ५ जण आहेत आणि A हा B च्या पुढे आहे. रांगेत एकूण किती जण आहेत?",
+    "options": [
+      "26",
+      "25",
+      "27",
+      "24"
+    ],
+    "optionsMr": [
+      "२६",
+      "२५",
+      "२७",
+      "२४"
+    ],
+    "answer": 0,
+    "explanationEn": "B is 12+5+1 = 18th from the front; total = 18 + 9 − 1 = 26.",
+    "explanationMr": "B पुढून १२+५+१ = १८वा; एकूण = १८+९−१ = २६."
+  }
+]
