@@ -3,18 +3,23 @@
 A responsive bilingual (English/Marathi) online practice portal for MPSC Group C prelims.
 
 ## Test format
-- 100 questions, 60 minutes, +1 for correct and −0.25 for incorrect.
-- Paper sequence follows the recent Group C prelims structure: History (10), Geography & Environment (10), Economy (15), Current Affairs (15), Polity (15), General Science (15), followed by Quantitative Aptitude and Intelligence Test (20 combined).
-- For practice, the combined aptitude block is split into Maths (12) and Reasoning (8). This internal split is a practice allocation; the Commission's syllabus/paper structure treats these as a combined final block.
-- Each paper draws from subject-specific pools in the same section sequence.
-- Every generated paper is checked for 100 unique question IDs. Questions may recur across different papers, as requested.
-- The bank contains varied Maths topics: percentages, profit/loss, discount, ratio, average, interest, time/work, pipes, speed/distance, trains, mixtures, partnership, number system, fractions, mensuration, algebra, ages and data interpretation.
-- Reasoning includes number and letter series, coding, directions, analogy, calendar, ranking, word formation, blood relations, syllogism, clock, seating and classification.
+- 100 mock tests × 100 questions = 10,000 paper-question records.
+- 60-minute timer, +1 for correct and −0.25 for incorrect answers.
+- Subject sequence per paper: History (10), Geography (8), Economy (16), Current Affairs (16), Polity (15), General Science (15), Maths (12), Reasoning (8).
+- No repeated question wording or concept within an individual paper. Questions may recur in different papers, as requested.
+- The site loads the question data from `question-bank/questions.json` and its batch files; questions are no longer embedded in `app.js`.
 
-## Accuracy and freshness
-The subject sequence and six 10/15-question blocks reflect third-party analyses of the 2024 and 2025 papers. MPSC does not publish a permanently fixed subject-wise quota; the question mix can vary by year. The 12/8 split inside the final 20-question aptitude block is a practice design. Verify the latest MPSC notification and actual papers before exam use. Current Affairs includes dated November 2026 releases from PIB and ISRO and should be refreshed regularly. Independently review each question and answer before high-stakes use.
+## Important question-bank note
+The current 10,000 records are assigned from **154 distinct source questions**. The same source question may appear in more than one paper, but never twice in the same paper. This meets the agreed cross-paper reuse rule; it does **not** mean the bank contains 10,000 independently researched question concepts. The Maths pool covers 30 different topic-specific questions, and Reasoning has 24 source questions. More independently authored and reviewed source questions are still needed to greatly increase across-paper variety.
+
+Current-affairs records include an official source URL and an as-of date. Refresh them regularly. The subject counts are a practice blueprint, not a permanently guaranteed MPSC quota; verify the latest official notification.
+
+## Files
+- `question-bank/questions.json` — manifest for all question batches.
+- `question-bank/batches/` — 10 JSON files, 1,000 paper-question records each.
+- `scripts/validate-question-bank.mjs` — checks all 10,000 records and per-paper duplication rules.
 
 ## Run and deploy
-Open `index.html` locally or publish through GitHub Pages using `.github/workflows/pages.yml`.
+Open the portal through GitHub Pages or a local web server. GitHub Pages deploys through `.github/workflows/pages.yml`.
 
 Progress is stored in browser LocalStorage and is not synced across devices.

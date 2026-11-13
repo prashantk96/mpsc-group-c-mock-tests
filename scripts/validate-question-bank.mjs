@@ -7,6 +7,7 @@
  * Usage: node scripts/validate-question-bank.mjs [path-to-questions.json]
  */
 import fs from "node:fs";
+import path from "node:path";
 const file = process.argv[2] || "question-bank/questions.json";
 const distribution = [
   ["History", 10], ["Geography", 8], ["Economy", 16],
@@ -22,10 +23,36 @@ if (!fs.existsSync(file)) {
   console.error("See question-bank/README.md for the required schema.");
   process.exit(1);
 }
-let bank;
-try { bank = JSON.parse(fs.readFileSync(file, "utf8")); }
+let root;
+try { root = JSON.parse(fs.readFileSync(file, "utf8")); }
 catch (e) { console.error("Invalid JSON:", e.message); process.exit(1); }
-if (!Array.isArray(bank)) { console.error("Root must be a JSON array."); process.exit(1); }
+let bank;
+if (Array.isArray(root)) {
+  bank = root;
+} else if (root && root.format === "mpsc-group-c-question-bank-index" && Array.isArray(root.batches)) {
+  bank = [];
+  for (const batch of root.batches) {
+    if (!batch || typeof batch.file !== "string") {
+      fail.push("Manifest batch entry is missing a file path.");
+      continue;
+    }
+    const batchPath = path.resolve(path.dirname(path.resolve(file)), batch.file);
+    let rows;
+    try { rows = JSON.parse(fs.readFileSync(batchPath, "utf8")); }
+    catch (e) { fail.push(`Could not read batch ${batch.file}: ${e.message}`); continue; }
+    if (!Array.isArray(rows)) { fail.push(`Batch ${batch.file} must be a JSON array.`); continue; }
+    if (Number.isInteger(batch.records) && rows.length !== batch.records) {
+      fail.push(`Batch ${batch.file}: manifest says ${batch.records} records, found ${rows.length}.`);
+    }
+    bank.push(...rows);
+  }
+  if (Number.isInteger(root.totalRecords) && bank.length !== root.totalRecords) {
+    fail.push(`Manifest says ${root.totalRecords} records, loaded ${bank.length}.`);
+  }
+} else {
+  console.error("Root must be a JSON array or an MPSC question-bank manifest.");
+  process.exit(1);
+}
 if (bank.length !== 10000) fail.push(`Expected 10,000 paper-question records; found ${bank.length}.`);
 
 const ids = new Set();
