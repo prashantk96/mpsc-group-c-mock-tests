@@ -58,9 +58,7 @@ if (bank.length !== 10000) fail.push(`Expected 10,000 paper-question records; fo
 const ids = new Set();
 const slots = new Set();
 const perPaper = new Map();
-const globalConcepts = new Map();
-const globalEnglish = new Map();
-const globalMarathi = new Map();
+const sourceQuestionPairs = new Set();
 for (const [i, q] of bank.entries()) {
   const at = `record ${i + 1}`;
   if (!q || typeof q !== "object") { fail.push(`${at}: expected object.`); continue; }
@@ -73,8 +71,8 @@ for (const [i, q] of bank.entries()) {
   if (!Array.isArray(q.options) || q.options.length !== 4 || q.options.some(x => typeof x !== "string" || !x.trim())) {
     fail.push(`${at}: options must contain four non-empty strings.`);
   }
-  if (!Array.isArray(q.optionsMr) || q.optionsMr.length !== 4 || q.optionsMr.some(x => typeof x !== "string" || !x.trim())) {
-    fail.push(`${at}: optionsMr must contain four non-empty Marathi strings.`);
+  if (q.optionsMr !== undefined && (!Array.isArray(q.optionsMr) || q.optionsMr.length !== 4 || q.optionsMr.some(x => typeof x !== "string" || !x.trim()))) {
+    fail.push(`${at}: optional optionsMr, when present, must contain four non-empty Marathi strings.`);
   }
   if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer > 3) fail.push(`${at}: answer must be 0–3.`);
   if (!Number.isInteger(q.paperNo) || q.paperNo < 1 || q.paperNo > 100) { fail.push(`${at}: paperNo must be 1–100.`); continue; }
@@ -82,7 +80,7 @@ for (const [i, q] of bank.entries()) {
   const slot = `${q.paperNo}:${q.questionNo}`;
   if (slots.has(slot)) fail.push(`${at}: duplicate slot ${slot}.`);
   slots.add(slot);
-  if (!perPaper.has(q.paperNo)) perPaper.set(q.paperNo, { counts: {} });
+  if (!perPaper.has(q.paperNo)) perPaper.set(q.paperNo, { counts: {}, concepts: new Set(), english: new Set(), marathi: new Set() });
   const p = perPaper.get(q.paperNo);
   p.counts[q.subject] = (p.counts[q.subject] || 0) + 1;
   const expectedSubject = distribution.find(([subject, count], idx) => {
@@ -92,17 +90,19 @@ for (const [i, q] of bank.entries()) {
   if (expectedSubject && q.subject !== expectedSubject) {
     fail.push(`${at}: paper ${q.paperNo} question ${q.questionNo} must be ${expectedSubject}, not ${q.subject}.`);
   }
-  for (const [field, map] of [["conceptKey", globalConcepts], ["en", globalEnglish], ["mr", globalMarathi]]) {
+  sourceQuestionPairs.add(`${norm(q.en)}|${norm(q.mr)}`);
+  for (const [field, set] of [["conceptKey", p.concepts], ["en", p.english], ["mr", p.marathi]]) {
     const key = norm(q[field]);
     if (!key) continue;
-    if (map.has(key)) fail.push(`${at}: globally repeated ${field} (first at record ${map.get(key)}); every source question must be unique across all 100 papers.`);
-    else map.set(key, i + 1);
+    if (set.has(key)) fail.push(`${at}: repeated ${field} within paper ${q.paperNo}; a paper must not contain duplicate questions/concepts.`);
+    else set.add(key);
   }
   if (q.subject === "Current Affairs" && (!q.source || !q.asOfDate)) {
     fail.push(`${at}: Current Affairs requires source and asOfDate.`);
   }
 }
-if (slots.size !== 10000) fail.push(`Expected 10,000 unique paper/question slots; found ${slots.size}.`);
+if (slots.size !== 10000) fail.push(`Expected 10,000 paper/question slots; found ${slots.size}.`);
+if (Number.isInteger(root.distinctSourceQuestions) && root.distinctSourceQuestions !== sourceQuestionPairs.size) fail.push(`Manifest says ${root.distinctSourceQuestions} distinct source questions, found ${sourceQuestionPairs.size}.`);
 for (let paper = 1; paper <= 100; paper++) {
   const p = perPaper.get(paper);
   if (!p) { fail.push(`Paper ${paper} is missing.`); continue; }
@@ -116,4 +116,4 @@ if (fail.length) {
   if (fail.length > 100) console.error(` ... and ${fail.length - 100} more.`);
   process.exit(1);
 }
-console.log("PASS: 10,000 globally unique bilingual questions, 100 complete papers, correct subject sequence/distribution, and four English/Marathi options per question.");
+console.log(`PASS: 100 complete papers, 100 questions each, correct subject sequence/distribution, and no duplicates within a paper. ${sourceQuestionPairs.size} distinct bilingual source questions are reused across papers as permitted.`);
