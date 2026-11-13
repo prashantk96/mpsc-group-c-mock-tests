@@ -1,0 +1,1397 @@
+{
+  "status": "DRAFT — NOT YET APPROVED",
+  "batch": "101-150",
+  "paperNo": 2,
+  "questionCount": 50,
+  "subjectDistribution": {
+    "History": 10,
+    "Geography": 8,
+    "Economy": 16,
+    "Current Affairs": 16
+  },
+  "reviewNote": "First half of draft Paper 2. Review and accept/edit/reject before production use.",
+  "questions": [
+    {
+      "id": 101,
+      "paperNo": 2,
+      "questionNo": 1,
+      "sourceQuestionId": 101,
+      "subject": "History",
+      "topic": "Mauryan administration",
+      "difficulty": "medium",
+      "conceptKey": "history.mauryan.revenue.samaharta",
+      "en": "Which Mauryan official was chiefly responsible for revenue collection?",
+      "mr": "मौर्य प्रशासनात महसूल संकलनाची प्रमुख जबाबदारी कोणाची होती?",
+      "options": [
+        "Samaharta",
+        "Sannidhata",
+        "Senapati",
+        "Purohita"
+      ],
+      "optionsMr": [
+        "समाहर्ता",
+        "सन्निधाता",
+        "सेनापती",
+        "पुरोहित"
+      ],
+      "answer": 0,
+      "explanationEn": "The Samaharta was the chief revenue collector; the Sannidhata supervised the treasury.",
+      "explanationMr": "समाहर्ता प्रमुख महसूल संकलक होता; सन्निधाता खजिन्याची देखरेख करत असे."
+    },
+    {
+      "id": 102,
+      "paperNo": 2,
+      "questionNo": 2,
+      "sourceQuestionId": 102,
+      "subject": "History",
+      "topic": "Gupta period",
+      "difficulty": "medium",
+      "conceptKey": "history.gupta.fa.hien",
+      "en": "Which Chinese traveller visited India during Chandragupta II's reign?",
+      "mr": "चंद्रगुप्त दुसरा याच्या कारकिर्दीत भारताला कोणत्या चिनी प्रवाशाने भेट दिली?",
+      "options": [
+        "Fa-Hien",
+        "Xuanzang",
+        "I-Tsing",
+        "Megasthenes"
+      ],
+      "optionsMr": [
+        "फा-हियेन",
+        "ह्युएनत्संग",
+        "इत्सिंग",
+        "मेगॅस्थेनिस"
+      ],
+      "answer": 0,
+      "explanationEn": "Fa-Hien visited India during Chandragupta II's reign in the early fifth century.",
+      "explanationMr": "फा-हियेनने पाचव्या शतकाच्या सुरुवातीला चंद्रगुप्त दुसरा याच्या काळात भारताला भेट दिली."
+    },
+    {
+      "id": 103,
+      "paperNo": 2,
+      "questionNo": 3,
+      "sourceQuestionId": 103,
+      "subject": "History",
+      "topic": "Delhi Sultanate",
+      "difficulty": "medium",
+      "conceptKey": "history.alauddin.diwan.riyasat",
+      "en": "Which department supervised market regulations under Alauddin Khalji?",
+      "mr": "अलाउद्दीन खिलजीच्या काळात बाजार नियंत्रणाची देखरेख कोणता विभाग करत असे?",
+      "options": [
+        "Diwan-i-Riyasat",
+        "Diwan-i-Arz",
+        "Diwan-i-Insha",
+        "Diwan-i-Wizarat"
+      ],
+      "optionsMr": [
+        "दिवाण-इ-रियासत",
+        "दिवाण-इ-अर्ज",
+        "दिवाण-इ-इंशा",
+        "दिवाण-इ-विजारत"
+      ],
+      "answer": 0,
+      "explanationEn": "The Diwan-i-Riyasat supervised market control and price regulations.",
+      "explanationMr": "दिवाण-इ-रियासत बाजार नियंत्रण व किंमत नियमनाची देखरेख करत असे."
+    },
+    {
+      "id": 104,
+      "paperNo": 2,
+      "questionNo": 4,
+      "sourceQuestionId": 104,
+      "subject": "History",
+      "topic": "Vijayanagara Empire",
+      "difficulty": "medium",
+      "conceptKey": "history.vijayanagara.amara.nayaka",
+      "en": "The Amara-Nayaka system was a feature of which empire?",
+      "mr": "अमर-नायक पद्धती कोणत्या साम्राज्याचे वैशिष्ट्य होते?",
+      "options": [
+        "Vijayanagara",
+        "Mughal",
+        "Maratha",
+        "Chola"
+      ],
+      "optionsMr": [
+        "विजयनगर",
+        "मुघल",
+        "मराठा",
+        "चोल"
+      ],
+      "answer": 0,
+      "explanationEn": "Vijayanagara rulers assigned territories to military chiefs called amara-nayakas.",
+      "explanationMr": "विजयनगरच्या शासकांनी अमर-नायक नावाच्या लष्करी प्रमुखांना प्रदेश दिले होते."
+    },
+    {
+      "id": 105,
+      "paperNo": 2,
+      "questionNo": 5,
+      "sourceQuestionId": 105,
+      "subject": "History",
+      "topic": "Shivaji Maharaj's administration",
+      "difficulty": "medium",
+      "conceptKey": "history.ashtapradhan.sumant",
+      "en": "In the Ashtapradhan council, who handled foreign affairs?",
+      "mr": "अष्टप्रधान मंडळात परराष्ट्र व्यवहार कोण पाहत असे?",
+      "options": [
+        "Sumant",
+        "Amatya",
+        "Sachiv",
+        "Panditrao"
+      ],
+      "optionsMr": [
+        "सुमंत",
+        "अमात्य",
+        "सचिव",
+        "पंडितराव"
+      ],
+      "answer": 0,
+      "explanationEn": "The Sumant, also called Dabir, handled diplomacy and external relations.",
+      "explanationMr": "सुमंत किंवा डबीर परराष्ट्र संबंध व मुत्सद्देगिरी पाहत असे."
+    },
+    {
+      "id": 106,
+      "paperNo": 2,
+      "questionNo": 6,
+      "sourceQuestionId": 106,
+      "subject": "History",
+      "topic": "Maratha forts",
+      "difficulty": "medium",
+      "conceptKey": "history.sindhudurg.fort.founder",
+      "en": "Who commissioned the construction of Sindhudurg fort?",
+      "mr": "सिंधुदुर्ग किल्ल्याच्या बांधकामाची सुरुवात कोणी केली?",
+      "options": [
+        "Chhatrapati Shivaji Maharaj",
+        "Sambhaji Maharaj",
+        "Kanhoji Angre",
+        "Bajirao I"
+      ],
+      "optionsMr": [
+        "छत्रपती शिवाजी महाराज",
+        "संभाजी महाराज",
+        "कान्होजी आंग्रे",
+        "बाजीराव पहिले"
+      ],
+      "answer": 0,
+      "explanationEn": "Shivaji Maharaj commissioned Sindhudurg as a strategic sea fort in the 1660s.",
+      "explanationMr": "छत्रपती शिवाजी महाराजांनी १६६० च्या दशकात सामरिक सागरी किल्ला म्हणून सिंधुदुर्ग बांधण्याचे आदेश दिले."
+    },
+    {
+      "id": 107,
+      "paperNo": 2,
+      "questionNo": 7,
+      "sourceQuestionId": 107,
+      "subject": "History",
+      "topic": "Economic critique of colonialism",
+      "difficulty": "medium",
+      "conceptKey": "history.drain.theory.naoroji",
+      "en": "Who developed the economic drain theory of British rule in India?",
+      "mr": "ब्रिटिश राजवटीतील संपत्तीच्या निचऱ्याचा सिद्धांत कोणी मांडला?",
+      "options": [
+        "Dadabhai Naoroji",
+        "R. C. Dutt",
+        "M. G. Ranade",
+        "G. K. Gokhale"
+      ],
+      "optionsMr": [
+        "दादाभाई नौरोजी",
+        "आर. सी. दत्त",
+        "महादेव गोविंद रानडे",
+        "गोपाळ कृष्ण गोखले"
+      ],
+      "answer": 0,
+      "explanationEn": "Dadabhai Naoroji developed the drain theory and discussed it in his writings.",
+      "explanationMr": "दादाभाई नौरोजी यांनी संपत्तीच्या निचऱ्याचा सिद्धांत मांडला व आपल्या लेखनात त्याची चर्चा केली."
+    },
+    {
+      "id": 108,
+      "paperNo": 2,
+      "questionNo": 8,
+      "sourceQuestionId": 108,
+      "subject": "History",
+      "topic": "Revolutionary movement",
+      "difficulty": "medium",
+      "conceptKey": "history.kakori.hra",
+      "en": "The Kakori train action of 1925 was organised by which group?",
+      "mr": "१९२५ मधील काकोरी रेल्वे कारवाई कोणत्या संघटनेने केली?",
+      "options": [
+        "Hindustan Republican Association",
+        "Anushilan Samiti",
+        "Ghadar Party",
+        "Home Rule League"
+      ],
+      "optionsMr": [
+        "हिंदुस्तान रिपब्लिकन असोसिएशन",
+        "अनुशीलन समिती",
+        "गदर पक्ष",
+        "होमरूल लीग"
+      ],
+      "answer": 0,
+      "explanationEn": "The Hindustan Republican Association organised the Kakori action to raise funds for revolutionary work.",
+      "explanationMr": "क्रांतिकारक कार्यासाठी निधी उभारण्याच्या उद्देशाने हिंदुस्तान रिपब्लिकन असोसिएशनने काकोरी कारवाई केली."
+    },
+    {
+      "id": 109,
+      "paperNo": 2,
+      "questionNo": 9,
+      "sourceQuestionId": 109,
+      "subject": "History",
+      "topic": "Constitutional developments",
+      "difficulty": "medium",
+      "conceptKey": "history.government.india.act.1919.dyarchy",
+      "en": "Dyarchy in the provinces was introduced by which Act?",
+      "mr": "प्रांतांमध्ये द्विदल राज्यपद्धती कोणत्या कायद्याने सुरू केली?",
+      "options": [
+        "Government of India Act, 1919",
+        "Indian Councils Act, 1909",
+        "Government of India Act, 1935",
+        "Indian Independence Act, 1947"
+      ],
+      "optionsMr": [
+        "भारत सरकार कायदा, १९१९",
+        "भारतीय परिषद कायदा, १९०९",
+        "भारत सरकार कायदा, १९३५",
+        "भारतीय स्वातंत्र्य कायदा, १९४७"
+      ],
+      "answer": 0,
+      "explanationEn": "The Government of India Act, 1919 introduced dyarchy in provinces.",
+      "explanationMr": "भारत सरकार कायदा १९१९ ने प्रांतांमध्ये द्विदल राज्यपद्धती सुरू केली."
+    },
+    {
+      "id": 110,
+      "paperNo": 2,
+      "questionNo": 10,
+      "sourceQuestionId": 110,
+      "subject": "History",
+      "topic": "Maharashtra newspapers",
+      "difficulty": "medium",
+      "conceptKey": "history.kesari.tilak.agarkar",
+      "en": "Who was a principal founder of the Marathi newspaper Kesari with Gopal Ganesh Agarkar?",
+      "mr": "गोपाळ गणेश आगरकर यांच्यासह केसरी वृत्तपत्र सुरू करण्यात प्रमुख भूमिका कोणी बजावली?",
+      "options": [
+        "Bal Gangadhar Tilak",
+        "Vishnushastri Chiplunkar",
+        "M. G. Ranade",
+        "Gopal Hari Deshmukh"
+      ],
+      "optionsMr": [
+        "बाळ गंगाधर टिळक",
+        "विष्णुशास्त्री चिपळूणकर",
+        "महादेव गोविंद रानडे",
+        "गोपाळ हरी देशमुख"
+      ],
+      "answer": 0,
+      "explanationEn": "Tilak and Agarkar were central to launching Kesari in 1881.",
+      "explanationMr": "१८८१ मध्ये केसरी सुरू करण्यात टिळक व आगरकर यांची प्रमुख भूमिका होती."
+    },
+    {
+      "id": 111,
+      "paperNo": 2,
+      "questionNo": 11,
+      "sourceQuestionId": 111,
+      "subject": "Geography",
+      "topic": "Deccan Trap geology",
+      "difficulty": "medium",
+      "conceptKey": "geography.deccan.trap.basalt",
+      "en": "The Deccan Trap region is mainly composed of which rock?",
+      "mr": "दख्खन ट्रॅप प्रदेश मुख्यतः कोणत्या खडकाचा बनलेला आहे?",
+      "options": [
+        "Basalt",
+        "Granite",
+        "Sandstone",
+        "Limestone"
+      ],
+      "optionsMr": [
+        "बेसॉल्ट",
+        "ग्रॅनाइट",
+        "वाळूचा खडक",
+        "चुनखडी"
+      ],
+      "answer": 0,
+      "explanationEn": "Repeated lava flows cooled to form extensive basalt layers.",
+      "explanationMr": "वारंवार झालेल्या लाव्हा प्रवाहांपासून थंड होऊन विस्तृत बेसॉल्ट थर तयार झाले."
+    },
+    {
+      "id": 112,
+      "paperNo": 2,
+      "questionNo": 12,
+      "sourceQuestionId": 112,
+      "subject": "Geography",
+      "topic": "Maharashtra physiography",
+      "difficulty": "medium",
+      "conceptKey": "geography.maharashtra.balaghat.range",
+      "en": "The Balaghat uplands are associated mainly with which region of Maharashtra?",
+      "mr": "बालाघाटचे उंचवटे महाराष्ट्रातील मुख्यतः कोणत्या प्रदेशाशी संबंधित आहेत?",
+      "options": [
+        "Marathwada and adjoining plateau",
+        "Konkan coast",
+        "Western coastal islands",
+        "Northern coastal plain"
+      ],
+      "optionsMr": [
+        "मराठवाडा व लगतचे पठार",
+        "कोकण किनारपट्टी",
+        "पश्चिम किनाऱ्यावरील बेटे",
+        "उत्तर किनारी मैदान"
+      ],
+      "answer": 0,
+      "explanationEn": "The Balaghat uplands extend across parts of the Deccan plateau, including Marathwada.",
+      "explanationMr": "बालाघाटचे उंचवटे मराठवाड्यासह दख्खनच्या पठारातील काही भागांत पसरलेले आहेत."
+    },
+    {
+      "id": 113,
+      "paperNo": 2,
+      "questionNo": 13,
+      "sourceQuestionId": 113,
+      "subject": "Geography",
+      "topic": "Indian climate",
+      "difficulty": "medium",
+      "conceptKey": "geography.western.disturbances.winter.rain",
+      "en": "Winter rainfall in north-western India is mainly associated with which system?",
+      "mr": "वायव्य भारतातील हिवाळी पाऊस मुख्यतः कोणत्या प्रणालीमुळे पडतो?",
+      "options": [
+        "Western disturbances",
+        "South-west monsoon",
+        "North-east trade winds",
+        "Sea breeze"
+      ],
+      "optionsMr": [
+        "पश्चिमी विक्षोभ",
+        "नैऋत्य मोसमी वारे",
+        "ईशान्य व्यापारी वारे",
+        "समुद्री वारा"
+      ],
+      "answer": 0,
+      "explanationEn": "Western disturbances bring winter precipitation to north-western India.",
+      "explanationMr": "पश्चिमी विक्षोभ वायव्य भारतात हिवाळी पर्जन्य आणतात."
+    },
+    {
+      "id": 114,
+      "paperNo": 2,
+      "questionNo": 14,
+      "sourceQuestionId": 114,
+      "subject": "Geography",
+      "topic": "River systems",
+      "difficulty": "medium",
+      "conceptKey": "geography.chambal.yamuna.tributary",
+      "en": "The Chambal is a tributary of which river?",
+      "mr": "चंबळ ही कोणत्या नदीची उपनदी आहे?",
+      "options": [
+        "Yamuna",
+        "Ganga",
+        "Godavari",
+        "Mahanadi"
+      ],
+      "optionsMr": [
+        "यमुना",
+        "गंगा",
+        "गोदावरी",
+        "महानदी"
+      ],
+      "answer": 0,
+      "explanationEn": "The Chambal joins the Yamuna in the Ganga river system.",
+      "explanationMr": "चंबळ नदी गंगा नदीप्रणालीत यमुनेला मिळते."
+    },
+    {
+      "id": 115,
+      "paperNo": 2,
+      "questionNo": 15,
+      "sourceQuestionId": 115,
+      "subject": "Geography",
+      "topic": "Soils",
+      "difficulty": "medium",
+      "conceptKey": "geography.laterite.soil.leaching",
+      "en": "Laterite soils generally develop under which conditions?",
+      "mr": "जांभी मातीची निर्मिती सामान्यतः कोणत्या परिस्थितीत होते?",
+      "options": [
+        "High temperature and heavy rainfall",
+        "Cold climate and snowfall",
+        "Arid climate without rain",
+        "Permanent frost"
+      ],
+      "optionsMr": [
+        "उच्च तापमान व अतिवृष्टी",
+        "थंड हवामान व हिमवृष्टी",
+        "पाऊस नसलेले शुष्क हवामान",
+        "कायमस्वरूपी हिम"
+      ],
+      "answer": 0,
+      "explanationEn": "Intense leaching under warm, wet conditions favours laterite formation.",
+      "explanationMr": "उष्ण व दमट परिस्थितीत तीव्र क्षालनामुळे जांभी माती तयार होते."
+    },
+    {
+      "id": 116,
+      "paperNo": 2,
+      "questionNo": 16,
+      "sourceQuestionId": 116,
+      "subject": "Geography",
+      "topic": "Cropping seasons",
+      "difficulty": "medium",
+      "conceptKey": "geography.rabi.wheat.crop",
+      "en": "Which crop is typically grown in the rabi season?",
+      "mr": "रब्बी हंगामात सामान्यतः कोणते पीक घेतले जाते?",
+      "options": [
+        "Wheat",
+        "Cotton",
+        "Jute",
+        "Kharif rice"
+      ],
+      "optionsMr": [
+        "गहू",
+        "कापूस",
+        "ताग",
+        "खरीप भात"
+      ],
+      "answer": 0,
+      "explanationEn": "Wheat is a major rabi crop, generally sown after the monsoon.",
+      "explanationMr": "गहू हे प्रमुख रब्बी पीक असून मोसमानंतर पेरले जाते."
+    },
+    {
+      "id": 117,
+      "paperNo": 2,
+      "questionNo": 17,
+      "sourceQuestionId": 117,
+      "subject": "Geography",
+      "topic": "Ocean currents",
+      "difficulty": "medium",
+      "conceptKey": "geography.gulf.stream.atlantic",
+      "en": "The Gulf Stream is a warm current in which ocean?",
+      "mr": "गल्फ स्ट्रीम हा उष्ण महासागरी प्रवाह कोणत्या महासागरात आहे?",
+      "options": [
+        "Atlantic",
+        "Pacific",
+        "Indian",
+        "Arctic"
+      ],
+      "optionsMr": [
+        "अटलांटिक",
+        "प्रशांत",
+        "हिंदी",
+        "आर्क्टिक"
+      ],
+      "answer": 0,
+      "explanationEn": "The Gulf Stream carries warm water towards the North Atlantic.",
+      "explanationMr": "गल्फ स्ट्रीम उष्ण पाणी उत्तर अटलांटिककडे वाहून नेतो."
+    },
+    {
+      "id": 118,
+      "paperNo": 2,
+      "questionNo": 18,
+      "sourceQuestionId": 118,
+      "subject": "Geography",
+      "topic": "Population geography",
+      "difficulty": "medium",
+      "conceptKey": "geography.population.density.unit",
+      "en": "Population density is usually measured as persons per what?",
+      "mr": "लोकसंख्येची घनता सामान्यतः प्रति कशातील व्यक्ती या एककात मोजली जाते?",
+      "options": [
+        "Square kilometre",
+        "Cubic kilometre",
+        "Hectare of farmland",
+        "Kilometre of road"
+      ],
+      "optionsMr": [
+        "चौरस किलोमीटर",
+        "घन किलोमीटर",
+        "शेतजमिनीचा हेक्टर",
+        "रस्त्याचा किलोमीटर"
+      ],
+      "answer": 0,
+      "explanationEn": "Population density is population per unit area, usually per square kilometre.",
+      "explanationMr": "लोकसंख्येची घनता म्हणजे प्रति एकक क्षेत्रातील लोकसंख्या; सामान्यतः प्रति चौरस किलोमीटर."
+    },
+    {
+      "id": 119,
+      "paperNo": 2,
+      "questionNo": 19,
+      "sourceQuestionId": 119,
+      "subject": "Economy",
+      "topic": "Fiscal deficit",
+      "difficulty": "medium",
+      "conceptKey": "economy.fiscal.deficit.definition",
+      "en": "Fiscal deficit is total expenditure minus total receipts excluding what?",
+      "mr": "राजकोषीय तूट म्हणजे एकूण खर्चातून कोणत्या प्राप्ती वगळून उरलेली तफावत?",
+      "options": [
+        "Borrowings",
+        "Tax revenue",
+        "Revenue receipts",
+        "Grants"
+      ],
+      "optionsMr": [
+        "कर्ज",
+        "कर महसूल",
+        "महसुली प्राप्ती",
+        "अनुदाने"
+      ],
+      "answer": 0,
+      "explanationEn": "Fiscal deficit equals total expenditure minus total receipts excluding borrowings.",
+      "explanationMr": "राजकोषीय तूट = कर्ज वगळून एकूण प्राप्ती वजा एकूण खर्च."
+    },
+    {
+      "id": 120,
+      "paperNo": 2,
+      "questionNo": 20,
+      "sourceQuestionId": 120,
+      "subject": "Economy",
+      "topic": "Revenue deficit",
+      "difficulty": "medium",
+      "conceptKey": "economy.revenue.deficit.definition",
+      "en": "Revenue deficit occurs when revenue expenditure exceeds what?",
+      "mr": "महसुली खर्च कोणत्या प्राप्तींपेक्षा जास्त झाल्यास महसुली तूट होते?",
+      "options": [
+        "Revenue receipts",
+        "Capital expenditure",
+        "Borrowings",
+        "Foreign investment"
+      ],
+      "optionsMr": [
+        "महसुली प्राप्ती",
+        "भांडवली खर्च",
+        "कर्ज",
+        "परकीय गुंतवणूक"
+      ],
+      "answer": 0,
+      "explanationEn": "Revenue deficit is revenue expenditure minus revenue receipts.",
+      "explanationMr": "महसुली तूट म्हणजे महसुली खर्चातून महसुली प्राप्ती वजा केल्यावर उरणारी रक्कम."
+    },
+    {
+      "id": 121,
+      "paperNo": 2,
+      "questionNo": 21,
+      "sourceQuestionId": 121,
+      "subject": "Economy",
+      "topic": "Banking: CRR",
+      "difficulty": "medium",
+      "conceptKey": "economy.crr.rbi.cash",
+      "en": "Banks maintain the Cash Reserve Ratio balance with which institution?",
+      "mr": "बँका रोख राखीव प्रमाणाची रक्कम कोणत्या संस्थेकडे ठेवतात?",
+      "options": [
+        "Reserve Bank of India",
+        "SEBI",
+        "NABARD",
+        "Finance Commission"
+      ],
+      "optionsMr": [
+        "भारतीय रिझर्व्ह बँक",
+        "सेबी",
+        "नाबार्ड",
+        "वित्त आयोग"
+      ],
+      "answer": 0,
+      "explanationEn": "Banks maintain CRR balances with the RBI in cash form.",
+      "explanationMr": "बँका CRR अंतर्गत रोख शिल्लक रिझर्व्ह बँकेकडे ठेवतात."
+    },
+    {
+      "id": 122,
+      "paperNo": 2,
+      "questionNo": 22,
+      "sourceQuestionId": 122,
+      "subject": "Economy",
+      "topic": "Banking: SLR",
+      "difficulty": "medium",
+      "conceptKey": "economy.slr.liquid.assets",
+      "en": "Which combination can be used to maintain SLR?",
+      "mr": "SLR राखण्यासाठी कोणत्या मालमत्ता वापरता येतात?",
+      "options": [
+        "Cash, gold and approved securities",
+        "Only company shares",
+        "Only buildings",
+        "Only foreign loans"
+      ],
+      "optionsMr": [
+        "रोख, सोने व मान्यताप्राप्त प्रतिभूती",
+        "फक्त कंपनीचे समभाग",
+        "फक्त इमारती",
+        "फक्त परकीय कर्जे"
+      ],
+      "answer": 0,
+      "explanationEn": "SLR is maintained in liquid assets such as cash, gold and approved securities.",
+      "explanationMr": "SLR रोख, सोने व मान्यताप्राप्त प्रतिभूती यांसारख्या तरल मालमत्तेत राखला जातो."
+    },
+    {
+      "id": 123,
+      "paperNo": 2,
+      "questionNo": 23,
+      "sourceQuestionId": 123,
+      "subject": "Economy",
+      "topic": "Monetary policy",
+      "difficulty": "medium",
+      "conceptKey": "economy.repo.rate.eligible.securities",
+      "en": "Banks borrow under the repo arrangement against what?",
+      "mr": "रेपो व्यवहारात बँका कोणत्या तारणावर कर्ज घेतात?",
+      "options": [
+        "Eligible securities",
+        "Residential rent",
+        "Unsecured deposits",
+        "Agricultural produce only"
+      ],
+      "optionsMr": [
+        "पात्र प्रतिभूती",
+        "निवासी भाडे",
+        "विनातारण ठेवी",
+        "फक्त कृषी उत्पादन"
+      ],
+      "answer": 0,
+      "explanationEn": "Repo borrowing is collateralised by eligible securities.",
+      "explanationMr": "रेपो कर्जासाठी पात्र प्रतिभूती तारण म्हणून दिल्या जातात."
+    },
+    {
+      "id": 124,
+      "paperNo": 2,
+      "questionNo": 24,
+      "sourceQuestionId": 124,
+      "subject": "Economy",
+      "topic": "Balance of payments",
+      "difficulty": "medium",
+      "conceptKey": "economy.bop.current.account.services",
+      "en": "Which item is recorded in the current account of the balance of payments?",
+      "mr": "देयक संतुलनाच्या चालू खात्यात कोणती बाब नोंदवली जाते?",
+      "options": [
+        "Trade in services",
+        "Foreign portfolio investment",
+        "Purchase of overseas companies",
+        "External commercial borrowing"
+      ],
+      "optionsMr": [
+        "सेवांचा व्यापार",
+        "परकीय पोर्टफोलिओ गुंतवणूक",
+        "परदेशी कंपन्यांची खरेदी",
+        "बाह्य व्यावसायिक कर्ज"
+      ],
+      "answer": 0,
+      "explanationEn": "The current account includes trade in goods and services, income and current transfers.",
+      "explanationMr": "चालू खात्यात वस्तू व सेवांचा व्यापार, उत्पन्न आणि चालू हस्तांतरणे येतात."
+    },
+    {
+      "id": 125,
+      "paperNo": 2,
+      "questionNo": 25,
+      "sourceQuestionId": 125,
+      "subject": "Economy",
+      "topic": "Exchange rates",
+      "difficulty": "medium",
+      "conceptKey": "economy.rupee.depreciation.import.cost",
+      "en": "If the rupee depreciates against the dollar, the rupee cost of an unchanged dollar-priced import generally does what?",
+      "mr": "डॉलरच्या तुलनेत रुपयाचे अवमूल्यन झाल्यास डॉलरमधील किंमत न बदललेल्या आयातीचा रुपयातील खर्च सामान्यतः काय होतो?",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Becomes zero",
+        "Cannot change"
+      ],
+      "optionsMr": [
+        "वाढतो",
+        "कमी होतो",
+        "शून्य होतो",
+        "बदलू शकत नाही"
+      ],
+      "answer": 0,
+      "explanationEn": "A weaker rupee requires more rupees to buy the same number of dollars.",
+      "explanationMr": "रुपया कमजोर झाल्यास तेवढेच डॉलर खरेदी करण्यासाठी अधिक रुपये लागतात."
+    },
+    {
+      "id": 126,
+      "paperNo": 2,
+      "questionNo": 26,
+      "sourceQuestionId": 126,
+      "subject": "Economy",
+      "topic": "Agricultural prices",
+      "difficulty": "medium",
+      "conceptKey": "economy.msp.cacp.recommendation",
+      "en": "Which body recommends MSPs for major crops to the Union Government?",
+      "mr": "प्रमुख पिकांसाठी केंद्र सरकारला किमान आधारभूत किंमतींची शिफारस कोणती संस्था करते?",
+      "options": [
+        "Commission for Agricultural Costs and Prices",
+        "Food Corporation of India",
+        "NITI Aayog",
+        "NABARD"
+      ],
+      "optionsMr": [
+        "कृषी खर्च व किंमत आयोग",
+        "भारतीय अन्न महामंडळ",
+        "नीती आयोग",
+        "नाबार्ड"
+      ],
+      "answer": 0,
+      "explanationEn": "The CACP recommends MSPs; the government makes the final decision.",
+      "explanationMr": "कृषी खर्च व किंमत आयोग MSP ची शिफारस करतो; अंतिम निर्णय सरकार घेते."
+    },
+    {
+      "id": 127,
+      "paperNo": 2,
+      "questionNo": 27,
+      "sourceQuestionId": 127,
+      "subject": "Economy",
+      "topic": "Crop insurance",
+      "difficulty": "medium",
+      "conceptKey": "economy.pmfby.coverage",
+      "en": "Pradhan Mantri Fasal Bima Yojana primarily protects farmers against what?",
+      "mr": "प्रधानमंत्री पीक विमा योजना शेतकऱ्यांना प्रामुख्याने कशापासून संरक्षण देते?",
+      "options": [
+        "Specified crop losses",
+        "Gold price changes",
+        "Urban rent losses",
+        "Export tax changes"
+      ],
+      "optionsMr": [
+        "निर्दिष्ट पीक नुकसान",
+        "सोन्याच्या किमतीतील बदल",
+        "शहरी भाड्याचे नुकसान",
+        "निर्यात करातील बदल"
+      ],
+      "answer": 0,
+      "explanationEn": "PMFBY is a crop insurance scheme covering notified crop losses from specified risks.",
+      "explanationMr": "PMFBY ही निर्दिष्ट जोखमींमुळे होणाऱ्या अधिसूचित पीक नुकसानीसाठी विमा योजना आहे."
+    },
+    {
+      "id": 128,
+      "paperNo": 2,
+      "questionNo": 28,
+      "sourceQuestionId": 128,
+      "subject": "Economy",
+      "topic": "Labour statistics",
+      "difficulty": "medium",
+      "conceptKey": "economy.lfpr.definition",
+      "en": "Labour Force Participation Rate includes people who are employed or what?",
+      "mr": "कामगार सहभाग दरात रोजगारात असलेल्यांसोबत कोणाचा समावेश होतो?",
+      "options": [
+        "Unemployed and seeking/available for work",
+        "Only pensioners",
+        "Only government workers",
+        "Only union members"
+      ],
+      "optionsMr": [
+        "बेरोजगार असून काम शोधणारे किंवा कामासाठी उपलब्ध",
+        "फक्त निवृत्तीवेतनधारक",
+        "फक्त सरकारी कर्मचारी",
+        "फक्त संघटनेचे सदस्य"
+      ],
+      "answer": 0,
+      "explanationEn": "LFPR includes employed people and unemployed people seeking or available for work.",
+      "explanationMr": "LFPR मध्ये रोजगारित आणि काम शोधणारे किंवा कामासाठी उपलब्ध बेरोजगार लोक समाविष्ट होतात."
+    },
+    {
+      "id": 129,
+      "paperNo": 2,
+      "questionNo": 29,
+      "sourceQuestionId": 129,
+      "subject": "Economy",
+      "topic": "National accounts",
+      "difficulty": "medium",
+      "conceptKey": "economy.gva.intermediate.consumption",
+      "en": "Gross Value Added is output value minus which component?",
+      "mr": "स्थूल मूल्यवर्धन म्हणजे उत्पादनाच्या मूल्यातून कोणता घटक वजा केल्यावर मिळते?",
+      "options": [
+        "Intermediate consumption",
+        "Personal income tax",
+        "Exports",
+        "Depreciation alone"
+      ],
+      "optionsMr": [
+        "मध्यवर्ती उपभोग",
+        "वैयक्तिक आयकर",
+        "निर्यात",
+        "फक्त घसारा"
+      ],
+      "answer": 0,
+      "explanationEn": "GVA equals output value less intermediate goods and services used in production.",
+      "explanationMr": "GVA म्हणजे उत्पादनाचे मूल्य वजा उत्पादनात वापरलेल्या मध्यवर्ती वस्तू व सेवांचे मूल्य."
+    },
+    {
+      "id": 130,
+      "paperNo": 2,
+      "questionNo": 30,
+      "sourceQuestionId": 130,
+      "subject": "Economy",
+      "topic": "GST",
+      "difficulty": "medium",
+      "conceptKey": "economy.gst.destination.based",
+      "en": "GST is primarily which type of tax?",
+      "mr": "GST हा प्रामुख्याने कोणत्या प्रकारचा कर आहे?",
+      "options": [
+        "Destination-based consumption tax",
+        "Origin-based production tax",
+        "Wealth tax",
+        "Land tax"
+      ],
+      "optionsMr": [
+        "गंतव्य-आधारित उपभोग कर",
+        "उत्पत्ती-आधारित उत्पादन कर",
+        "संपत्ती कर",
+        "जमीन कर"
+      ],
+      "answer": 0,
+      "explanationEn": "GST accrues to the place of consumption, making it destination-based.",
+      "explanationMr": "GST चा महसूल उपभोगाच्या ठिकाणी जमा होतो; म्हणून तो गंतव्य-आधारित कर आहे."
+    },
+    {
+      "id": 131,
+      "paperNo": 2,
+      "questionNo": 31,
+      "sourceQuestionId": 131,
+      "subject": "Economy",
+      "topic": "Financial inclusion",
+      "difficulty": "medium",
+      "conceptKey": "economy.nabard.shg.linkage",
+      "en": "Which institution pioneered the SHG–Bank Linkage Programme in India?",
+      "mr": "भारतात स्वयं-सहायता गट-बँक जोडणी कार्यक्रमाची सुरुवात करण्यात कोणत्या संस्थेची प्रमुख भूमिका होती?",
+      "options": [
+        "NABARD",
+        "SEBI",
+        "EXIM Bank",
+        "IRDAI"
+      ],
+      "optionsMr": [
+        "नाबार्ड",
+        "सेबी",
+        "एक्झिम बँक",
+        "आयआरडीएआय"
+      ],
+      "answer": 0,
+      "explanationEn": "NABARD pioneered the programme linking self-help groups with formal banking.",
+      "explanationMr": "स्वयं-सहायता गटांना औपचारिक बँकिंगशी जोडणाऱ्या कार्यक्रमाची सुरुवात नाबार्डने केली."
+    },
+    {
+      "id": 132,
+      "paperNo": 2,
+      "questionNo": 32,
+      "sourceQuestionId": 132,
+      "subject": "Economy",
+      "topic": "MSME classification",
+      "difficulty": "medium",
+      "conceptKey": "economy.msme.investment.turnover",
+      "en": "India's MSME classification uses which combination of criteria?",
+      "mr": "भारतातील MSME वर्गीकरणासाठी कोणते निकष वापरले जातात?",
+      "options": [
+        "Investment and turnover",
+        "Directors and branches",
+        "Exports and market cap",
+        "Land area and power use"
+      ],
+      "optionsMr": [
+        "गुंतवणूक व उलाढाल",
+        "संचालक व शाखा",
+        "निर्यात व बाजारमूल्य",
+        "जमीन क्षेत्र व वीज वापर"
+      ],
+      "answer": 0,
+      "explanationEn": "The classification uses investment and turnover thresholds together.",
+      "explanationMr": "या वर्गीकरणात गुंतवणूक आणि उलाढाल या दोन्ही मर्यादा वापरल्या जातात."
+    },
+    {
+      "id": 133,
+      "paperNo": 2,
+      "questionNo": 33,
+      "sourceQuestionId": 133,
+      "subject": "Economy",
+      "topic": "Finance Commission",
+      "difficulty": "medium",
+      "conceptKey": "economy.finance.commission.article280",
+      "en": "Which article provides for the Finance Commission?",
+      "mr": "वित्त आयोगाची तरतूद कोणत्या कलमात आहे?",
+      "options": [
+        "Article 280",
+        "Article 324",
+        "Article 356",
+        "Article 368"
+      ],
+      "optionsMr": [
+        "कलम २८०",
+        "कलम ३२४",
+        "कलम ३५६",
+        "कलम ३६८"
+      ],
+      "answer": 0,
+      "explanationEn": "Article 280 provides for the President to constitute a Finance Commission.",
+      "explanationMr": "कलम २८० नुसार राष्ट्रपती वित्त आयोगाची स्थापना करतात."
+    },
+    {
+      "id": 134,
+      "paperNo": 2,
+      "questionNo": 34,
+      "sourceQuestionId": 134,
+      "subject": "Economy",
+      "topic": "Human development",
+      "difficulty": "medium",
+      "conceptKey": "economy.hdi.dimensions",
+      "en": "Which dimensions are included in the Human Development Index?",
+      "mr": "मानव विकास निर्देशांकात कोणते घटक समाविष्ट असतात?",
+      "options": [
+        "Health, education and standard of living",
+        "Exports, imports and tax",
+        "Population, area and rainfall",
+        "Savings, investment and inflation"
+      ],
+      "optionsMr": [
+        "आरोग्य, शिक्षण व जीवनमान",
+        "निर्यात, आयात व कर",
+        "लोकसंख्या, क्षेत्रफळ व पाऊस",
+        "बचत, गुंतवणूक व महागाई"
+      ],
+      "answer": 0,
+      "explanationEn": "HDI combines life expectancy, education indicators and GNI per capita.",
+      "explanationMr": "HDI मध्ये आयुर्मान, शिक्षण निर्देशक आणि दरडोई स्थूल राष्ट्रीय उत्पन्न यांचा समावेश होतो."
+    },
+    {
+      "id": 135,
+      "paperNo": 2,
+      "questionNo": 35,
+      "sourceQuestionId": 135,
+      "subject": "Current Affairs",
+      "topic": "CPI October 2026",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.cpi.oct2026.rate",
+      "en": "What was India's provisional CPI retail inflation rate for October 2026, using base 2024=100?",
+      "mr": "आधारवर्ष २०२४=१०० वापरून ऑक्टोबर २०२६ मधील भारताचा तात्पुरता CPI किरकोळ महागाई दर किती होता?",
+      "options": [
+        "6.09%",
+        "4.09%",
+        "5.25%",
+        "8.94%"
+      ],
+      "optionsMr": [
+        "६.०९%",
+        "४.०९%",
+        "५.२५%",
+        "८.९४%"
+      ],
+      "answer": 0,
+      "explanationEn": "The NSO release reported provisional year-on-year CPI inflation of 6.09%.",
+      "explanationMr": "NSO प्रसिद्धिपत्रकानुसार वर्ष-दर-वर्ष CPI महागाईचा तात्पुरता दर ६.०९% होता.",
+      "sourceUrl": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/nov/doc_10457_20261112_15543001.pdf",
+      "asOfDate": "2026-11-12"
+    },
+    {
+      "id": 136,
+      "paperNo": 2,
+      "questionNo": 36,
+      "sourceQuestionId": 136,
+      "subject": "Current Affairs",
+      "topic": "CPI food inflation October 2026",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.cpi.food.oct2026",
+      "en": "What year-on-year food inflation rate was reported for October 2026?",
+      "mr": "ऑक्टोबर २०२६ साठी अन्नमहागाईचा वर्ष-दर-वर्ष दर किती नोंदवला गेला?",
+      "options": [
+        "8.94%",
+        "6.09%",
+        "3.50%",
+        "10.25%"
+      ],
+      "optionsMr": [
+        "८.९४%",
+        "६.०९%",
+        "३.५०%",
+        "१०.२५%"
+      ],
+      "answer": 0,
+      "explanationEn": "The Consumer Food Price Index showed year-on-year food inflation of 8.94%.",
+      "explanationMr": "ग्राहक अन्न किंमत निर्देशांकानुसार अन्नमहागाई ८.९४% होती.",
+      "sourceUrl": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/nov/doc_10457_20261112_15543001.pdf",
+      "asOfDate": "2026-11-12"
+    },
+    {
+      "id": 137,
+      "paperNo": 2,
+      "questionNo": 37,
+      "sourceQuestionId": 137,
+      "subject": "Current Affairs",
+      "topic": "PLFS bulletin",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.plfs.mospi.q3",
+      "en": "Which ministry issued the PLFS Quarterly Bulletin for July–September 2026?",
+      "mr": "जुलै–सप्टेंबर २०२६ चे PLFS त्रैमासिक बुलेटिन कोणत्या मंत्रालयाने प्रसिद्ध केले?",
+      "options": [
+        "Ministry of Statistics and Programme Implementation",
+        "Ministry of Labour and Employment",
+        "RBI",
+        "NITI Aayog"
+      ],
+      "optionsMr": [
+        "सांख्यिकी व कार्यक्रम अंमलबजावणी मंत्रालय",
+        "कामगार व रोजगार मंत्रालय",
+        "रिझर्व्ह बँक",
+        "नीती आयोग"
+      ],
+      "answer": 0,
+      "explanationEn": "PIB listed MoSPI as the ministry issuing the quarterly PLFS bulletin.",
+      "explanationMr": "PIB नुसार त्रैमासिक PLFS बुलेटिन सांख्यिकी व कार्यक्रम अंमलबजावणी मंत्रालयाने प्रसिद्ध केले.",
+      "sourceUrl": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=21",
+      "asOfDate": "2026-11-10"
+    },
+    {
+      "id": 138,
+      "paperNo": 2,
+      "questionNo": 38,
+      "sourceQuestionId": 138,
+      "subject": "Current Affairs",
+      "topic": "Digi Yatra",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.digi.yatra.airports",
+      "en": "International passenger trials of Digi Yatra began at how many airports in the November 2026 PIB update?",
+      "mr": "नोव्हेंबर २०२६ च्या PIB माहितीनुसार डिजी यात्रेच्या आंतरराष्ट्रीय प्रवासी चाचण्या किती विमानतळांवर सुरू झाल्या?",
+      "options": [
+        "Seven",
+        "Five",
+        "Ten",
+        "Twelve"
+      ],
+      "optionsMr": [
+        "सात",
+        "पाच",
+        "दहा",
+        "बारा"
+      ],
+      "answer": 0,
+      "explanationEn": "The Civil Aviation Ministry announced trials at seven airports.",
+      "explanationMr": "नागरी विमान वाहतूक मंत्रालयाने सात विमानतळांवर चाचण्या जाहीर केल्या.",
+      "sourceUrl": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=21",
+      "asOfDate": "2026-11-01"
+    },
+    {
+      "id": 139,
+      "paperNo": 2,
+      "questionNo": 39,
+      "sourceQuestionId": 139,
+      "subject": "Current Affairs",
+      "topic": "NBS Rabi rates",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.nbs.rabi.season",
+      "en": "The NBS rates approved on 11 November 2026 apply to which season?",
+      "mr": "११ नोव्हेंबर २०२६ रोजी मंजूर NBS दर कोणत्या हंगामासाठी लागू आहेत?",
+      "options": [
+        "Rabi 2026–27",
+        "Kharif 2026",
+        "Rabi 2025–26",
+        "Kharif 2027"
+      ],
+      "optionsMr": [
+        "रब्बी २०२६–२७",
+        "खरीप २०२६",
+        "रब्बी २०२५–२६",
+        "खरीप २०२७"
+      ],
+      "answer": 0,
+      "explanationEn": "The Cabinet approved NBS rates for phosphatic and potassic fertilisers for Rabi 2026–27.",
+      "explanationMr": "मंत्रिमंडळाने रब्बी २०२६–२७ साठी फॉस्फेटिक व पोटॅशिक खतांचे NBS दर मंजूर केले.",
+      "sourceUrl": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=21",
+      "asOfDate": "2026-11-11"
+    },
+    {
+      "id": 140,
+      "paperNo": 2,
+      "questionNo": 40,
+      "sourceQuestionId": 140,
+      "subject": "Current Affairs",
+      "topic": "Aqua Line extension",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.aqua.line.route.length",
+      "en": "What length was approved for the Aqua Line extension from Noida Sector-51 to Greater Noida Sector-04?",
+      "mr": "नोएडा सेक्टर-५१ ते ग्रेटर नोएडा सेक्टर-०४ अ‍ॅक्वा लाईन विस्ताराची किती लांबी मंजूर झाली?",
+      "options": [
+        "8.449 km",
+        "5.2 km",
+        "12.6 km",
+        "15 km"
+      ],
+      "optionsMr": [
+        "८.४४९ किमी",
+        "५.२ किमी",
+        "१२.६ किमी",
+        "१५ किमी"
+      ],
+      "answer": 0,
+      "explanationEn": "The approved extension is 8.449 km long and includes five stations.",
+      "explanationMr": "मंजूर विस्तार ८.४४९ किमी लांबीचा असून त्यात पाच स्थानके आहेत.",
+      "sourceUrl": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=21",
+      "asOfDate": "2026-11-11"
+    },
+    {
+      "id": 141,
+      "paperNo": 2,
+      "questionNo": 41,
+      "sourceQuestionId": 141,
+      "subject": "Current Affairs",
+      "topic": "Aqua Line extension stations",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.aqua.line.station.count",
+      "en": "How many stations are included in the approved Aqua Line extension?",
+      "mr": "मंजूर अ‍ॅक्वा लाईन विस्तारात किती स्थानके समाविष्ट आहेत?",
+      "options": [
+        "Five",
+        "Three",
+        "Seven",
+        "Nine"
+      ],
+      "optionsMr": [
+        "पाच",
+        "तीन",
+        "सात",
+        "नऊ"
+      ],
+      "answer": 0,
+      "explanationEn": "The Cabinet release specifies five stations on the 8.449 km extension.",
+      "explanationMr": "मंत्रिमंडळाच्या प्रसिद्धिपत्रकात ८.४४९ किमी विस्तारावर पाच स्थानकांचा उल्लेख आहे.",
+      "sourceUrl": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=21",
+      "asOfDate": "2026-11-11"
+    },
+    {
+      "id": 142,
+      "paperNo": 2,
+      "questionNo": 42,
+      "sourceQuestionId": 142,
+      "subject": "Current Affairs",
+      "topic": "Yuge Yugeen Bharat Museum",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.yuge.yugeen.museum.site",
+      "en": "The Yuge Yugeen Bharat Museum was approved at which location?",
+      "mr": "युगे युगेन भारत संग्रहालय कोणत्या ठिकाणी मंजूर झाले?",
+      "options": [
+        "North and South Block complex, New Delhi",
+        "Red Fort, Delhi",
+        "Victoria Memorial, Kolkata",
+        "Gateway of India, Mumbai"
+      ],
+      "optionsMr": [
+        "नॉर्थ व साउथ ब्लॉक परिसर, नवी दिल्ली",
+        "लाल किल्ला, दिल्ली",
+        "व्हिक्टोरिया मेमोरियल, कोलकाता",
+        "गेटवे ऑफ इंडिया, मुंबई"
+      ],
+      "answer": 0,
+      "explanationEn": "The Cabinet Committee approved the museum at the North and South Block complex in New Delhi.",
+      "explanationMr": "मंत्रिमंडळ समितीने नवी दिल्लीतील नॉर्थ व साउथ ब्लॉक परिसरात संग्रहालयास मंजुरी दिली.",
+      "sourceUrl": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=21",
+      "asOfDate": "2026-11-11"
+    },
+    {
+      "id": 143,
+      "paperNo": 2,
+      "questionNo": 43,
+      "sourceQuestionId": 143,
+      "subject": "Current Affairs",
+      "topic": "Fast Track Special Courts",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.ftsc.pocso.rape",
+      "en": "Fast Track Special Courts were continued to expedite trials involving which cases?",
+      "mr": "जलदगती विशेष न्यायालये कोणत्या प्रकरणांच्या जलद सुनावणीसाठी सुरू ठेवण्यास मंजुरी मिळाली?",
+      "options": [
+        "Rape and POCSO cases",
+        "Tax disputes",
+        "Election petitions only",
+        "Bankruptcy only"
+      ],
+      "optionsMr": [
+        "बलात्कार व POCSO प्रकरणे",
+        "करविषयक वाद",
+        "फक्त निवडणूक याचिका",
+        "फक्त दिवाळखोरी"
+      ],
+      "answer": 0,
+      "explanationEn": "The scheme targets expeditious trials of rape cases and offences under the POCSO Act.",
+      "explanationMr": "बलात्कार व POCSO कायद्यांतर्गत गुन्ह्यांच्या जलद सुनावणीसाठी ही योजना आहे.",
+      "sourceUrl": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=21",
+      "asOfDate": "2026-11-04"
+    },
+    {
+      "id": 144,
+      "paperNo": 2,
+      "questionNo": 44,
+      "sourceQuestionId": 144,
+      "subject": "Current Affairs",
+      "topic": "Semicon 2.0 portal",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.semicon2.web.portal",
+      "en": "Which digital facility was listed in the November 2026 semiconductor initiatives?",
+      "mr": "नोव्हेंबर २०२६ मधील सेमीकंडक्टर उपक्रमांत कोणत्या डिजिटल सुविधेचा उल्लेख होता?",
+      "options": [
+        "Semicon 2.0 Web Application Portal",
+        "National Chip Trading Portal",
+        "Digital Silicon Registry",
+        "India Chip Export Exchange"
+      ],
+      "optionsMr": [
+        "Semicon 2.0 वेब अ‍ॅप्लिकेशन पोर्टल",
+        "नॅशनल चिप ट्रेडिंग पोर्टल",
+        "डिजिटल सिलिकॉन रजिस्ट्री",
+        "इंडिया चिप एक्सपोर्ट एक्स्चेंज"
+      ],
+      "answer": 0,
+      "explanationEn": "The PIB update listed the Semicon 2.0 Web Application Portal.",
+      "explanationMr": "PIB माहितीत Semicon 2.0 वेब अ‍ॅप्लिकेशन पोर्टलचा उल्लेख आहे.",
+      "sourceUrl": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=1",
+      "asOfDate": "2026-11-06"
+    },
+    {
+      "id": 145,
+      "paperNo": 2,
+      "questionNo": 45,
+      "sourceQuestionId": 145,
+      "subject": "Current Affairs",
+      "topic": "UIDAI onboarding",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.uidai.ovse.count",
+      "en": "How many OVSEs had UIDAI onboarded according to a PIB update in November 2026?",
+      "mr": "नोव्हेंबर २०२६ मधील PIB माहितीनुसार UIDAI ने किती OVSE संस्थांना जोडले होते?",
+      "options": [
+        "300",
+        "100",
+        "150",
+        "500"
+      ],
+      "optionsMr": [
+        "३००",
+        "१००",
+        "१५०",
+        "५००"
+      ],
+      "answer": 0,
+      "explanationEn": "The PIB update reported 300 onboarded OVSEs.",
+      "explanationMr": "PIB माहितीनुसार UIDAI ने ३०० OVSE संस्थांना जोडले होते.",
+      "sourceUrl": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=1",
+      "asOfDate": "2026-11-05"
+    },
+    {
+      "id": 146,
+      "paperNo": 2,
+      "questionNo": 46,
+      "sourceQuestionId": 146,
+      "subject": "Current Affairs",
+      "topic": "India International Trade Fair",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.iitf.edition.45",
+      "en": "Which edition of the India International Trade Fair was scheduled to open on 13 November 2026?",
+      "mr": "१३ नोव्हेंबर २०२६ रोजी सुरू होण्यासाठी नियोजित भारत आंतरराष्ट्रीय व्यापार मेळ्याची कोणती आवृत्ती होती?",
+      "options": [
+        "45th",
+        "40th",
+        "42nd",
+        "50th"
+      ],
+      "optionsMr": [
+        "४५वी",
+        "४०वी",
+        "४२वी",
+        "५०वी"
+      ],
+      "answer": 0,
+      "explanationEn": "The Commerce Ministry described it as the 45th India International Trade Fair.",
+      "explanationMr": "वाणिज्य मंत्रालयाने त्याचा उल्लेख ४५वा भारत आंतरराष्ट्रीय व्यापार मेळा असा केला.",
+      "sourceUrl": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=1",
+      "asOfDate": "2026-11-12"
+    },
+    {
+      "id": 147,
+      "paperNo": 2,
+      "questionNo": 47,
+      "sourceQuestionId": 147,
+      "subject": "Current Affairs",
+      "topic": "International Maize Conference",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.maize.conference.focus",
+      "en": "The 1st International Maize Conference 2026 highlighted which priorities?",
+      "mr": "पहिल्या आंतरराष्ट्रीय मका परिषद २०२६ मध्ये कोणत्या प्राधान्यांवर भर देण्यात आला?",
+      "options": [
+        "Productivity, innovative breeding and farmer-centric research",
+        "Marine fisheries and mining",
+        "Urban housing and metro systems",
+        "Space tourism"
+      ],
+      "optionsMr": [
+        "उत्पादकता, नाविन्यपूर्ण प्रजनन व शेतकरी-केंद्रित संशोधन",
+        "सागरी मत्स्यव्यवसाय व खाणकाम",
+        "शहरी गृहनिर्माण व मेट्रो व्यवस्था",
+        "अंतराळ पर्यटन"
+      ],
+      "answer": 0,
+      "explanationEn": "The conference called for higher productivity, innovative breeding and farmer-focused research.",
+      "explanationMr": "परिषदेत उत्पादकता वाढ, नाविन्यपूर्ण प्रजनन आणि शेतकरी-केंद्रित संशोधनावर भर देण्यात आला.",
+      "sourceUrl": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=21",
+      "asOfDate": "2026-11-02"
+    },
+    {
+      "id": 148,
+      "paperNo": 2,
+      "questionNo": 48,
+      "sourceQuestionId": 148,
+      "subject": "Current Affairs",
+      "topic": "National Tribal Literary Festival",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.tribal.festival.location",
+      "en": "Where was the National Tribal Literary Festival scheduled for 12–13 November 2026?",
+      "mr": "१२–१३ नोव्हेंबर २०२६ रोजी राष्ट्रीय आदिवासी साहित्य महोत्सव कुठे आयोजित करण्यात आला?",
+      "options": [
+        "New Delhi",
+        "Bhopal",
+        "Ranchi",
+        "Guwahati"
+      ],
+      "optionsMr": [
+        "नवी दिल्ली",
+        "भोपाळ",
+        "रांची",
+        "गुवाहाटी"
+      ],
+      "answer": 0,
+      "explanationEn": "The Ministry of Tribal Affairs announced the festival in New Delhi.",
+      "explanationMr": "आदिवासी कार्य मंत्रालयाने हा महोत्सव नवी दिल्ली येथे आयोजित केल्याचे जाहीर केले.",
+      "sourceUrl": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=21",
+      "asOfDate": "2026-11-11"
+    },
+    {
+      "id": 149,
+      "paperNo": 2,
+      "questionNo": 49,
+      "sourceQuestionId": 149,
+      "subject": "Current Affairs",
+      "topic": "Naturopathy Day 2026",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.naturopathy.research",
+      "en": "The PIB message for Naturopathy Day 2026 highlighted the role of what in nature-based healthcare?",
+      "mr": "निसर्गोपचार दिन २०२६ च्या PIB संदेशात निसर्गाधारित आरोग्यसेवेत कशाच्या भूमिकेवर भर होता?",
+      "options": [
+        "Scientific research",
+        "Cryptocurrency",
+        "Deep-sea mining",
+        "Space exploration"
+      ],
+      "optionsMr": [
+        "वैज्ञानिक संशोधन",
+        "क्रिप्टोकरन्सी",
+        "खोल समुद्रातील खाणकाम",
+        "अंतराळ संशोधन"
+      ],
+      "answer": 0,
+      "explanationEn": "The release highlighted scientific research strengthening the nature-based healthcare ecosystem.",
+      "explanationMr": "निसर्गाधारित आरोग्यसेवा परिसंस्थेला वैज्ञानिक संशोधन बळकटी देते, असे प्रसिद्धिपत्रकात नमूद केले.",
+      "sourceUrl": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=21",
+      "asOfDate": "2026-11-12"
+    },
+    {
+      "id": 150,
+      "paperNo": 2,
+      "questionNo": 50,
+      "sourceQuestionId": 150,
+      "subject": "Current Affairs",
+      "topic": "NSO surveys in Maharashtra",
+      "difficulty": "medium",
+      "conceptKey": "current.affairs.nso.maharashtra.cities",
+      "en": "Which two Maharashtra cities were named in PIB notices about NSO surveys in November 2026?",
+      "mr": "नोव्हेंबर २०२६ मधील NSO सर्वेक्षणांच्या PIB सूचनांमध्ये महाराष्ट्रातील कोणत्या दोन शहरांचा उल्लेख होता?",
+      "options": [
+        "Solapur and Kolhapur",
+        "Nashik and Nagpur",
+        "Pune and Thane",
+        "Mumbai and Chhatrapati Sambhajinagar"
+      ],
+      "optionsMr": [
+        "सोलापूर आणि कोल्हापूर",
+        "नाशिक आणि नागपूर",
+        "पुणे आणि ठाणे",
+        "मुंबई आणि छत्रपती संभाजीनगर"
+      ],
+      "answer": 0,
+      "explanationEn": "PIB listed NSO survey activity for Solapur and Kolhapur in November 2026.",
+      "explanationMr": "PIB ने नोव्हेंबर २०२६ मधील NSO सर्वेक्षणांसाठी सोलापूर आणि कोल्हापूरचा उल्लेख केला.",
+      "sourceUrl": "https://www.pib.gov.in/AllRelease.aspx?lang=1&reg=1",
+      "asOfDate": "2026-11-07"
+    }
+  ]
+}
