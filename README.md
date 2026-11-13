@@ -4,13 +4,14 @@ A responsive bilingual (English/Marathi) online practice portal for MPSC Group C
 
 ## Test format
 - 100 questions, 60 minutes, +1 for correct and −0.25 for incorrect.
-- Subject blocks follow recent-paper analysis in this order: History (10), Geography (10), Economy (15), Current Affairs (15), Polity (15), General Science (15), Quantitative Aptitude (12), Reasoning (8).
-- The paper generator draws from each subject pool independently and preserves this section sequence.
-- Each paper is checked to contain 100 unique question IDs. Questions may recur across different papers.
-- The 12 quantitative aptitude and 8 reasoning questions are separate blocks within the final 20 questions.
+- Section order and approximate counts, derived from 2023–2025 prelim paper analysis: History (10), Geography (8), Economy (16), Current Affairs (16), Polity (15), General Science (15), Quantitative Aptitude (12), Reasoning (8).
+- Each paper draws randomly from subject-specific pools in that fixed sequence.
+- No question ID can appear twice within one paper. Different papers may reuse questions.
+- Maths now draws from varied topics such as percentages, profit/loss, discount, ratio, average, interest, time/work, pipes, speed/distance, trains, mixtures, partnership, number system, fractions, mensuration, algebra, ages and data interpretation.
+- Reasoning includes number and letter series, coding, directions, analogy, calendar, ranking, word formation, blood relations, syllogism, clock, seating and classification.
 
-## Question bank limitations
-The original bank has a limited number of questions in several subjects. The new generator will stop and display an error if the bank has fewer questions than the required count for any subject. Expand and fact-check the bank before treating these papers as fully varied exam-ready tests. Current affairs must be refreshed against official sources.
+## Accuracy and freshness
+The section counts are an evidence-based practice blueprint derived from third-party analysis of the 2023–2025 papers, not an official fixed quota. Verify the latest MPSC notification and actual papers. Current Affairs includes dated November 2026 releases from PIB and ISRO and should be refreshed regularly. Independently review each question before high-stakes use.
 
 ## Run and deploy
 Open `index.html` locally or publish through GitHub Pages using `.github/workflows/pages.yml`.
