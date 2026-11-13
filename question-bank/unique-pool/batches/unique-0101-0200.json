@@ -2481,25 +2481,25 @@
     "questionNo": 95,
     "sourceQuestionId": 195,
     "subject": "Reasoning",
-    "topic": "Coding-decoding",
-    "conceptKey": "reasoning.coding.reverse.alphabet",
-    "en": "If each letter is replaced by its opposite in the alphabet (A↔Z, B↔Y), how is DOG coded?",
-    "mr": "वर्णमालेतील प्रत्येक अक्षर त्याच्या उलट अक्षराने (A↔Z, B↔Y) बदलल्यास DOG चे कूट काय?",
+    "topic": "Seating arrangement",
+    "conceptKey": "reasoning.seating.arrangement.center",
+    "en": "Five people P, Q, R, S and T sit in a row. If R occupies the third seat from the left, who is in the middle?",
+    "mr": "P, Q, R, S आणि T पाच जण एका रांगेत बसले आहेत. R डावीकडून तिसऱ्या जागी असल्यास मध्यभागी कोण आहे?",
     "options": [
-      "WLT",
-      "WOG",
-      "VLT",
-      "DLT"
+      "R",
+      "P",
+      "Q",
+      "T"
     ],
     "optionsMr": [
-      "WLT",
-      "WOG",
-      "VLT",
-      "DLT"
+      "R",
+      "P",
+      "Q",
+      "T"
     ],
     "answer": 0,
-    "explanationEn": "D maps to W, O to L and G to T; therefore DOG becomes WLT.",
-    "explanationMr": "D चे W, O चे L आणि G चे T होते; म्हणून DOG चे कूट WLT."
+    "explanationEn": "In a row of five seats, the third seat is the middle position; R occupies it.",
+    "explanationMr": "पाच जागांच्या रांगेत तिसरी जागा मध्यभागी असते; त्या जागी R बसला आहे."
   },
   {
     "id": 196,
