@@ -229,7 +229,7 @@ async function loadQuestionBank(){
       const historyResponse=await fetch("./question-bank/history-practice.json");
       if(!historyResponse.ok) throw new Error("Could not load History practice questions ("+historyResponse.status+").");
       const historyRows=await historyResponse.json();
-      if(!Array.isArray(historyRows)||historyRows.length!==1000) throw new Error("History practice bank must contain 1,000 questions.");
+      if(!Array.isArray(historyRows)||historyRows.length!==2000) throw new Error("History practice bank must contain 2,000 questions.");
       const historyIds=new Set();
       for(const q of historyRows){
         const correctIndex="ABCD".indexOf(q.correctOption);
