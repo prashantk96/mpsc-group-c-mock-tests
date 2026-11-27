@@ -1,0 +1,35 @@
+{
+  "format": "mpsc-geography-practice-index",
+  "version": 1,
+  "subject": "Geography",
+  "language": "mr",
+  "totalRecords": 2000,
+  "source": "Uploaded Marathi geography lecture transcript",
+  "reviewStatus": "Draft for factual and language validation",
+  "batches": [
+    {
+      "file": "geography-practice/batch-01.json",
+      "records": 500,
+      "firstId": 1,
+      "lastId": 500
+    },
+    {
+      "file": "geography-practice/batch-02.json",
+      "records": 500,
+      "firstId": 501,
+      "lastId": 1000
+    },
+    {
+      "file": "geography-practice/batch-03.json",
+      "records": 500,
+      "firstId": 1001,
+      "lastId": 1500
+    },
+    {
+      "file": "geography-practice/batch-04.json",
+      "records": 500,
+      "firstId": 1501,
+      "lastId": 2000
+    }
+  ]
+}
