@@ -319,7 +319,7 @@ async function loadQuestionBank(){
       const geographyRows=geographyBatches.flat().sort((a,b)=>a.sourceQuestionNo-b.sourceQuestionNo);
       if(geographyRows.length!==2000) throw new Error("Geography practice bank must contain 2,000 questions.");
       const geographyIds=new Set(), geographyConcepts=new Set(), geographyStems=new Set();
-      const normalizeGeography=value=>String(value??"").normalize("NFKC").toLocaleLowerCase().replace(/[^\\p{L}\\p{N}]+/gu," ").trim().replace(/\\s+/g," ");
+      const normalizeGeography=value=>String(value??"").normalize("NFKC").toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu," ").trim().replace(/\s+/g," ");
       for(const q of geographyRows){
         const correctIndex="ABCD".indexOf(q.correctOption);
         const concept=normalizeGeography(q.conceptKey), stem=normalizeGeography(q.questionMr);
