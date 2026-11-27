@@ -1,0 +1,30 @@
+{
+  "format": "mpsc-polity-practice-index",
+  "version": 1,
+  "subject": "Polity",
+  "language": "mr",
+  "totalRecords": 1930,
+  "sourceRecords": 2000,
+  "exactDuplicateRowsExcluded": 70,
+  "distinctSourceConcepts": 70,
+  "sourceScope": "Constituent Assembly and Preamble lecture only",
+  "reviewStatus": "Draft for factual and Marathi-language validation",
+  "batches": [
+    {
+      "file": "polity-practice/batch-01.jsonl",
+      "records": 500
+    },
+    {
+      "file": "polity-practice/batch-02.jsonl",
+      "records": 500
+    },
+    {
+      "file": "polity-practice/batch-03.jsonl",
+      "records": 500
+    },
+    {
+      "file": "polity-practice/batch-04.jsonl",
+      "records": 430
+    }
+  ]
+}
