@@ -2,6 +2,7 @@
 let BANK = [], QUESTION_POOL_COUNT = 0;
 let HISTORY_BANK = [], historyQuestions = [], historyIndex = 0, historyAnswers = {}, historyTopic = "";
 let GEOGRAPHY_BANK = [], geographyIndex = 0, geographyAnswers = {}, geographyTopic = "";
+let POLITY_BANK = [], polityIndex = 0, polityAnswers = {}, politySection = "", polityTopic = "";
 const TEST_COUNT = 100, Q_PER_TEST = 100, DURATION = 60*60, NEGATIVE = 0.25;
 // Recent-paper practice blueprint: fixed section order, subject-wise random draws.
 const PAPER_BLUEPRINT = [["History",10],["Geography",8],["Economy",16],["Current Affairs",16],["Polity",15],["General Science",15],["Maths",12],["Reasoning",8]];
@@ -47,6 +48,7 @@ function renderHome(){
   <section class="hero"><div><p class="eyebrow">PREPARE • PRACTISE • IMPROVE</p><h1>Your MPSC Group C<br><em>Online Test Portal</em></h1><p>Timed mock tests, instant scoring, explanations and performance tracking.</p><button class="primary" id="startFirst">Start a mock test →</button></div><div class="hero-stat"><strong>100</strong><span>Mock test slots</span><strong>${QUESTION_POOL_COUNT}</strong><span>Distinct source questions</span></div></section>
   <section class="subject-practice"><div class="subject-practice-copy"><span class="pill">SUBJECT-WISE PRACTICE</span><h2>History Practice</h2><p>Marathi topic-wise MCQs with instant answers and explanations.</p><small>Imported questions are drafts and still require editorial/factual review.</small></div><div class="subject-practice-action"><strong>${HISTORY_BANK.length.toLocaleString("en-IN") || "—"}</strong><span>History questions</span><button class="primary" id="startHistory" ${HISTORY_BANK.length ? "" : "disabled"}>Open History Practice →</button></div></section>
   <section class="subject-practice"><div class="subject-practice-copy"><span class="pill">SUBJECT-WISE PRACTICE</span><h2>Geography Practice</h2><p>2,000 Marathi questions with topic filters and instant explanations.</p><small>Uploaded transcript-based draft; factual and language validation is still required.</small></div><div class="subject-practice-action"><strong>${GEOGRAPHY_BANK.length.toLocaleString("en-IN") || "—"}</strong><span>Geography questions · ${new Set(GEOGRAPHY_BANK.map(q=>q.topic)).size || 19} topics</span><button class="primary" id="startGeography" ${GEOGRAPHY_BANK.length ? "" : "disabled"}>Open Geography Practice →</button></div></section>
+  <section class="subject-practice"><div class="subject-practice-copy"><span class="pill">SUBJECT-WISE PRACTICE</span><h2>Polity Practice</h2><p>1,930 unique Marathi question prompts from the Constituent Assembly and Preamble lectures.</p><small>70 exact repeated question stems removed; all imported questions remain drafts for factual and Marathi-language review.</small></div><div class="subject-practice-action"><strong>${POLITY_BANK.length.toLocaleString("en-IN") || "—"}</strong><span>Polity questions · ${new Set(POLITY_BANK.map(q=>q.topic)).size || 33} topics</span><button class="primary" id="startPolity" ${POLITY_BANK.length ? "" : "disabled"}>Open Polity Practice →</button></div></section>
   <section class="stats"><div><b>${done.size}</b><span>Tests completed</span></div><div><b>${h.length?Math.round(h.reduce((a,x)=>a+x.score,0)/h.length*10)/10:0}</b><span>Average score</span></div><div><b>${h.length?Math.max(...h.map(x=>x.score)):0}</b><span>Best score</span></div><div><b>${h.length?Math.round(h.reduce((a,x)=>a+x.accuracy,0)/h.length):0}%</b><span>Average accuracy</span></div></section>
   <div class="section-title"><div><h2>Mock test library</h2><p>Fixed subject blocks · 100 questions · 60-minute timer.</p></div><span class="muted">${done.size}/100 completed</span></div>
   <div class="grid">${Array.from({length:TEST_COUNT},(_,i)=>{let n=i+1,level=n<=20?'Foundation':n<=40?'Moderate':n<=60?'Advanced':n<=80?'PYQ pattern':'Full simulation';return `<article class="test-card"><div class="card-top"><span class="pill">${level}</span><span class="check">${done.has(n)?'✓ Completed':'100 Questions'}</span></div><h3>Mock Test ${String(n).padStart(2,'0')}</h3><p>100 marks · 60 minutes · −0.25 negative marking</p><button class="outline" data-paper="${n}">${done.has(n)?'Retake test':'Start test'} →</button></article>`}).join('')}</div>
@@ -55,6 +57,7 @@ function renderHome(){
   $('#startFirst').onclick=()=>startTest(1);
   const historyButton=$('#startHistory'); if(historyButton) historyButton.onclick=()=>startHistoryPractice();
   const geographyButton=$('#startGeography'); if(geographyButton) geographyButton.onclick=()=>startGeographyPractice();
+  const polityButton=$('#startPolity'); if(polityButton) polityButton.onclick=()=>startPolityPractice();
   document.querySelectorAll('[data-paper]').forEach(b=>b.onclick=()=>startTest(+b.dataset.paper));
 }
 function startTest(n){
@@ -212,6 +215,70 @@ function renderGeographyPractice(){
   $('#geographyNext').onclick=()=>{if(geographyIndex<pool.length-1){geographyIndex++;renderGeographyPractice()}};
 }
 
+
+function startPolityPractice(section="",topic=""){
+  politySection=section;
+  polityTopic=topic;
+  polityIndex=0;
+  polityAnswers={};
+  renderPolityPractice();
+}
+function renderPolityPractice(){
+  const sections=[...new Set(POLITY_BANK.map(q=>q.section))].sort((a,b)=>a.localeCompare(b,"en"));
+  const sectionPool=politySection?POLITY_BANK.filter(q=>q.section===politySection):POLITY_BANK;
+  const topics=[...new Set(sectionPool.map(q=>q.topic))].sort((a,b)=>a.localeCompare(b,"mr"));
+  const pool=polityTopic?sectionPool.filter(q=>q.topic===polityTopic):sectionPool;
+  if(!pool.length){
+    $('#app').innerHTML='<section class="history"><h2>Polity practice unavailable</h2><p class="muted">The Polity question file could not be loaded. Return to the dashboard and try again.</p><button class="primary" id="polityHome">Dashboard</button></section>';
+    $('#polityHome').onclick=renderHome;
+    return;
+  }
+  if(polityIndex>=pool.length) polityIndex=pool.length-1;
+  const q=pool[polityIndex];
+  const selected=polityAnswers[q.sourceQuestionNo];
+  const correctIndex="ABCD".indexOf(q.correctOption);
+  const answered=Object.keys(polityAnswers).length;
+  const optionHtml=q.optionsMr.map((option,i)=>{
+    const state=selected===undefined?"":i===correctIndex?"correct":i===selected?"incorrect":"";
+    return `<button class="history-option ${state}" data-polity-opt="${i}" ${selected!==undefined?"disabled":""}><span>${"ABCD"[i]}</span>${esc(option)}</button>`;
+  }).join("");
+  const feedback=selected===undefined
+    ? '<p class="muted answer-hint">पर्याय निवडा. उत्तर निवडल्यानंतर स्पष्टीकरण दिसेल.</p>'
+    : `<div class="history-feedback ${selected===correctIndex?"is-correct":"is-incorrect"}"><strong>${selected===correctIndex?"बरोबर उत्तर!":"चुकीचे उत्तर."} योग्य उत्तर: ${esc(q.correctAnswerMr)}</strong><p>${esc(q.explanationMr)}</p></div>`;
+  $('#app').innerHTML=`
+    <header><div class="brand">MPSC <b>GROUP C</b><small>POLITY PRACTICE</small></div><button class="link" id="polityHome">← Dashboard</button></header>
+    <main class="practice-wrap">
+      <section class="practice-heading"><div><p class="eyebrow">SUBJECT-WISE PRACTICE</p><h1>राज्यशास्त्र सराव प्रश्नसंच</h1><p class="muted">घटना समिती आणि सरनामा या विभागांतील प्रश्नांचा सराव करा.</p></div><div class="practice-total"><strong>${POLITY_BANK.length.toLocaleString("en-IN")}</strong><span>एकूण प्रश्न</span></div></section>
+      <section class="practice-toolbar">
+        <label for="politySection">विभाग</label>
+        <select id="politySection"><option value="">सर्व विभाग</option>${sections.map(x=>`<option value="${esc(x)}" ${politySection===x?"selected":""}>${esc(x)}</option>`).join("")}</select>
+        <label for="polityTopic">विषय / Topic</label>
+        <select id="polityTopic"><option value="">सर्व विषय</option>${topics.map(x=>`<option value="${esc(x)}" ${polityTopic===x?"selected":""}>${esc(x)}</option>`).join("")}</select>
+        <span class="muted">${pool.length.toLocaleString("en-IN")} प्रश्न</span>
+      </section>
+      <section class="history-practice-card">
+        <div class="practice-q-meta"><span>प्रश्न ${(polityIndex+1).toLocaleString("en-IN")} / ${pool.length.toLocaleString("en-IN")}</span><span class="topic-pill">${esc(q.section)} · ${esc(q.topic)}</span><span class="review-pill">पडताळणी बाकी</span></div>
+        <div class="practice-progress"><i style="width:${((polityIndex+1)/pool.length*100).toFixed(2)}%"></i></div>
+        <h2 class="history-question-text">${esc(q.questionMr)}</h2>
+        <div class="history-practice-options">${optionHtml}</div>
+        ${feedback}
+        <div class="practice-navigation"><button class="soft" id="polityPrev" ${polityIndex===0?"disabled":""}>← मागील प्रश्न</button><span>${answered.toLocaleString("en-IN")} उत्तरे दिली</span><button class="primary" id="polityNext" ${polityIndex===pool.length-1?"disabled":""}>पुढील प्रश्न →</button></div>
+      </section>
+      <p class="practice-disclaimer">टीप: या प्रश्नांचा स्रोत अपलोड केलेली घटना समिती व सरनामा विषयावरील सामग्री आहे. उत्तरांची स्वतंत्र तथ्य-पडताळणी आणि मराठी भाषेचे पुनरावलोकन बाकी आहे.</p>
+    </main>`;
+  $('#polityHome').onclick=renderHome;
+  $('#politySection').onchange=e=>{politySection=e.target.value;polityTopic="";polityIndex=0;renderPolityPractice()};
+  $('#polityTopic').onchange=e=>{polityTopic=e.target.value;polityIndex=0;renderPolityPractice()};
+  document.querySelectorAll('[data-polity-opt]').forEach(b=>b.onclick=()=>{
+    if(polityAnswers[q.sourceQuestionNo]===undefined){
+      polityAnswers[q.sourceQuestionNo]=+b.dataset.polityOpt;
+      renderPolityPractice();
+    }
+  });
+  $('#polityPrev').onclick=()=>{if(polityIndex>0){polityIndex--;renderPolityPractice()}};
+  $('#polityNext').onclick=()=>{if(polityIndex<pool.length-1){polityIndex++;renderPolityPractice()}};
+}
+
 async function loadQuestionBank(){
   try{
     const manifestResponse=await fetch("./question-bank/questions.json");
@@ -335,6 +402,41 @@ async function loadQuestionBank(){
     }catch(geographyError){
       GEOGRAPHY_BANK=[];
       console.warn("Geography practice bank not loaded:",geographyError);
+    }
+    try{
+      const polityManifestResponse=await fetch("./question-bank/polity-practice.json");
+      if(!polityManifestResponse.ok) throw new Error("Could not load Polity practice manifest ("+polityManifestResponse.status+").");
+      const polityManifest=await polityManifestResponse.json();
+      if(polityManifest.format!=="mpsc-polity-practice-index"||polityManifest.totalRecords!==1930||!Array.isArray(polityManifest.batches)){
+        throw new Error("Invalid Polity practice manifest.");
+      }
+      const polityBatches=await Promise.all(polityManifest.batches.map(async batch=>{
+        const response=await fetch("./question-bank/"+batch.file);
+        if(!response.ok) throw new Error("Could not load "+batch.file+" ("+response.status+").");
+        const raw=await response.text();
+        const rows=raw.split(/\\r?\\n/).filter(Boolean).map(line=>JSON.parse(line));
+        if(rows.length!==batch.records) throw new Error("Invalid Polity batch: "+batch.file);
+        return rows;
+      }));
+      const polityRows=polityBatches.flat().sort((a,b)=>a.sourceQuestionNo-b.sourceQuestionNo);
+      if(polityRows.length!==1930) throw new Error("Polity practice bank must contain 1,930 unique question prompts.");
+      const polityIds=new Set(), polityStems=new Set();
+      const normalizePolity=value=>String(value??"").normalize("NFKC").toLocaleLowerCase().replace(/[^\\p{L}\\p{N}]+/gu," ").trim().replace(/\\s+/g," ");
+      for(const q of polityRows){
+        const correctIndex="ABCD".indexOf(q.correctOption);
+        const stem=normalizePolity(q.questionMr);
+        if(!q||q.subject!=="Polity"||!Number.isInteger(q.sourceQuestionNo)||polityIds.has(q.sourceQuestionNo)||
+          !q.section||!q.topic||!q.conceptKey||!stem||polityStems.has(stem)||
+          !Array.isArray(q.optionsMr)||q.optionsMr.length!==4||q.optionsMr.some(x=>!String(x??"").trim())||
+          correctIndex<0||q.optionsMr[correctIndex]!==q.correctAnswerMr||!q.explanationMr){
+          throw new Error("Invalid or duplicate Polity question record.");
+        }
+        polityIds.add(q.sourceQuestionNo); polityStems.add(stem);
+      }
+      POLITY_BANK=polityRows;
+    }catch(polityError){
+      POLITY_BANK=[];
+      console.warn("Polity practice bank not loaded:",polityError);
     }
     renderHome();
   }catch(error){
