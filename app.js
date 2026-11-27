@@ -414,14 +414,14 @@ async function loadQuestionBank(){
         const response=await fetch("./question-bank/"+batch.file);
         if(!response.ok) throw new Error("Could not load "+batch.file+" ("+response.status+").");
         const raw=await response.text();
-        const rows=raw.split(/\\r?\\n/).filter(Boolean).map(line=>JSON.parse(line));
+        const rows=raw.split(/\r?\n/).filter(Boolean).map(line=>JSON.parse(line));
         if(rows.length!==batch.records) throw new Error("Invalid Polity batch: "+batch.file);
         return rows;
       }));
       const polityRows=polityBatches.flat().sort((a,b)=>a.sourceQuestionNo-b.sourceQuestionNo);
       if(polityRows.length!==1930) throw new Error("Polity practice bank must contain 1,930 unique question prompts.");
       const polityIds=new Set(), polityStems=new Set();
-      const normalizePolity=value=>String(value??"").normalize("NFKC").toLocaleLowerCase().replace(/[^\\p{L}\\p{N}]+/gu," ").trim().replace(/\\s+/g," ");
+      const normalizePolity=value=>String(value??"").normalize("NFKC").toLocaleLowerCase().replace(/[^\p{L}\p{N}]+/gu," ").trim().replace(/\s+/g," ");
       for(const q of polityRows){
         const correctIndex="ABCD".indexOf(q.correctOption);
         const stem=normalizePolity(q.questionMr);
