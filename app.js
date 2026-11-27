@@ -175,7 +175,7 @@ async function loadQuestionBank(){
 
     // Reuse between different papers is permitted. Uniqueness is enforced within each paper only.
     const normalize=value=>String(value??"").normalize("NFKC").toLocaleLowerCase()
-      .replace(/[^\\p{L}\\p{N}]+/gu," ").trim().replace(/\\s+/g," ");
+      .replace(/[^\p{L}\p{N}]+/gu," ").trim().replace(/\s+/g," ");
     const ids=new Set(), sourcePairs=new Set(), papers=new Map();
     for(const q of BANK){
       if(!q||!Number.isInteger(q.id)||ids.has(q.id)) throw new Error("Missing or duplicate global question ID detected.");
