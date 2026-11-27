@@ -1,5 +1,6 @@
 
 let BANK = [], QUESTION_POOL_COUNT = 0;
+let HISTORY_BANK = [], historyQuestions = [], historyIndex = 0, historyAnswers = {}, historyTopic = "";
 const TEST_COUNT = 100, Q_PER_TEST = 100, DURATION = 60*60, NEGATIVE = 0.25;
 // Recent-paper practice blueprint: fixed section order, subject-wise random draws.
 const PAPER_BLUEPRINT = [["History",10],["Geography",8],["Economy",16],["Current Affairs",16],["Polity",15],["General Science",15],["Maths",12],["Reasoning",8]];
@@ -43,12 +44,14 @@ function renderHome(){
   const h=getHistory(), done=new Set(h.map(x=>x.paper));
   $('#app').innerHTML=`<header><div class="brand">MPSC <b>GROUP C</b><small>PRELIMS • MOCK TEST SERIES 2026–27</small></div><span class="badge">मराठी + English</span></header>
   <section class="hero"><div><p class="eyebrow">PREPARE • PRACTISE • IMPROVE</p><h1>Your MPSC Group C<br><em>Online Test Portal</em></h1><p>Timed mock tests, instant scoring, explanations and performance tracking.</p><button class="primary" id="startFirst">Start a mock test →</button></div><div class="hero-stat"><strong>100</strong><span>Mock test slots</span><strong>${QUESTION_POOL_COUNT}</strong><span>Distinct source questions</span></div></section>
+  <section class="subject-practice"><div class="subject-practice-copy"><span class="pill">SUBJECT-WISE PRACTICE</span><h2>History Practice</h2><p>Marathi topic-wise MCQs with instant answers and explanations.</p><small>Imported questions are drafts and still require editorial/factual review.</small></div><div class="subject-practice-action"><strong>${HISTORY_BANK.length.toLocaleString("en-IN") || "—"}</strong><span>History questions</span><button class="primary" id="startHistory" ${HISTORY_BANK.length ? "" : "disabled"}>Open History Practice →</button></div></section>
   <section class="stats"><div><b>${done.size}</b><span>Tests completed</span></div><div><b>${h.length?Math.round(h.reduce((a,x)=>a+x.score,0)/h.length*10)/10:0}</b><span>Average score</span></div><div><b>${h.length?Math.max(...h.map(x=>x.score)):0}</b><span>Best score</span></div><div><b>${h.length?Math.round(h.reduce((a,x)=>a+x.accuracy,0)/h.length):0}%</b><span>Average accuracy</span></div></section>
   <div class="section-title"><div><h2>Mock test library</h2><p>Fixed subject blocks · 100 questions · 60-minute timer.</p></div><span class="muted">${done.size}/100 completed</span></div>
   <div class="grid">${Array.from({length:TEST_COUNT},(_,i)=>{let n=i+1,level=n<=20?'Foundation':n<=40?'Moderate':n<=60?'Advanced':n<=80?'PYQ pattern':'Full simulation';return `<article class="test-card"><div class="card-top"><span class="pill">${level}</span><span class="check">${done.has(n)?'✓ Completed':'100 Questions'}</span></div><h3>Mock Test ${String(n).padStart(2,'0')}</h3><p>100 marks · 60 minutes · −0.25 negative marking</p><button class="outline" data-paper="${n}">${done.has(n)?'Retake test':'Start test'} →</button></article>`}).join('')}</div>
   <section class="history"><h2>Recent attempts</h2>${h.length?h.slice(-5).reverse().map(x=>`<div class="history-row"><span>Mock Test ${String(x.paper).padStart(2,'0')}</span><b>${x.score}/100</b><span>${x.correct} correct · ${x.wrong} wrong</span><span>${x.date}</span></div>`).join(''):'<p class="muted">Your completed tests will appear here. Results are saved on this device.</p>'}</section>
   <footer>Practice resource only • Not affiliated with MPSC • Verify the latest official syllabus and exam pattern.</footer>`;
   $('#startFirst').onclick=()=>startTest(1);
+  const historyButton=$('#startHistory'); if(historyButton) historyButton.onclick=()=>startHistoryPractice();
   document.querySelectorAll('[data-paper]').forEach(b=>b.onclick=()=>startTest(+b.dataset.paper));
 }
 function startTest(n){
@@ -97,6 +100,61 @@ function renderResult(r,paper,auto){
  <div class="review-head"><h2>Answer review & explanations</h2><button class="primary" id="again">Retake test</button></div><div class="review-list">${paper.map((q,i)=>`<article class="review-item"><div class="review-q"><b>Q${i+1}. ${esc(q.en)}</b><p>${esc(q.mr)}</p></div><p class="${answers[i]===q.answer?'good':'bad'}">Your answer: ${answers[i]===undefined?'Not attempted':esc(q.options[answers[i]])}</p><p class="good">Correct answer: ${esc(q.options[q.answer])}</p><p>${esc(q.explanationEn)}</p><p class="muted">${esc(q.explanationMr)}</p></article>`).join('')}</div>`;
  $('#home').onclick=renderHome;$('#again').onclick=()=>startTest(r.paper);
 }
+
+function startHistoryPractice(topic=""){
+  historyTopic=topic;
+  historyIndex=0;
+  historyQuestions=[];
+  historyAnswers={};
+  renderHistoryPractice();
+}
+function renderHistoryPractice(){
+  const topics=[...new Set(HISTORY_BANK.map(q=>q.topic))].sort((a,b)=>a.localeCompare(b,"mr"));
+  const pool=historyTopic?HISTORY_BANK.filter(q=>q.topic===historyTopic):HISTORY_BANK;
+  if(!pool.length){
+    $('#app').innerHTML='<section class="history"><h2>History practice unavailable</h2><p class="muted">The History question file could not be loaded. Return to the dashboard and try again.</p><button class="primary" id="historyHome">Dashboard</button></section>';
+    $('#historyHome').onclick=renderHome;
+    return;
+  }
+  if(historyIndex>=pool.length) historyIndex=pool.length-1;
+  const q=pool[historyIndex];
+  const selected=historyAnswers[q.sourceQuestionNo];
+  const correctIndex="ABCD".indexOf(q.correctOption);
+  const answered=Object.keys(historyAnswers).length;
+  const optionHtml=q.optionsMr.map((option,i)=>{
+    const state=selected===undefined?"":i===correctIndex?"correct":i===selected?"incorrect":"";
+    return `<button class="history-option ${state}" data-history-opt="${i}" ${selected!==undefined?"disabled":""}><span>${"ABCD"[i]}</span>${esc(option)}</button>`;
+  }).join("");
+  const feedback=selected===undefined
+    ? '<p class="muted answer-hint">पर्याय निवडा. उत्तर निवडल्यानंतर स्पष्टीकरण दिसेल.</p>'
+    : `<div class="history-feedback ${selected===correctIndex?"is-correct":"is-incorrect"}"><strong>${selected===correctIndex?"बरोबर उत्तर!":"चुकीचे उत्तर."} योग्य उत्तर: ${esc(q.correctAnswerMr)}</strong><p>${esc(q.explanationMr)}</p></div>`;
+  $('#app').innerHTML=`
+    <header><div class="brand">MPSC <b>GROUP C</b><small>HISTORY PRACTICE</small></div><button class="link" id="historyHome">← Dashboard</button></header>
+    <main class="practice-wrap">
+      <section class="practice-heading"><div><p class="eyebrow">SUBJECT-WISE PRACTICE</p><h1>इतिहास सराव प्रश्नसंच</h1><p class="muted">विषयानुसार प्रश्न सोडवा आणि प्रत्येक उत्तराचे स्पष्टीकरण पाहा.</p></div><div class="practice-total"><strong>${HISTORY_BANK.length.toLocaleString("en-IN")}</strong><span>एकूण प्रश्न</span></div></section>
+      <section class="practice-toolbar"><label for="historyTopic">विषय / Topic</label><select id="historyTopic"><option value="">सर्व विषय</option>${topics.map(t=>`<option value="${esc(t)}" ${historyTopic===t?"selected":""}>${esc(t)}</option>`).join("")}</select><span class="muted">${pool.length.toLocaleString("en-IN")} प्रश्न</span></section>
+      <section class="history-practice-card">
+        <div class="practice-q-meta"><span>प्रश्न ${(historyIndex+1).toLocaleString("en-IN")} / ${pool.length.toLocaleString("en-IN")}</span><span class="topic-pill">${esc(q.topic)}</span><span class="review-pill">पडताळणी बाकी</span></div>
+        <div class="practice-progress"><i style="width:${((historyIndex+1)/pool.length*100).toFixed(2)}%"></i></div>
+        <h2 class="history-question-text">${esc(q.questionMr)}</h2>
+        <div class="history-practice-options">${optionHtml}</div>
+        ${feedback}
+        <div class="practice-navigation"><button class="soft" id="historyPrev" ${historyIndex===0?"disabled":""}>← मागील प्रश्न</button><span>${answered.toLocaleString("en-IN")} उत्तरे दिली</span><button class="primary" id="historyNext" ${historyIndex===pool.length-1?"disabled":""}>पुढील प्रश्न →</button></div>
+      </section>
+      <p class="practice-disclaimer">टीप: हे प्रश्नसंच स्रोतावरून तयार केलेले पुनरावलोकनासाठीचे प्रश्न आहेत. सर्व प्रश्न संपादकीय व तथ्य-पडताळणीच्या अधीन आहेत.</p>
+    </main>`;
+  $('#historyHome').onclick=renderHome;
+  $('#historyTopic').onchange=e=>{historyTopic=e.target.value;historyIndex=0;renderHistoryPractice()};
+  document.querySelectorAll('[data-history-opt]').forEach(b=>b.onclick=()=>{
+    if(historyAnswers[q.sourceQuestionNo]===undefined){
+      historyAnswers[q.sourceQuestionNo]=+b.dataset.historyOpt;
+      renderHistoryPractice();
+    }
+  });
+  $('#historyPrev').onclick=()=>{if(historyIndex>0){historyIndex--;renderHistoryPractice()}};
+  $('#historyNext').onclick=()=>{if(historyIndex<pool.length-1){historyIndex++;renderHistoryPractice()}};
+}
+
 async function loadQuestionBank(){
   try{
     const manifestResponse=await fetch("./question-bank/questions.json");
@@ -166,6 +224,26 @@ async function loadQuestionBank(){
     QUESTION_POOL_COUNT=sourcePairs.size;
     if(Number.isInteger(manifest.distinctSourceQuestions)&&manifest.distinctSourceQuestions!==QUESTION_POOL_COUNT){
       throw new Error("Manifest says "+manifest.distinctSourceQuestions+" distinct source questions, but "+QUESTION_POOL_COUNT+" were found.");
+    }
+    try{
+      const historyResponse=await fetch("./question-bank/history-practice.json");
+      if(!historyResponse.ok) throw new Error("Could not load History practice questions ("+historyResponse.status+").");
+      const historyRows=await historyResponse.json();
+      if(!Array.isArray(historyRows)||historyRows.length!==1000) throw new Error("History practice bank must contain 1,000 questions.");
+      const historyIds=new Set();
+      for(const q of historyRows){
+        const correctIndex="ABCD".indexOf(q.correctOption);
+        if(!q||q.subject!=="History"||!Number.isInteger(q.sourceQuestionNo)||historyIds.has(q.sourceQuestionNo)||
+          !q.topic||!q.questionMr||!Array.isArray(q.optionsMr)||q.optionsMr.length!==4||
+          correctIndex<0||q.optionsMr[correctIndex]!==q.correctAnswerMr||!q.explanationMr){
+          throw new Error("Invalid or duplicate History question record.");
+        }
+        historyIds.add(q.sourceQuestionNo);
+      }
+      HISTORY_BANK=historyRows.sort((a,b)=>a.sourceQuestionNo-b.sourceQuestionNo);
+    }catch(historyError){
+      HISTORY_BANK=[];
+      console.warn("History practice bank not loaded:",historyError);
     }
     renderHome();
   }catch(error){
